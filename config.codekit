@@ -122,6 +122,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/about\/portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162434,
+		"inputAbbreviatedPath": "\/_site\/about\/portrait.jpg",
+		"outputAbbreviatedPath": "\/_site\/about\/portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/bootstrap\/css\/bootstrap-responsive.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -3385,17 +3396,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/images\/portrait.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 162434,
-		"inputAbbreviatedPath": "\/_site\/images\/portrait.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/portrait.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/images\/prism.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3533,6 +3533,17 @@
 		"outputAbbreviatedPath": "\/about\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/about\/portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162434,
+		"inputAbbreviatedPath": "\/about\/portrait.jpg",
+		"outputAbbreviatedPath": "\/about\/portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/bootstrap\/css\/bootstrap-responsive.min.css": {
 		"fileType": 16,
@@ -4990,9 +5001,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
-		"outputAbbreviatedPath": "\/js\/jquery-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -6808,17 +6819,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/portrait.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 162434,
-		"inputAbbreviatedPath": "\/images\/portrait.jpg",
-		"outputAbbreviatedPath": "\/images\/portrait.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/prism.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6896,7 +6896,7 @@
 		},
 	"\/js\/jquery-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery-min-min.js",
@@ -7524,7 +7524,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules, .md",
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
