@@ -1,21 +1,21 @@
 /*
-Author: 
+Author:
 Stedman Halliday: http://stedmanhalliday.com
 */
 
 /* Web Fonts */
 @font-face {
   font-family: "Officina Serif";
-  src: 	 url('/type/officina-serif/reg.eot?#iefix') format('embedded-opentype'), 
-	     url('/type/officina-serif/reg.woff') format('woff'), 
+  src: 	 url('/type/officina-serif/reg.eot?#iefix') format('embedded-opentype'),
+	     url('/type/officina-serif/reg.woff') format('woff'),
 	     url('/type/officina-serif/reg.ttf')  format('truetype'),
 	     url('/type/officina-serif/reg.svg#OfficinaSerifStd-Book') format('svg');
 }
 
 @font-face {
   font-family: "Officina Serif";
-  src: 	 url('/type/officina-serif/bold.eot?#iefix') format('embedded-opentype'), 
-	     url('/type/officina-serif/bold.woff') format('woff'), 
+  src: 	 url('/type/officina-serif/bold.eot?#iefix') format('embedded-opentype'),
+	     url('/type/officina-serif/bold.woff') format('woff'),
 	     url('/type/officina-serif/bold.ttf')  format('truetype'),
 	     url('/type/officina-serif/bold.svg#OfficinaSerifStd-Bold') format('svg');
   font-weight: bold;
@@ -23,16 +23,16 @@ Stedman Halliday: http://stedmanhalliday.com
 
 @font-face {
   font-family: "Officina Sans";
-  src: 	 url('/type/officina-sans/reg.eot?#iefix') format('embedded-opentype'), 
-	     url('/type/officina-sans/reg.woff') format('woff'), 
+  src: 	 url('/type/officina-sans/reg.eot?#iefix') format('embedded-opentype'),
+	     url('/type/officina-sans/reg.woff') format('woff'),
 	     url('/type/officina-sans/reg.ttf')  format('truetype'),
 	     url('/type/officina-sans/reg.svg#OfficinaSansStd-Book') format('svg');
 }
 
 @font-face {
   font-family: "Officina Sans";
-  src: 	 url('/type/officina-sans/it.eot?#iefix') format('embedded-opentype'), 
-	     url('/type/officina-sans/it.woff') format('woff'), 
+  src: 	 url('/type/officina-sans/it.eot?#iefix') format('embedded-opentype'),
+	     url('/type/officina-sans/it.woff') format('woff'),
 	     url('/type/officina-sans/it.ttf')  format('truetype'),
 	     url('/type/officina-sans/it.svg#OfficinaSansStd-BookItalic') format('svg');
   font-style: italic;
@@ -40,8 +40,8 @@ Stedman Halliday: http://stedmanhalliday.com
 
 @font-face {
   font-family: "Officina Sans";
-  src: 	 url('/type/officina-sans/bold.eot?#iefix') format('embedded-opentype'), 
-	     url('/type/officina-sans/bold.woff') format('woff'), 
+  src: 	 url('/type/officina-sans/bold.eot?#iefix') format('embedded-opentype'),
+	     url('/type/officina-sans/bold.woff') format('woff'),
 	     url('/type/officina-sans/bold.ttf')  format('truetype'),
 	     url('/type/officina-sans/bold.svg#OfficinaSansStd-Book') format('svg');
   font-weight: bold;
@@ -49,8 +49,8 @@ Stedman Halliday: http://stedmanhalliday.com
 
 @font-face {
   font-family: "Officina Sans";
-  src: 	 url('/type/officina-sans/bold-it.eot?#iefix') format('embedded-opentype'), 
-	     url('/type/officina-sans/bold-it.woff') format('woff'), 
+  src: 	 url('/type/officina-sans/bold-it.eot?#iefix') format('embedded-opentype'),
+	     url('/type/officina-sans/bold-it.woff') format('woff'),
 	     url('/type/officina-sans/bold-it.ttf')  format('truetype'),
 	     url('/type/officina-sans/bold-it.svg#OfficinaSansStd-BoldItalic') format('svg');
   font-weight: bold;
@@ -104,19 +104,21 @@ body {
 }
 
 header {
+    background: white;
 	padding: 20px 0px 10px;
 	border-bottom: 3px solid @charcoal;
-	top: 0px;
 }
 
 header img{
-	float: right;
-	position: relative;
-	top: 2px;
+	display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
 }
 
-header div {
+header div.logotype {
 	display: inline-block;
+    margin-left: 1em;
 }
 
 h1, .h1 {
@@ -294,11 +296,11 @@ footer .span12 {
 	#awards, #press, #contact {
 		padding-left:0;
 	}
-	
+
 	.ipad {
 		margin-top: 0;
 	}
-	
+
 	nav{
 		float:right;
 	}
@@ -308,7 +310,7 @@ footer .span12 {
 	nav{
 		width:724px;
 	}
-	
+
 	.ipad {
 		margin-top: -125px;
 	}
@@ -318,7 +320,7 @@ footer .span12 {
 	nav{
 		width:1170px;
 	}
-	
+
 	.ipad {
 		margin-top: -175px;
 	}

@@ -1,1 +1,290 @@
-@font-face{font-family:"Officina Serif";src:url('/type/officina-serif/reg.eot?#iefix') format('embedded-opentype'),url('/type/officina-serif/reg.woff') format('woff'),url('/type/officina-serif/reg.ttf') format('truetype'),url('/type/officina-serif/reg.svg#OfficinaSerifStd-Book') format('svg')}@font-face{font-family:"Officina Serif";src:url('/type/officina-serif/bold.eot?#iefix') format('embedded-opentype'),url('/type/officina-serif/bold.woff') format('woff'),url('/type/officina-serif/bold.ttf') format('truetype'),url('/type/officina-serif/bold.svg#OfficinaSerifStd-Bold') format('svg');font-weight:bold}@font-face{font-family:"Officina Sans";src:url('/type/officina-sans/reg.eot?#iefix') format('embedded-opentype'),url('/type/officina-sans/reg.woff') format('woff'),url('/type/officina-sans/reg.ttf') format('truetype'),url('/type/officina-sans/reg.svg#OfficinaSansStd-Book') format('svg')}@font-face{font-family:"Officina Sans";src:url('/type/officina-sans/it.eot?#iefix') format('embedded-opentype'),url('/type/officina-sans/it.woff') format('woff'),url('/type/officina-sans/it.ttf') format('truetype'),url('/type/officina-sans/it.svg#OfficinaSansStd-BookItalic') format('svg');font-style:italic}@font-face{font-family:"Officina Sans";src:url('/type/officina-sans/bold.eot?#iefix') format('embedded-opentype'),url('/type/officina-sans/bold.woff') format('woff'),url('/type/officina-sans/bold.ttf') format('truetype'),url('/type/officina-sans/bold.svg#OfficinaSansStd-Book') format('svg');font-weight:bold}@font-face{font-family:"Officina Sans";src:url('/type/officina-sans/bold-it.eot?#iefix') format('embedded-opentype'),url('/type/officina-sans/bold-it.woff') format('woff'),url('/type/officina-sans/bold-it.ttf') format('truetype'),url('/type/officina-sans/bold-it.svg#OfficinaSansStd-BoldItalic') format('svg');font-weight:bold;font-style:italic}.serif{font-family:"Officina Serif",Helvetica,Arial,sans-serif;font-weight:normal;letter-spacing:.03em}.serif-bold{font-family:"Officina Serif",Helvetica,Arial,sans-serif;font-weight:normal;letter-spacing:.03em;font-weight:bold}.sans{font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal}.sans-it{font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal;font-style:italic}.sans-bold{font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal;font-weight:bold}html{min-height:100%;height:auto!important;height:100%;position:relative}body{background:#fff5d9;color:#333;font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal;line-height:130%}header{padding:20px 0 10px;border-bottom:3px solid #333;top:0}header img{float:right;position:relative;top:2px}header div{display:inline-block}h1,.h1{font-family:"Officina Serif",Helvetica,Arial,sans-serif;font-weight:normal;letter-spacing:.03em;font-weight:bold;font-size:24px;line-height:118%;margin:0 0 10px 0}h1.orange{color:#ff3700}h2{font-weight:bold;font-size:24px;line-height:118%;margin:0 0 10px 0;font-family:"Officina Serif",Helvetica,Arial,sans-serif;font-weight:normal;letter-spacing:.03em}header div h1,header div h2{margin:0}nav{padding-top:10px;width:940px;position:relative;z-index:3}#backdrop{position:fixed;top:0;left:0;width:100%;background:#333;display:none;z-index:2}.drop{padding-top:40px;clear:both}a,a:hover,#projects p a,#projects p a:hover{color:#ff3700}#projects p a:hover{text-decoration:underline}h3,nav ul li{font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal;font-weight:bold;font-size:18px;line-height:118%;margin:0;color:#333}nav ul{margin:0;text-align:right}nav ul li{display:inline-block;padding-bottom:6px;margin-left:6px;border-bottom:3px solid #333;transition:border-color .25s ease-in}nav ul li.current,nav ul li:hover{border-color:#ff3700!important;transition:border-color .25s ease-in}.missing{font-size:36px;text-align:center;letter-spacing:.05em;margin-top:342px;font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal;font-weight:bold}.missing span{color:#ff3700}#projects,.images img,.images iframe,article,#awards,#press,#contact{margin-bottom:40px}#awards,#press,#contact{padding-left:20px}#awards p,#press p,#contact p{text-indent:-17px;padding-left:17px}i img{display:inline-block;padding-left:17px}#projects section{padding-left:6px;border-left:3px solid #333;margin-bottom:6px;transition:border-color .25s ease-in}#projects section:hover{transition:border-color .25s ease-in}#projects .ext-link{margin-bottom:20px}#projects section p{font-family:"Officina Sans",Helvetica,Arial,sans-serif;font-weight:normal;margin-bottom:4px}#projects section.current,#projects section:hover,#projects a,#projects a:hover{border-color:#ff3700;text-decoration:none;color:#333}article p{padding-left:6px;border-left:3px solid #333}.ipad{position:relative;margin-top:-150px;z-index:1}i{position:relative;margin-right:3px;top:-3px}.icon-envelope{top:-2px}.push{height:40px}footer .row{position:absolute;bottom:0}footer .span12{text-align:right;border-bottom:3px solid #333}@media(max-width:767px){header div{width:245px}#awards,#press,#contact{padding-left:0}.ipad{margin-top:0}nav{float:right}}@media(min-width:768px) and (max-width:979px){nav{width:724px}.ipad{margin-top:-125px}}@media(min-width:1200px){nav{width:1170px}.ipad{margin-top:-175px}}
+/*
+Author:
+Stedman Halliday: http://stedmanhalliday.com
+*/
+/* Web Fonts */
+@font-face {
+  font-family: "Officina Serif";
+  src: url('/type/officina-serif/reg.eot?#iefix') format('embedded-opentype'), url('/type/officina-serif/reg.woff') format('woff'), url('/type/officina-serif/reg.ttf') format('truetype'), url('/type/officina-serif/reg.svg#OfficinaSerifStd-Book') format('svg');
+}
+@font-face {
+  font-family: "Officina Serif";
+  src: url('/type/officina-serif/bold.eot?#iefix') format('embedded-opentype'), url('/type/officina-serif/bold.woff') format('woff'), url('/type/officina-serif/bold.ttf') format('truetype'), url('/type/officina-serif/bold.svg#OfficinaSerifStd-Bold') format('svg');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Officina Sans";
+  src: url('/type/officina-sans/reg.eot?#iefix') format('embedded-opentype'), url('/type/officina-sans/reg.woff') format('woff'), url('/type/officina-sans/reg.ttf') format('truetype'), url('/type/officina-sans/reg.svg#OfficinaSansStd-Book') format('svg');
+}
+@font-face {
+  font-family: "Officina Sans";
+  src: url('/type/officina-sans/it.eot?#iefix') format('embedded-opentype'), url('/type/officina-sans/it.woff') format('woff'), url('/type/officina-sans/it.ttf') format('truetype'), url('/type/officina-sans/it.svg#OfficinaSansStd-BookItalic') format('svg');
+  font-style: italic;
+}
+@font-face {
+  font-family: "Officina Sans";
+  src: url('/type/officina-sans/bold.eot?#iefix') format('embedded-opentype'), url('/type/officina-sans/bold.woff') format('woff'), url('/type/officina-sans/bold.ttf') format('truetype'), url('/type/officina-sans/bold.svg#OfficinaSansStd-Book') format('svg');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Officina Sans";
+  src: url('/type/officina-sans/bold-it.eot?#iefix') format('embedded-opentype'), url('/type/officina-sans/bold-it.woff') format('woff'), url('/type/officina-sans/bold-it.ttf') format('truetype'), url('/type/officina-sans/bold-it.svg#OfficinaSansStd-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+/* Global LESS Variables & Mixins */
+.serif {
+  font-family: "Officina Serif", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: .03em;
+}
+.serif-bold {
+  font-family: "Officina Serif", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: .03em;
+  font-weight: bold;
+}
+.sans {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.sans-it {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.sans-bold {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+}
+/* Styles */
+html {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+}
+body {
+  background: #fff5d9;
+  color: #333333;
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 130%;
+}
+header {
+  background: white;
+  padding: 20px 0px 10px;
+  border-bottom: 3px solid #333333;
+}
+header img {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
+}
+header div.logotype {
+  display: inline-block;
+  margin-left: 1em;
+}
+h1,
+.h1 {
+  font-family: "Officina Serif", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: .03em;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 118%;
+  margin: 0 0 10px 0;
+}
+h1.orange {
+  color: #ff3700;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 118%;
+  margin: 0 0 10px 0;
+  font-family: "Officina Serif", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: .03em;
+}
+header div h1,
+header div h2 {
+  margin: 0;
+}
+nav {
+  padding-top: 10px;
+  width: 940px;
+  position: relative;
+  z-index: 3;
+}
+#backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333333;
+  display: none;
+  z-index: 2;
+}
+.drop {
+  padding-top: 40px;
+  clear: both;
+}
+a,
+a:hover,
+#projects p a,
+#projects p a:hover {
+  color: #ff3700;
+}
+#projects p a:hover {
+  text-decoration: underline;
+}
+h3,
+nav ul li {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 118%;
+  margin: 0;
+  color: #333333;
+}
+nav ul {
+  margin: 0;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-left: 6px;
+  border-bottom: 3px solid #333333;
+  transition: border-color 0.25s ease-in;
+}
+nav ul li.current,
+nav ul li:hover {
+  border-color: #ff3700 !important;
+  transition: border-color 0.25s ease-in;
+}
+.missing {
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: .05em;
+  margin-top: 342px;
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+}
+.missing span {
+  color: #ff3700;
+}
+#projects,
+.images img,
+.images iframe,
+article,
+#awards,
+#press,
+#contact {
+  margin-bottom: 40px;
+}
+#awards,
+#press,
+#contact {
+  padding-left: 20px;
+}
+#awards p,
+#press p,
+#contact p {
+  text-indent: -17px;
+  padding-left: 17px;
+}
+i img {
+  display: inline-block;
+  padding-left: 17px;
+}
+#projects section {
+  padding-left: 6px;
+  border-left: 3px solid #333333;
+  margin-bottom: 6px;
+  transition: border-color 0.25s ease-in;
+}
+#projects section:hover {
+  transition: border-color 0.25s ease-in;
+}
+#projects .ext-link {
+  margin-bottom: 20px;
+}
+#projects section p {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+#projects section.current,
+#projects section:hover,
+#projects a,
+#projects a:hover {
+  border-color: #ff3700;
+  text-decoration: none;
+  color: #333333;
+}
+article p {
+  padding-left: 6px;
+  border-left: 3px solid #333333;
+}
+.ipad {
+  position: relative;
+  margin-top: -150px;
+  z-index: 1;
+}
+i {
+  position: relative;
+  margin-right: 3px;
+  top: -3px;
+}
+.icon-envelope {
+  top: -2px;
+}
+.push {
+  height: 40px;
+}
+footer .row {
+  position: absolute;
+  bottom: 0;
+}
+footer .span12 {
+  text-align: right;
+  border-bottom: 3px solid #333333;
+}
+@media (max-width: 767px) {
+  header div {
+    width: 245px;
+  }
+  #awards,
+  #press,
+  #contact {
+    padding-left: 0;
+  }
+  .ipad {
+    margin-top: 0;
+  }
+  nav {
+    float: right;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  nav {
+    width: 724px;
+  }
+  .ipad {
+    margin-top: -125px;
+  }
+}
+@media (min-width: 1200px) {
+  nav {
+    width: 1170px;
+  }
+  .ipad {
+    margin-top: -175px;
+  }
+}

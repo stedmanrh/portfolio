@@ -1,25 +1,31 @@
 <header>
-    <div>
-        <h1 class="orange">Stedman Halliday</h1>
-        <h2>Multimedia Design</h2>
-    </div>
-    <a href="/"><img src="/images/logo.png" alt="monogram"></a>
-</header>
-<nav>
-    <ul>
-        {% if page.url == "/" %}
-            <a href="#"><li class="current">
-        {% else %}
-            <a href="/"><li>
-        {% endif %}
-            Projects</li></a>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <a href="/"><img src="/images/logo.png" alt="monogram"></a>
+                <div class="logotype">
+                    <h1 class="orange">Stedman Halliday</h1>
+                    <h2>Multimedia Design</h2>
+                </div>
+                <nav>
+                    <ul>
+                    {% if page.url == "/" %}
+                        <a href="#"><li class="current">
+                    {% else %}
+                        <a href="/"><li>
+                    {% endif %}
+                        Projects</li></a>
 
-        {% if page.url == "/about/" %}
-            <a href="#"><li class="current">
-        {% else %}
-            <a href="/about/"><li>
-        {% endif %}
-            About</li></a>
-    </ul>
-</nav>
+                    {% if page.url == "/about/" %}
+                        <a href="#"><li class="current">
+                    {% else %}
+                        <a href="/about/"><li>
+                    {% endif %}
+                        About</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 <div id="backdrop"></div>
