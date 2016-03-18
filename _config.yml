@@ -19,10 +19,19 @@ github_username:  stedmanrh
 markdown: kramdown
 
 defaults:
-  -
-    scope:
+  -scope:
       path: ""
       #type optional
     values:
       icon-link: /bootstrap/img/link.png
       icon-phone: /bootstrap/img/phone.png
+
+collections:
+- projects
+    defaults:
+      - scope:
+          path: ""
+          type: projects
+        values:
+          layout: project
+          snippet: About this project...
