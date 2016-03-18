@@ -29,4 +29,5 @@ contacts:
     -   name: Stedman Halliday
         email: stedman.rh@gmail.com
         phone: 323.205.0914
+portrait: /about/portrait.jpg
 ---
