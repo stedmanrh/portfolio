@@ -7,8 +7,19 @@
 </header>
 <nav>
     <ul>
-        <a href="/"><li>Projects</li></a>
-        <a href="#"><li class="current">About</li></a>
+        {% if page.url == "/" %}
+            <a href="#"><li class="current">
+        {% else %}
+            <a href="/"><li>
+        {% endif %}
+            Projects</li></a>
+
+        {% if page.url == "/about/" %}
+            <a href="#"><li class="current">
+        {% else %}
+            <a href="/about/"><li>
+        {% endif %}
+            About</li></a>
     </ul>
 </nav>
 <div id="backdrop"></div>
