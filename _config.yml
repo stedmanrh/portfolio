@@ -22,6 +22,7 @@ defaults:
   -
     scope:
       path: ""
-      # type
+      #type optional
     values:
-      # custom vars here
+      icon-link: /bootstrap/img/link.png
+      icon-phone: /bootstrap/img/phone.png
