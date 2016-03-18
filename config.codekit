@@ -3261,17 +3261,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/images\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 758,
-		"inputAbbreviatedPath": "\/_site\/images\/logo.png",
-		"outputAbbreviatedPath": "\/_site\/images\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/images\/object-iterations-0.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3521,17 +3510,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/js\/nav.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/nav.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/nav-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/nav.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3542,6 +3520,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/projects\/2016-03-18-greg-victoroff.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/2016-03-18-greg-victoroff.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/2016-03-18-greg-victoroff\/index.html": {
 		"fileType": 8192,
@@ -6689,17 +6676,6 @@
 		"initialSize": 11201,
 		"inputAbbreviatedPath": "\/images\/greg-victoroff-logo-2.png",
 		"outputAbbreviatedPath": "\/images\/greg-victoroff-logo-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 758,
-		"inputAbbreviatedPath": "\/images\/logo.png",
-		"outputAbbreviatedPath": "\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
