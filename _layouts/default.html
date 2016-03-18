@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+    <div class="container">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+        {% include header.html %}
+
+        <div class="row drop">
+            <div class="span4">
+                <section id="projects">
+                    <h1>Projects</h1>
+                    <a href="/greg-victoroff-associates.html"><section>
+                        <h3>Greg Victoroff & Associates</h3>
+                        <p>Copyright law identity concepts</p>
+                    </section></a>
+                    <a href="/patterns-packaging.html"><section>
+                        <h3>Patterns & Packaging</h3>
+                        <p>Fresh out the kitchen</p>
+                    </section></a>
+                    <a href="/creative-framing-studio.html"><section>
+                        <h3>Creative Framing Studio</h3>
+                        <p>Bespoke framing design and craft</p>
+                    </section></a>
+                    <a href="/crs-recycling-services.html"><section>
+                        <h3>CRS Recycling Services</h3>
+                        <p>Cyberjunk put to good use</p>
+                    </section></a>
+                    <a href="/blue-sky-energy.html"><section>
+                        <h3>Blue Sky Energy</h3>
+                        <p>Custom-built solar solutions</p>
+                    </section></a>
+                    <a href="/design-index.html"><section>
+                        <h3>Design Index</h3>
+                        <p>Graphic design presents itself</p>
+                    </section></a>
+                    <a href="/unholy.html"><section>
+                        <h3>Unholy Exhibition</h3>
+                        <p>Poster design can go to hell</p>
+                    </section></a>
+                    <a href="/crowds.html"><section>
+                        <h3>Crowds</h3>
+                        <p>People-watching and printmaking</p>
+                    </section></a>
+                    <a href="/object-iterations.html"><section>
+                        <h3>Object Iterations</h3>
+                        <p>Platypuses get even weirder</p>
+                    </section></a>
+                    <a href="/visual-contrasts.html"><section>
+                        <h3>Visual Contrasts</h3>
+                        <p>An exploration of abstract forms</p>
+                    </section></a>
+                </section>
+            </div>
+            <section class="span8 images">
+                <img src="/images/prism.png" class="hidden-phone" alt="">
+            </section>
+        </div>
+        <div class="push"></div>
+    </div><!-- /container -->
 
     {% include footer.html %}
-
-  </body>
-
+    
+</body>
 </html>
