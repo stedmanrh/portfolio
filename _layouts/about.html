@@ -1,67 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Stedman Halliday &middot; Multimedia Design</title>
 
-	<!-- images -->
-	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-	<link rel="logo" type="image/svg" href="http://stedmanhalliday.com/images/logo.svg">
+  {% include head.html %}
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<meta name="author" content="Stedman Halliday">
-	<meta name="description" content="Portfolio and contact information for Southern California based graphic designer Stedman Halliday">
+  <body>
+    <div class="container">
 
-	<!-- stylesheets -->
-	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap-responsive.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen">
+        {% include header.html %}
 
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
-	<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
-</head>
+        <article class="about">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.bio }}</p>
+            <p>{{ content }}</p>
+        </article>
 
-<body>
-	<div class="container">
-		<div class="row drop">
-				<article class="span4">
-					<h1>About Me</h1>
-					<p>My name is Stedman Halliday and I’m a designer based in Southern California. I am also a student, currently studying at the widely recognized California Institute of the Arts towards a BFA in Graphic Design.<br><br>
-					My freelance projects primarily consist of identity design and front-end web design and development, but my personal projects and experiences as a student have allowed my work to explore numerous other realms and interests.<br><br>
-					Feel free to view my résumé and to contact me regarding employment, project inquiries, and other questions or concerns.</p>
-				</article>
-				<div class="span4">
-					<section id="awards">
-						<h1>Awards</h1>
-						<p><i class="icon-certificate"></i>AIGA Tomoko-Miho Award (2013)</p>
-					</section>
-					<section id="press">
-						<h1>Features</h1>
-						<p><i class="icon-link"><img src="/bootstrap/img/link.png" alt=""></i><a href="http://www.aiga.org/2013-2014-Worldstudio-AIGA-Scholarship-winners/" target="_blank">AIGA (Jul 2013)</a></p>
-						<p><i class="icon-link"><img src="/bootstrap/img/link.png" alt=""></i><a href="http://blog.worldstudioinc.com/2013-14-worldstudio-aiga-scholarship-winners/#more-2247" target="_blank">Worldstudio (Jun 2013)</a></p>
-						<p><i class="icon-link"><img src="/bootstrap/img/link.png" alt=""></i><a href="http://abduzeedo.com/daily-inspiration-1350" target="_blank">Abduzeedo (Jan 2013)</a></p>
-					</section>
-					<section id="contact">
-						<h1>Contact</h1>
-						<p><i class="icon-user"></i>Stedman Halliday</p>
-						<p><i class="icon-envelope"></i><a href="mailto:stedman.rh@gmail.com" target="_blank">stedman.rh@gmail.com</a></p>
-						<p><i class="icon-phone"><img src="/bootstrap/img/phone.png" alt=""></i>323. 205. 0914</p>
-						<p><i class="icon-file"></i><a href="/files/halliday-resume.pdf">Résumé</a></p>
-					</section>
-				</div>
-			<section class="span4 images">
-				<img src="/images/portrait.jpg" class="hidden-phone" alt="portrait">
-			</section>
-		</div>
-		<div class="push"></div>
-	</div><!-- /container -->
-	<footer class="container">
-		<div class="row">
-			<div class="span12">
-				&copy;2014 Stedman Halliday
-			</div>
-		</div>
-	</footer>
-	<script type="text/javascript" src="/js/nav.min.js"></script>
-</body>
+        {% include footer.html %}
+
+    </div>
+
+  </body>
+
 </html>
