@@ -1,3 +1,4 @@
+// Contents of functions.js
 ;(function($) {
   'use strict';
   var $body = $('html, body'),
