@@ -4,31 +4,33 @@
 {% include head.html %}
 
 <body>
-    
-<div id="main" class="m-scene">
-    {% include header.html %}
-    <div class="container scene_element scene_element--fadein">
-        <div class="row drop">
-            <div class="span4">
-                <section id="projects">
-                    <h1>Projects</h1>
-                    {% for project in site.projects %}
-                    <a href="{{ project.url }}"><section>
-                        <h3>{{ project.title }}</h3>
-                        <p>{{ project.snippet }}</p>
-                    </section></a>
-                    {% endfor %}
+
+    <div id="main" class="m-scene">
+        {% include header.html %}
+        <div class="container scene_element scene_element--fadeInLeft">
+            <div class="row drop">
+                <div class="span4">
+                    <section id="projects">
+                        <h1>Projects</h1>
+                        {% for project in site.projects %}
+                        <a href="{{ project.url }}"><section>
+                            <h3>{{ project.title }}</h3>
+                            <p>{{ project.snippet }}</p>
+                        </section></a>
+                        {% endfor %}
+                    </section>
+                </div>
+                <section class="span8 images">
+                    <img src="/images/prism.png" class="hidden-phone" alt="">
                 </section>
             </div>
-            <section class="span8 images">
-                <img src="/images/prism.png" class="hidden-phone" alt="">
-            </section>
-        </div>
-        <div class="push"></div>
-    </div><!-- /container -->
+            <div class="push"></div>
+        </div><!-- /container -->
 
-    {% include footer.html %}
-</div>
+        {% include footer.html %}
+    </div>
+
+    {% include scripts.html %}
 
 </body>
 </html>

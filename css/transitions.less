@@ -1,0 +1,23 @@
+@import "animate.min.css";
+
+.m-scene .scene_element {
+  animation-duration: 0.25s;
+  transition-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.m-scene .scene_element--fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.m-scene .scene_element--fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.m-scene .scene_element--fadeInBottom {
+  animation-name: fadeInBottom;
+}
+
+.m-scene.is-exiting .scene_element {
+  animation-direction: alternate-reverse;
+}

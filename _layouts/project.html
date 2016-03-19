@@ -5,33 +5,35 @@
 
 <body>
 
-<div id="main" class="m-scene">
-    {% include header.html %}
-    <div class="container scene_element scene_element--fadein">
-        <div class="row drop">
-            <div class="span4" id="projects">
-                <article>
-                    <h1>{{ page.title }}</h1>
-                    <p>{{ page.text | markupify }}
-                        <br><br><em>
-                            {{ page.date | date: "%B" | slice: 0, 3 }}
-                            {{ page.date | date: "%Y" }}
-                        </em></p>
-                    </article>
-                </div>
-                <section class="span8 images">
-                    <div class="row">
-                        <img class="span2" src="/images/greg-victoroff-logo-1.png" alt="Greg Victoroff monogram">
-                        <img class="span2" src="/images/greg-victoroff-logo-2.png" alt="Greg Victoroff & Associates logo">
+    <div id="main" class="m-scene">
+        {% include header.html %}
+        <div class="container scene_element scene_element--fadeInLeft">
+            <div class="row drop">
+                <div class="span4" id="projects">
+                    <article>
+                        <h1>{{ page.title }}</h1>
+                        <p>{{ page.text | markupify }}
+                            <br><br><em>
+                                {{ page.date | date: "%B" | slice: 0, 3 }}
+                                {{ page.date | date: "%Y" }}
+                            </em></p>
+                        </article>
                     </div>
-                    <img src="/images/greg-victoroff-business-cards.png" alt="Greg Victoroff & Associates business cards">
-                </section>
-            </div>
-            <div class="push"></div>
-        </div><!-- /container -->
+                    <section class="span8 images">
+                        <div class="row">
+                            <img class="span2" src="/images/greg-victoroff-logo-1.png" alt="Greg Victoroff monogram">
+                            <img class="span2" src="/images/greg-victoroff-logo-2.png" alt="Greg Victoroff & Associates logo">
+                        </div>
+                        <img src="/images/greg-victoroff-business-cards.png" alt="Greg Victoroff & Associates business cards">
+                    </section>
+                </div>
+                <div class="push"></div>
+            </div><!-- /container -->
 
-        {% include footer.html %}
-    </div>
+            {% include footer.html %}
+        </div>
+
+        {% include scripts.html %}
 
     </body>
 

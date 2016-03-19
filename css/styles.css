@@ -115,13 +115,13 @@ header svg {
   position: relative;
   display: inline-block;
   top: 2px;
-  transition: all 0.25s ease-in;
+  transition: all 0.1s ease-out;
   transform-origin: bottom left;
 }
 header .logotype {
   display: inline-block;
   margin-left: 1em;
-  transition: all 0.25s ease-in;
+  transition: all 0.1s ease-out;
 }
 header a {
   color: inherit;

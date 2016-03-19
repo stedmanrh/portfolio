@@ -1,6 +1,7 @@
 ---
 layout: about
 title: "About"
+description: Background and contact information for Southern California based graphic and multimedia designer Stedman Halliday
 permalink: /about/
 about: Stedman Halliday is a designer based in Southern California. His [projects](/) and work involve creative direction, design, and development across multiple media, with a focus on identity systems and web media. He enjoys working in both team and freelance settings to create thoughtful work that charts a diverse set of interests and social missions (from culture, to education, to clean energy). Stedman is currently finishing a Bachelor of Fine Arts in Graphic Design and a minor in Digital Arts at [California Institute of the Arts](http://calarts.edu){:target="_blank"} and working with an amazingly talented team at [Kadenze](http://kadenze.com){:target="_blank"}.
 resume: /about/halliday-resume.pdf

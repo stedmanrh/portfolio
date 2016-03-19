@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
 
-      <div id="main" class="m-scene">
-    {% include header.html %}
-    <div class="container scene_element scene_element--fadein">
-        <div class="row drop">
+    <div id="main" class="m-scene">
+        {% include header.html %}
+        <div class="container scene_element scene_element--fadeInLeft">
+            <div class="row drop">
                 <article class="span4">
                     <h1>{{ page.title }}</h1>
                     <p>{{ page.about | markdownify }}</p>
-                    <i class="icon-file"></i><a href="{{ page.resume }}">Résumé</a>
+                    <i class="icon-file"></i><a href="{{ page.resume }}" target="_blank">Résumé</a>
                 </article>
                 <div class="span4">
                     <section id="awards">
                         <h1>Accolades</h1>
                         {% for accolade in page.accolades %}
-                            <p><i class="icon-certificate"></i>{{ accolade.name }} ({{ accolade.year }})</p>
+                        <p><i class="icon-certificate"></i>{{ accolade.name }} ({{ accolade.year }})</p>
                         {% endfor %}
                     </section>
                     <section id="press">
                         <h1>Press</h1>
                         {% for article in page.articles %}
-                            <p><i class="icon-link"><img src="{{ page.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></p>
+                        <p><i class="icon-link"><img src="{{ page.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></p>
                         {% endfor %}
                     </section>
                     <section id="contact">
                         <h1>Contact</h1>
                         {% for contact in page.contacts %}
-                            <p><i class="icon-user"></i>{{ contact.name }}</p>
-                            <p><i class="icon-envelope"></i><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></p>
-                            <p><i class="icon-phone"><img src="{{ page.icon-phone }}" alt=""></i>{{ contact.phone }}</p>
+                        <p><i class="icon-user"></i>{{ contact.name }}</p>
+                        <p><i class="icon-envelope"></i><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></p>
+                        <p><i class="icon-phone"><img src="{{ page.icon-phone }}" alt=""></i>{{ contact.phone }}</p>
                         {% endfor %}
                     </section>
                 </div>
-            <section class="span4 images">
-                <img src="{{ page.portrait }}" class="hidden-phone" alt="portrait">
-            </section>
+                <section class="span4 images">
+                    <img src="{{ page.portrait }}" class="hidden-phone" alt="portrait">
+                </section>
+            </div>
         </div>
-    </div>
-    <div class="push"></div>
+        <div class="push"></div>
 
-    {% include footer.html %}
-</div>
+        {% include footer.html %}
+    </div>
+
+    {% include scripts.html %}
 
 </body>
 
