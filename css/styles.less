@@ -187,18 +187,18 @@ header {
         & ul {
         	margin: 0;
         	text-align: right;
-        }
 
-        & li {
-        	display: inline-block;
-        	padding-bottom: 6px;
-        	margin-left: 6px;
-        	border-bottom: 3px solid @charcoal;
-        	transition: border-color .25s ease-in;
-
-            &.current, &:hover {
-            	border-color: @orange !important;
+            & li {
+            	display: inline-block;
+            	padding-bottom: 6px;
+            	margin-left: 6px;
+            	border-bottom: 3px solid @charcoal;
             	transition: border-color .25s ease-in;
+
+                &.current, &:hover {
+                	border-color: @orange !important;
+                	transition: border-color .25s ease-in;
+                }
             }
         }
     }

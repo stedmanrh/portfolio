@@ -143,15 +143,15 @@ header nav ul {
   margin: 0;
   text-align: right;
 }
-header nav li {
+header nav ul li {
   display: inline-block;
   padding-bottom: 6px;
   margin-left: 6px;
   border-bottom: 3px solid #333333;
   transition: border-color 0.25s ease-in;
 }
-header nav li.current,
-header nav li:hover {
+header nav ul li.current,
+header nav ul li:hover {
   border-color: #ff3700 !important;
   transition: border-color 0.25s ease-in;
 }
