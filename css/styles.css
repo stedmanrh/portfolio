@@ -250,9 +250,6 @@ i img {
 #projects section:hover {
   transition: border-color 0.25s ease-in;
 }
-#projects .ext-link {
-  margin-bottom: 20px;
-}
 #projects section p {
   font-family: "Officina Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -265,6 +262,9 @@ i img {
   border-color: #ff3700;
   text-decoration: none;
   color: #333333;
+}
+#projects .ext-link {
+  margin-bottom: 20px;
 }
 article p {
   padding-left: 6px;

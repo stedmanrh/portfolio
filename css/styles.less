@@ -272,30 +272,33 @@ i img {
 	padding-left: 17px;
 }
 
-#projects section {
-	padding-left: 6px;
-	border-left: 3px solid @charcoal;
-	margin-bottom: 6px;
-	transition: border-color .25s ease-in;
-}
+#projects {
 
-#projects section:hover {
-	transition: border-color .25s ease-in;
-}
+    & section {
+    	padding-left: 6px;
+    	border-left: 3px solid @charcoal;
+    	margin-bottom: 6px;
+    	transition: border-color .25s ease-in;
 
-#projects .ext-link {
-	margin-bottom: 20px;
-}
+        &:hover {
+        	transition: border-color .25s ease-in;
+        }
 
-#projects section p {
-  .sans;
-  margin-bottom: 4px;
-}
+        & p {
+          .sans;
+          margin-bottom: 4px;
+        }
+    }
 
-#projects section.current, #projects section:hover, #projects a, #projects a:hover {
-  border-color: @orange;
-  text-decoration: none;
-  color: @charcoal;
+    & section.current, & section:hover, & a, & a:hover {
+      border-color: @orange;
+      text-decoration: none;
+      color: @charcoal;
+    }
+
+    .ext-link {
+       margin-bottom: 20px;
+   }
 }
 
 article p{
@@ -323,14 +326,17 @@ i {
   height:40px;
 }
 
-footer .row {
-  position: absolute;
-  bottom: 0;
-}
+footer {
 
-footer .span12 {
-  text-align: right;
-  border-bottom: 3px solid @charcoal;
+    & .row {
+      position: absolute;
+      bottom: 0;
+    }
+
+    & .span12 {
+      text-align: right;
+      border-bottom: 3px solid @charcoal;
+    }
 }
 
 @media (max-width: 767px){
