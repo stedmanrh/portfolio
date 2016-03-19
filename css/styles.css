@@ -71,6 +71,7 @@ body {
   font-family: "Officina Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 130%;
+  padding: 0 !important;
 }
 header {
   background: #fff5d9;
@@ -106,7 +107,7 @@ header.sticky .logotype {
 }
 header .container {
   position: relative;
-  padding: 20px 0px 10px;
+  padding: 20px 0 10px;
   border-bottom: 3px solid #333333;
 }
 header svg {
@@ -132,6 +133,28 @@ header h1,
 header h2 {
   margin: 0;
 }
+header nav {
+  padding-top: 10px;
+  position: absolute;
+  bottom: -3px;
+  right: 20px;
+}
+header nav ul {
+  margin: 0;
+  text-align: right;
+}
+header nav ul li {
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-left: 6px;
+  border-bottom: 3px solid #333333;
+  transition: border-color 0.25s ease-in;
+}
+header nav ul li.current,
+header nav ul li:hover {
+  border-color: #ff3700 !important;
+  transition: border-color 0.25s ease-in;
+}
 h1,
 .h1 {
   font-family: "Officina Serif", Helvetica, Arial, sans-serif;
@@ -153,13 +176,6 @@ h2 {
   font-family: "Officina Serif", Helvetica, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: .03em;
-}
-nav {
-  padding-top: 10px;
-  display: inline-block;
-  position: absolute;
-  bottom: -3px;
-  right: 0;
 }
 .drop {
   padding-top: 40px;
@@ -183,22 +199,6 @@ nav ul li {
   line-height: 118%;
   margin: 0;
   color: #333333;
-}
-nav ul {
-  margin: 0;
-  text-align: right;
-}
-nav ul li {
-  display: inline-block;
-  padding-bottom: 6px;
-  margin-left: 6px;
-  border-bottom: 3px solid #333333;
-  transition: border-color 0.25s ease-in;
-}
-nav ul li.current,
-nav ul li:hover {
-  border-color: #ff3700 !important;
-  transition: border-color 0.25s ease-in;
 }
 .missing {
   font-size: 36px;
@@ -300,6 +300,10 @@ footer .span12 {
   }
   .ipad {
     margin-top: 0;
+  }
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
