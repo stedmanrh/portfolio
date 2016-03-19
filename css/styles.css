@@ -83,6 +83,7 @@ header.sticky {
   margin: 0 auto;
   width: 100%;
   padding-top: 10px;
+  z-index: 1000;
 }
 header.sticky nav {
   padding: 0;
