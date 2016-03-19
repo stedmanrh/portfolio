@@ -137,7 +137,12 @@ header nav {
   padding-top: 10px;
   position: absolute;
   bottom: -3px;
-  right: 20px;
+  right: 0;
+}
+@media (max-width: 767px) {
+  header nav {
+    right: 20px;
+  }
 }
 header nav ul {
   margin: 0;
