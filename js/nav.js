@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var height = $('.logotype').offset().top;
+    var height = $('header svg').offset().top;
     // var logotypeHeight = $('.logotype').height();
 
     $(window).scroll(function(){
