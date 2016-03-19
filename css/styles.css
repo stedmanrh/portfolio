@@ -251,6 +251,9 @@ i img {
 #projects section:hover {
   transition: border-color 0.25s ease-in;
 }
+#projects section.cascade {
+  position: relative;
+}
 #projects section p {
   font-family: "Officina Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
