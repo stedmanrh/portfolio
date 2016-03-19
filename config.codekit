@@ -3637,23 +3637,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/js\/describe.js": {
+	"\/_site\/js\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/describe.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/describe-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/js\/describe.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/describe.min.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/describe.min-min.js",
+		"inputAbbreviatedPath": "\/_site\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7223,15 +7212,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/describe.js",
-		"outputAbbreviatedPath": "\/js\/min\/describe-min.js",
+		"outputAbbreviatedPath": "\/js\/describe.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/describe.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/describe.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/describe.min-min.js",
