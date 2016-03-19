@@ -7,13 +7,13 @@
 
     <div id="main" class="m-scene">
         {% include header.html %}
-        <div class="container scene_element scene_element--fadeInLeft">
+        <div class="container scene_element scene_element--fadeInUp">
             <div class="row drop">
                 <div class="span4">
                     <section id="projects">
                         <h1>Projects</h1>
                         {% for project in site.projects %}
-                        <a href="{{ project.url }}"><section>
+                        <a href="{{ project.url }}"><section class="animated fadeInUp _10ms">
                             <h3>{{ project.title }}</h3>
                             <p>{{ project.snippet }}</p>
                         </section></a>

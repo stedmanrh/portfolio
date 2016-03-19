@@ -106,7 +106,8 @@ body {
 
 header {
     background: @cream;
-	top: 0px;
+    position: relative;
+    z-index: 1000;
 
     &.sticky {
         border-bottom: 3px solid @charcoal;
@@ -114,7 +115,6 @@ header {
         margin: 0 auto;
         width: 100%;
         padding-top: 10px;
-        z-index: 1000;
 
         & nav {
             padding: 0;
