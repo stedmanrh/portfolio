@@ -18,17 +18,7 @@ github_username: stedmanrh
 # Build settings
 markdown: kramdown
 
-defaults:
-
-
 collections:
     projects:
         output: true
         permalink: /:collection/:year/:month/:title
-        defaults:
-          -
-            scope:
-              path: ""
-              type: projects
-            values:
-              layout: project
