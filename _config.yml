@@ -13,24 +13,18 @@ description: Portfolio and contact information for Southern California based gra
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://stedmanhalliday.com" # the base hostname & protocol for your site
 twitter_username:
-github_username:  stedmanrh
+github_username: stedmanrh
 
 # Build settings
 markdown: kramdown
 
 defaults:
-  -
-    scope:
-      path: ""
-      #type optional
-    values:
-      icon-link: /bootstrap/img/link.png
-      icon-phone: /bootstrap/img/phone.png
+
 
 collections:
     projects:
         output: true
-        permalink: /projects/:year/:month:day-:title
+        permalink: /:collection/:year/:month/:title
         defaults:
           -
             scope:

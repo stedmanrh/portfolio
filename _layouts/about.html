@@ -25,7 +25,7 @@
                     <section id="press">
                         <h1>Press</h1>
                         {% for article in page.articles %}
-                        <p><i class="icon-link"><img src="{{ page.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></p>
+                        <p><i class="icon-link"><img src="{{ site.data.global_assets.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></p>
                         {% endfor %}
                     </section>
                     <section id="contact">
@@ -33,7 +33,7 @@
                         {% for contact in page.contacts %}
                         <p><i class="icon-user"></i>{{ contact.name }}</p>
                         <p><i class="icon-envelope"></i><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></p>
-                        <p><i class="icon-phone"><img src="{{ page.icon-phone }}" alt=""></i>{{ contact.phone }}</p>
+                        <p><i class="icon-phone"><img src="{{ site.data.global_assets.icon-phone }}" alt=""></i>{{ contact.phone }}</p>
                         {% endfor %}
                     </section>
                 </div>

@@ -1,5 +1,6 @@
 ---
 title: "Greg Victoroff"
+date: 2014-01-11
 snippet: "something"
 categories: print, identity, projects
 layout: project
