@@ -30,7 +30,7 @@ defaults:
 collections:
     projects:
         output: true
-        permalink: /projects/:path/
+        permalink: /projects/:year/:month:day-:title
         defaults:
           -
             scope:
