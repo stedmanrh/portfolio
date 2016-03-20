@@ -119,15 +119,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_projects\/2016-03-18-greg-victoroff\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016-03-18-greg-victoroff\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2016-03-18-greg-victoroff\/index.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
