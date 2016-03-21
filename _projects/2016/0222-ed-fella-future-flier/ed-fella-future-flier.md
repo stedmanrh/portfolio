@@ -21,3 +21,5 @@ description: Two-sided tabloid flier resulting from a workshop with [Ed Fella.](
 
 <!-- media -->
 <img class="span8" src="{{media|strip}}flier.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}flier-detail.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}flier-bottom.jpg" alt="{{ page.title }}">

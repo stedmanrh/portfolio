@@ -9,7 +9,17 @@ function cascade(){
     });
 }
 
+function setPageColor(){
+    if($("#project").length){
+      $('body').css('background', '#333333');
+    }
+    else {
+      $('body').css('background', '#fff5d9');
+    }
+}
+
 $(document).ready(function(){
+    setPageColor();
     cascade();
 });
 
@@ -37,6 +47,7 @@ $(function(){
                 $container.removeClass('is-exiting');
                 // Inject the new content
                 $container.html($newContent);
+                setPageColor();
                 cascade();
             }
         }

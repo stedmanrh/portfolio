@@ -309,16 +309,19 @@ i img {
 #project {
     background: @charcoal;
     color: @cream;
-    position: relative;
 
     &:before {
         content: '';
         position: absolute;
-        top: -3px;
+        top: 87px;
         height: 3px;
         width: 100%;
         background: @charcoal;
         z-index: 1000;
+    }
+
+    &.sticky {
+
     }
 
     #projects {
