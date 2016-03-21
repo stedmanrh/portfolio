@@ -6,7 +6,7 @@ permalink: /:collection/:year/:month/:title
 title: "Plenum Series: Collective Nature"
 date: 2016-03-05
 categories: print
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor felis quis sollicitudin. Cras non elit fringilla, iaculis dui ac, tempor sem. Vivamus semper tempus quam, pharetra accumsan neque ultricies non. Etiam quis arcu sollicitudin, suscipit nunc ac, aliquet arcu. Fusce blandit laoreet efficitur. Mauris vel suscipit urna. Donec ut consequat risus.
+description: Poster for an immersive audiovisual installation by Brent Javier. "Collective Nature" explores ideas related to collective memories connecting humans with nature, including our intrinsically strong relationship towards the inorganic matter (e.g. hard drives and digital storage) which has become our memory’s gatekeeper.
 
 #links:
 #    -   title: Link_Header
