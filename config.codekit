@@ -95,6 +95,95 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/day-after-reading.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/interview-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221397,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/interview-2.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/interview-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/interview.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220228,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/interview.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/interview.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/paper.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176154,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/paper.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/paper.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/posters-2up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114803,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/posters-2up.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/posters-2up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/posters-3up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80715,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/posters-3up.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/posters-3up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/sheets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235376,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/sheets.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/sheets.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/teaching.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209397,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/teaching.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/teaching.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -106,6 +195,28 @@
 		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 699400,
+		"inputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2016\/0222-ed-fella-future-flier\/flier-detail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777046,
+		"inputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/flier-detail.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/flier-detail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_projects\/2016\/0222-ed-fella-future-flier\/flier.jpg": {
 		"fileType": 16384,
@@ -3124,35 +3235,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/styles.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.less",
-		"outputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_site\/css\/transitions.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3818,6 +3900,92 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/projects\/2015\/01\/day-after-reading.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/01\/day-after-reading.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/interview-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221397,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/interview-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/interview-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/interview.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220228,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/interview.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/interview.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/paper.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176154,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/paper.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/paper.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/posters-2up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114803,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/posters-2up.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/posters-2up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/posters-3up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80715,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/posters-3up.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/posters-3up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/sheets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235376,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/sheets.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/sheets.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0122-day-after-reading\/teaching.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209397,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/teaching.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0122-day-after-reading\/teaching.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/projects\/2016\/02\/ed-fella-future-flier.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3826,6 +3994,39 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 699400,
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier-detail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777046,
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier-detail.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier-detail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 740391,
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/projects\/2016\/03\/plenum-series-collective-nature.html": {
 		"fileType": 8192,

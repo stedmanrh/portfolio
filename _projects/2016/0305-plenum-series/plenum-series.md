@@ -3,7 +3,8 @@
 layout: project
 permalink: /:collection/:year/:month/:title
 
-title: "Plenum Series: Collective Nature"
+#title: custom_title
+subtitle: Collective Nature
 date: 2016-03-05
 categories: print
 description: Poster for an immersive audiovisual installation by Brent Javier. "Collective Nature" explores ideas related to collective memories connecting humans with nature, including our intrinsically strong relationship towards the inorganic matter (e.g. hard drives and digital storage) which has become our memory’s gatekeeper.

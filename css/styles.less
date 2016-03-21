@@ -275,7 +275,7 @@ i img {
 
 #projects {
 
-    & section {
+    & .link {
     	padding-left: 6px;
     	border-left: 3px solid @charcoal;
     	margin-bottom: 6px;
@@ -295,15 +295,11 @@ i img {
         }
     }
 
-    & section.current, & section:hover, & a, & a:hover {
+    & .link.current, & .link:hover, & a, & a:hover {
       border-color: @orange;
       text-decoration: none;
       color: @charcoal;
     }
-
-    .ext-link {
-       margin-bottom: 20px;
-   }
 }
 
 #project {
@@ -321,18 +317,44 @@ i img {
     }
 
     &.sticky {
-
+        &:before{
+            display: none;
+        }
     }
 
-    #projects {
+    & #projects {
         float: left;
+
+        & .link {
+            border-color: @cream;
+
+            &.current, &:hover {
+              border-color: @orange;
+            }
+
+            & h3 {
+                color: @cream;
+            }
+
+            & p {
+                color: @orange;
+            }
+        }
+
+        & .subtitle {
+            font-size: 18px;
+        }
+
+        & .ext-links {
+            margin: 20px 0;
+        }
 
         @media(max-width: 767px){
             float: none;
         }
     }
 
-    .images {
+    & .images {
         float: right;
 
         @media(max-width: 767px){

@@ -12,11 +12,11 @@
                 <div class="span4">
                     <section id="projects">
                         <h1>Projects</h1>
-                        {% for project in site.projects | group_by:"date" %}
-                        <a href="{{ project.url }}"><section class="cascade">
+                        {% for project in site.projects %}
+                        <a href="{{ project.url }}"><div class="link cascade">
                             <h3>{{ project.title }}</h3>
                             <p>{{ project.categories | sort | join: ', ' | capitalize }}</p>
-                        </section></a>
+                        </div></a>
                         {% endfor %}
                     </section>
                 </div>

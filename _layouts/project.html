@@ -18,12 +18,17 @@
                     <div class="span4" id="projects">
                         <article>
                             <h1>{{ page.title }}</h1>
-                            {% for link in links %}
-                                <a href="{{ link.url }}" target="_blank"><section>
+                            {% if page.subtitle %}
+                                <p class="subtitle">{{ page.subtitle }}</p>
+                            {% endif %}
+                            <div class="ext-links">
+                            {% for link in page.links %}
+                                <a href="{{ link.url }}" target="_blank"><div class="link">
                 					<h3>{{ link.title }}</h3>
                 					<p>{{ link.text }}</p>
-                				</section></a>
+                				</div></a>
                             {% endfor %}
+                            </div>
                             <p>{{ page.description | markdownify }}</p>
                                 <p><em>
                                     {{ page.date | date: "%B" | slice: 0, 3 }}
