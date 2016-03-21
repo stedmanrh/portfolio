@@ -10,27 +10,28 @@
         <div id="project">
         <div class="container scene_element scene_element--slideInDown">
             <div class="row drop">
-                <div class="span4" id="projects">
-                    <article>
-                        <h1>{{ page.title }}</h1>
-                        {% for link in links %}
-                            <a href="{{ link.url }}" target="_blank"><section>
-            					<h3>{{ link.title }}</h3>
-            					<p>{{ link.text }}</p>
-            				</section></a>
-                        {% endfor %}
-                        <p>{{ page.description | markdownify }}</p>
-                            <p><em>
-                                {{ page.date | date: "%B" | slice: 0, 3 }}
-                                {{ page.date | date: "%Y" }}
-                            </em></p>
-                        </article>
-                    </div>
                     <section class="span8 images">
                         <div class="row">
                             {{ content }}
                         </div>
                     </section>
+                    <div class="span4" id="projects">
+                        <article>
+                            <h1>{{ page.title }}</h1>
+                            {% for link in links %}
+                                <a href="{{ link.url }}" target="_blank"><section>
+                					<h3>{{ link.title }}</h3>
+                					<p>{{ link.text }}</p>
+                				</section></a>
+                            {% endfor %}
+                            <p>{{ page.description | markdownify }}</p>
+                                <p><em>
+                                    {{ page.date | date: "%B" | slice: 0, 3 }}
+                                    {{ page.date | date: "%Y" }}
+                                </em></p>
+                            <br><p><a href="/"><small>BACK TO PROJECTS</small></a></p>
+                            </article>
+                        </div>
                 </div>
                 <div class="push"></div>
             </div><!-- /container -->

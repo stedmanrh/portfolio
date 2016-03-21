@@ -321,13 +321,25 @@ i img {
         z-index: 1000;
     }
 
-    &.sticky {
-        top: 40px;
+    #projects {
+        float: left;
 
-        &:before {
-            display: none;
+        @media(max-width: 767px){
+            float: none;
         }
     }
+
+    .images {
+        float: right;
+
+        @media(max-width: 767px){
+            float: none;
+        }
+    }
+}
+
+.container.scene_element.sticky {
+    padding-top: 90px;
 }
 
 .ipad {

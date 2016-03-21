@@ -284,11 +284,24 @@ i img {
   background: #333333;
   z-index: 1000;
 }
-#project.sticky {
-  top: 40px;
+#project #projects {
+  float: left;
 }
-#project.sticky:before {
-  display: none;
+@media (max-width: 767px) {
+  #project #projects {
+    float: none;
+  }
+}
+#project .images {
+  float: right;
+}
+@media (max-width: 767px) {
+  #project .images {
+    float: none;
+  }
+}
+.container.scene_element.sticky {
+  padding-top: 90px;
 }
 .ipad {
   position: relative;
