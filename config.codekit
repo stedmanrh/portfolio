@@ -184,6 +184,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2015\/0604-technology-poster\/technology-poster.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/technology-poster.md",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/technology-poster.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -229,37 +241,37 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-detail.jpg": {
+	"\/_projects\/2016\/0305-plenum-series\/collective-nature-detail.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 732107,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-detail.jpg",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-detail.jpg",
+		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/collective-nature-detail.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/collective-nature-detail.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-poster.jpg": {
+	"\/_projects\/2016\/0305-plenum-series\/collective-nature-poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 518002,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-poster.jpg",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-poster.jpg",
+		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/collective-nature-poster.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/collective-nature-poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2016\/0305-plenum-series-collective-nature\/plenum-series-collective-nature.md": {
+	"\/_projects\/2016\/0305-plenum-series\/plenum-series.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series-collective-nature\/plenum-series-collective-nature.md",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series-collective-nature\/plenum-series-collective-nature.html",
+		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/plenum-series.md",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/plenum-series.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3235,6 +3247,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/styles.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/styles.less",
+		"outputAbbreviatedPath": "\/_site\/css\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_site\/css\/transitions.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4028,33 +4069,33 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/projects\/2016\/03\/plenum-series-collective-nature.html": {
+	"\/_site\/projects\/2016\/03\/plenum-series.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/projects\/2016\/03\/plenum-series-collective-nature.html",
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/03\/plenum-series.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-detail.jpg": {
+	"\/_site\/projects\/2016\/0305-plenum-series\/collective-nature-detail.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 732107,
-		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-detail.jpg",
-		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-detail.jpg",
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series\/collective-nature-detail.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series\/collective-nature-detail.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-poster.jpg": {
+	"\/_site\/projects\/2016\/0305-plenum-series\/collective-nature-poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 703069,
-		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-poster.jpg",
-		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series-collective-nature\/collective-nature-poster.jpg",
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series\/collective-nature-poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0305-plenum-series\/collective-nature-poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
