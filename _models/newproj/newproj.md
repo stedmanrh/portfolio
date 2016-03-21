@@ -4,8 +4,8 @@ layout: project
 permalink: /:collection/:year/:month/:title
 
 #date: yyyy-mm-dd
-#categories: identity print
-#description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed pellentesque arcu. Vivamus a ipsum sollicitudin, accumsan nibh at, dapibus arcu. Vestibulum egestas imperdiet sem, a imperdiet diam. Nullam gravida libero nunc, iaculis consectetur sem efficitur efficitur. Proin non consectetur ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere luctus turpis non vehicula. Fusce lobortis sollicitudin eros nec pellentesque. Donec nulla enim, elementum in ultricies vitae, tincidunt quis ante. Vivamus at risus neque. Nam malesuada mi vel augue auctor, sit amet tempus augue pulvinar. Praesent scelerisque congue tortor, nec pharetra felis mattis at. Donec facilisis libero id ultrices ornare. Vestibulum varius fermentum tellus, ac sollicitudin nulla semper non.
+#categories: interactive print
+#description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor felis quis sollicitudin. Cras non elit fringilla, iaculis dui ac, tempor sem. Vivamus semper tempus quam, pharetra accumsan neque ultricies non. Etiam quis arcu sollicitudin, suscipit nunc ac, aliquet arcu. Fusce blandit laoreet efficitur. Mauris vel suscipit urna. Donec ut consequat risus.
 
 #links:
 #    -   title: Link_Header
@@ -20,4 +20,4 @@ permalink: /:collection/:year/:month/:title
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}filename" alt="filetext">
+<img class="span8" src="{{media|strip}}file.jpg" alt="{{ page.title }}">

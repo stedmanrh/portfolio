@@ -19,8 +19,8 @@
             					<p>{{ link.text }}</p>
             				</section></a>
                         {% endfor %}
-                        <p>{{ page.description | markupify }}
-                            <br><br><em>
+                        <p>{{ page.description | markdownify }}</p>
+                            <p><em>
                                 {{ page.date | date: "%B" | slice: 0, 3 }}
                                 {{ page.date | date: "%Y" }}
                             </em></p>
