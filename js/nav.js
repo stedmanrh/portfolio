@@ -1,14 +1,16 @@
 $(document).ready(function(){
 
-    var height = $('header svg').offset().top;
+    //var height = $('header svg').height()/2;
 
     $(window).scroll(function(){
         var scroll = $(this).scrollTop();
-        if (scroll >= height){
+        if (scroll > 0){
             $('header').addClass('sticky');
+            $('#project').addClass('sticky');
         }
         else {
             $('header').removeClass('sticky');
+            $('#project').removeClass('sticky');
         }
     });
 });

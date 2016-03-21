@@ -284,6 +284,12 @@ i img {
   background: #333333;
   z-index: 1000;
 }
+#project.sticky {
+  top: 40px;
+}
+#project.sticky:before {
+  display: none;
+}
 .ipad {
   position: relative;
   margin-top: -150px;

@@ -95,25 +95,25 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_projects\/2016\/0320-test\/test.md": {
+	"\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0320-test\/test.md",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0320-test\/test.html",
+		"inputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_projects\/2016\/0320-test\/test.png": {
-		"fileType": 32768,
+	"\/_projects\/2016\/0222-ed-fella-future-flier\/flier.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 222151,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0320-test\/test.png",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0320-test\/test.png",
+		"initialSize": 443235,
+		"inputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/flier.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/flier.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3090,35 +3090,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/styles.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.less",
-		"outputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_site\/css\/transitions.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3718,37 +3689,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/jekyll\/update\/2016\/03\/17\/welcome-to-jekyll.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/jekyll\/update\/2016\/03\/17\/welcome-to-jekyll.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/js\/describe.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/describe.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/describe-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/js\/describe.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/describe.min.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/describe.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3815,13 +3755,22 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/projects\/2016\/0320-test\/test.png": {
-		"fileType": 32768,
+	"\/_site\/projects\/2016\/02\/ed-fella-future-flier.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 222151,
-		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0320-test\/test.png",
-		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0320-test\/test.png",
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/02\/ed-fella-future-flier.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 443235,
+		"inputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2016\/0222-ed-fella-future-flier\/flier.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7394,28 +7343,6 @@
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/js\/describe.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/describe.js",
-		"outputAbbreviatedPath": "\/js\/min\/describe-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/describe.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/describe.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/describe.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/js\/jquery.min.js": {
 		"fileType": 64,
