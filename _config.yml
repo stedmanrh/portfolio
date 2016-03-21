@@ -18,7 +18,7 @@ github_username: stedmanrh
 # Build settings
 markdown: kramdown
 
-collections:
-    projects:
-        output: true
-        permalink: /:collection/:year/:month/:title
+#collections:
+    #projects:
+        #output: true
+        #permalink: /:collection/:year/:month/:title
