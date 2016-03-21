@@ -18,11 +18,6 @@ github_username: stedmanrh
 # Build settings
 markdown: kramdown
 
-<<<<<<< HEAD
-gems: [filename]
-
-=======
->>>>>>> media
 collections:
     projects:
         output: true
