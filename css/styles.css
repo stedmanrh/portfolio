@@ -313,6 +313,12 @@ i img {
 #project .images {
   float: right;
 }
+#project .images .divider {
+  border-bottom: 1px solid #fff5d9;
+  padding-bottom: .33em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 @media (max-width: 767px) {
   #project .images {
     float: none;

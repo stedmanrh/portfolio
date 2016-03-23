@@ -26,6 +26,9 @@ links:
 <img class="span8" src="{{media|strip}}posters-2up.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}posters-3up.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}sheets.jpg" alt="{{ page.title }}">
+
+<p class="span8 divider">Workshop Images</p>
+
 <img class="span8" src="{{media|strip}}interview.jpg" alt="SCV Signal interviews Nick Humbel">
 <img class="span8" src="{{media|strip}}teaching.jpg" alt="Ludovic Balland teaches">
 <img class="span8" src="{{media|strip}}interview-2.jpg" alt="SCV Signal interviews Ludovic Balland">
