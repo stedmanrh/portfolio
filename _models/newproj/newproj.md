@@ -1,7 +1,7 @@
 ---
 #defaults
 layout: project
-permalink: /:collection/:year/:month/:title
+permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
 #subtitle: optional_subtitle

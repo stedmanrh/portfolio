@@ -1,7 +1,7 @@
 ---
 #defaults
 layout: project
-permalink: /:collection/:year/:month/:title.html
+permalink: /:collection/:year/:month/:title.html.html
 
 
 #title:

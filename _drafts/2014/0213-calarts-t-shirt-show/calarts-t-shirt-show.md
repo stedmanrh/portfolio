@@ -1,13 +1,13 @@
 ---
 #defaults
 layout: project
-permalink: /:collection/:year/:month/:title
+permalink: /:collection/:year/:month/:title.html.html
 
 title: CalArts T-Shirt Show
 subtitle: Promo Website
 date: 2014-02-13
 categories: interactive web
-description: Web design and development for the 2014 CalArts T-Shirt Show. The show is an annual student fundraiser that invites current students, alumni, and faculty of the CalArts Graphic Design program to design t-shirts and tote bags which are then sold to the institute. This year, several students screen printed hundreds of items over a long, stressful day while one student in particular foolishly waited until that same evening to see if he could conceptualize and deploy the entire website before printing was done for the day.
+description: Web design and development for the 2014 CalArts T-Shirt Show (collaboration with [Brian Thompsen](http://www.brianthompsen.com/)). The show is an annual student fundraiser that invites current students, alumni, and faculty of the CalArts Graphic Design program to design t-shirts and tote bags which are then screen printed en masse and sold to the institute. The web page catalogs all designs and designers for the year and aesthetically builds on other collateral used to brand the event.
 
 links:
     -   title: Web
