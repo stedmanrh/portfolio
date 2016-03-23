@@ -3,6 +3,7 @@
 layout: project
 permalink: /:collection/:year/:month/:title
 
+
 #title: custom_title
 subtitle: "\"Offset Printing\""
 date: 2015-06-04

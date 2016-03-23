@@ -3,6 +3,7 @@
 layout: project
 permalink: /:collection/:year/:month/:title
 
+
 #title: custom_title
 subtitle: Issue No. 2
 date: 2015-01-22

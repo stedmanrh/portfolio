@@ -13,7 +13,7 @@ then
         monthdate=$(date +"%m%d")
     fi
 
-    path="_projects/${year}/${monthdate}-${name}"
+    path="_drafts/${year}/${monthdate}-${name}"
     mkdir -p $path
     cp -R _models/newproj/* $path
     mv $path/newproj.md $path/$name.md
