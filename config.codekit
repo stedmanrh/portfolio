@@ -59,6 +59,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_drafts\/2014\/0413-orphans\/orphans-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 607213,
+		"inputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans-1.jpg",
+		"outputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_drafts\/2014\/0413-orphans\/orphans-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 692667,
+		"inputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans-2.jpg",
+		"outputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_drafts\/2014\/0413-orphans\/orphans-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 705082,
+		"inputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans-3.jpg",
+		"outputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_drafts\/2014\/0413-orphans\/orphans.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -68,18 +101,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans.md",
 		"outputAbbreviatedPath": "\/_drafts\/2014\/0413-orphans\/orphans.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_drafts\/2014\/0421-kadenze\/kadenze.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_drafts\/2014\/0421-kadenze\/kadenze.md",
-		"outputAbbreviatedPath": "\/_drafts\/2014\/0421-kadenze\/kadenze.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -411,6 +432,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_projects\/2014\/0421-kadenze\/kadenze.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0421-kadenze\/kadenze.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0421-kadenze\/kadenze.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -584,6 +617,17 @@
 		"initialSize": 544961,
 		"inputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/tech_08.jpg",
 		"outputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/tech_08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2015\/0604-technology-poster\/tech_09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 601593,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/tech_09.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/tech_09.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3651,35 +3695,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/styles.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.less",
-		"outputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_site\/css\/transitions.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4418,6 +4433,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/projects\/2014\/04\/kadenze.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/04\/kadenze.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/2015\/01\/day-after-reading.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4557,6 +4581,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/projects\/2015\/0604-technology-poster\/tech_05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 665078,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_05.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/projects\/2015\/0604-technology-poster\/tech_06.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4575,6 +4610,28 @@
 		"initialSize": 653488,
 		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_07.jpg",
 		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0604-technology-poster\/tech_08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 557238,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_08.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2015\/0604-technology-poster\/tech_09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 601593,
+		"inputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_09.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2015\/0604-technology-poster\/tech_09.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

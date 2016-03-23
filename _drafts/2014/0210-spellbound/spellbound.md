@@ -3,12 +3,11 @@
 layout: project
 permalink: /:collection/:year/:month/:title
 
-output: false
-title: custom_title
-subtitle: optional_subtitle
+#title: custom_title
+subtitle: Book Jackets
 date: 2014-02-10
-categories: interactive print
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor felis quis sollicitudin. Cras non elit fringilla, iaculis dui ac, tempor sem. Vivamus semper tempus quam, pharetra accumsan neque ultricies non. Etiam quis arcu sollicitudin, suscipit nunc ac, aliquet arcu. Fusce blandit laoreet efficitur. Mauris vel suscipit urna. Donec ut consequat risus.
+categories: print packaging
+#description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor felis quis sollicitudin. Cras non elit fringilla, iaculis dui ac, tempor sem. Vivamus semper tempus quam, pharetra accumsan neque ultricies non. Etiam quis arcu sollicitudin, suscipit nunc ac, aliquet arcu. Fusce blandit laoreet efficitur. Mauris vel suscipit urna. Donec ut consequat risus.
 
 #links:
 #    -   title: Link_Header

@@ -8,7 +8,7 @@ permalink: /:collection/:year/:month/:title
 subtitle: "\"Offset Printing\""
 date: 2015-06-04
 categories: print
-description: Three 30x40in posters interpreting the topic of offset printing. Each poster in the set presents research on this media technology and its relevance to graphic design using either a denotative or connotative visual strategy.
+description: Three large format posters interpreting the topic of offset printing. Each poster in the set presents research on this media technology and its relevance to graphic design using either a denotative or connotative visual strategy.
 
 #links:
 #    -   title: Link_Header

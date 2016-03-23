@@ -6,8 +6,8 @@ permalink: /:collection/:year/:month/:title
 
 #title: custom_title
 #subtitle: optional_subtitle
-#date: yyyy-mm-dd
-#categories: interactive print
+date: 2014-04-13
+categories: print
 #description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor felis quis sollicitudin. Cras non elit fringilla, iaculis dui ac, tempor sem. Vivamus semper tempus quam, pharetra accumsan neque ultricies non. Etiam quis arcu sollicitudin, suscipit nunc ac, aliquet arcu. Fusce blandit laoreet efficitur. Mauris vel suscipit urna. Donec ut consequat risus.
 
 #links:

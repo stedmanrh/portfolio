@@ -313,6 +313,19 @@ i img {
 #project .images {
   float: right;
 }
+#project .images .video-wrapper {
+  position: relative;
+  padding-bottom: 55%;
+  height: 0;
+  margin-bottom: 40px;
+}
+#project .images .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 #project .images .divider {
   border-bottom: 1px solid #fff5d9;
   padding-bottom: .33em;
