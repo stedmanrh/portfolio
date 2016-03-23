@@ -31,3 +31,4 @@ description: Three 30x40in posters interpreting the topic of offset printing. Ea
 <img class="span8" src="{{media|strip}}tech_06.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}tech_07.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}tech_08.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}tech_09.jpg" alt="{{ page.title }}">
