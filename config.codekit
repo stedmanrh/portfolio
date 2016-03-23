@@ -26,18 +26,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_drafts\/2014\/0929-the-collective\/the-collective.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_drafts\/2014\/0929-the-collective\/the-collective.md",
-		"outputAbbreviatedPath": "\/_drafts\/2014\/0929-the-collective\/the-collective.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_drafts\/2014\/0930-human-powered-flight\/human-powered-flight.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -408,6 +396,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_projects\/2014\/0813-trevanna-post\/trevanna-la.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209635,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-la.png",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-la.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2014\/0813-trevanna-post\/trevanna-ny.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217274,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-ny.png",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-ny.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_projects\/2014\/0813-trevanna-post\/trevanna-post.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -417,6 +427,40 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-post.md",
 		"outputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-post.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2014\/0929-the-collective\/collective-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 636846,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/collective-1.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/collective-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2014\/0929-the-collective\/collective-2up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 694875,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/collective-2up.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/collective-2up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2014\/0929-the-collective\/the-collective.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -4573,6 +4617,59 @@
 		"initialSize": 705082,
 		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0413-orphans\/orphans-3.jpg",
 		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0413-orphans\/orphans-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2014\/08\/trevanna-post.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/08\/trevanna-post.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/2014\/0813-trevanna-post\/trevanna-la.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209635,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0813-trevanna-post\/trevanna-la.png",
+		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0813-trevanna-post\/trevanna-la.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2014\/0813-trevanna-post\/trevanna-ny.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217274,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0813-trevanna-post\/trevanna-ny.png",
+		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0813-trevanna-post\/trevanna-ny.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2014\/0929-the-collective\/collective-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 636846,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0929-the-collective\/collective-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0929-the-collective\/collective-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2014\/0929-the-collective\/collective-2up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 694875,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0929-the-collective\/collective-2up.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0929-the-collective\/collective-2up.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

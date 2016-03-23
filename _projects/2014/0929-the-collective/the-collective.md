@@ -3,12 +3,11 @@
 layout: project
 permalink: /:collection/:year/:month/:title
 
-
 #title: custom_title
 subtitle: Bijou Film & Video Series
 date: 2014-09-29
 categories: print
-description: Three fliers for a series of film lectures organized by The Collective, a CalArts black arts organization. The events featured a talented and diverse set of filmmakers: Kahlil Joseph, Abderrahmane Sissako, and Kwesi Wade Johnson.
+description: Three fliers for a series of film lectures organized by The Collective, a CalArts black arts organization. The events featured a talented and diverse set of filmmakers in Kahlil Joseph, Abderrahmane Sissako, and Kwesi Wade Johnson.
 
 #links:
 #    -   title: Link_Header
