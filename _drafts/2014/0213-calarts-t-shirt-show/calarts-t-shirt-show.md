@@ -3,7 +3,7 @@
 layout: project
 permalink: /:collection/:year/:month/:title
 
-#title:
+title: CalArts T-Shirt Show
 subtitle: Promo Website
 date: 2014-02-13
 categories: interactive web
@@ -11,7 +11,7 @@ description: Web design and development for the 2014 CalArts T-Shirt Show. The s
 
 links:
     -   title: Web
-        url: http://stedmanhalliday.com/calarts-t-shirt-show/
+        url: http://stedmanhalliday.com/sites/calarts-t-shirt-show/
         text: 2014 CalArts T-Shirt Show
 ---
 
