@@ -1,7 +1,7 @@
 ---
 #defaults
 layout: project
-permalink: /:collection/:year/:month/:title
+permalink: /:collection/:year/:month/:title.html
 
 date: 2016-02-22
 categories: print

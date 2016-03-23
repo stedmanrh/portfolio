@@ -1,7 +1,7 @@
 ---
 #defaults
 layout: project
-permalink: /:collection/:year/:month/:title
+permalink: /:collection/:year/:month/:title.html
 
 title: LNI Signs
 #subtitle: optional_subtitle

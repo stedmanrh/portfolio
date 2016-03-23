@@ -26,18 +26,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_drafts\/2014\/0930-human-powered-flight\/human-powered-flight.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_drafts\/2014\/0930-human-powered-flight\/human-powered-flight.md",
-		"outputAbbreviatedPath": "\/_drafts\/2014\/0930-human-powered-flight\/human-powered-flight.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_drafts\/2014\/1027-the-black-radical-imagination\/the-black-radical-imagination.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -461,6 +449,40 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.md",
 		"outputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2014\/0930-human-powered-flight\/hpa-close.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 645181,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/hpa-close.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/hpa-close.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2014\/0930-human-powered-flight\/hpa-wide.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 486726,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/hpa-wide.jpg",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/hpa-wide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -4528,15 +4550,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/projects\/2014\/02\/spellbound.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/projects\/2014\/02\/spellbound.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/projects\/2014\/0210-spellbound\/books.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4652,6 +4665,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/projects\/2014\/09\/human-powered-flight.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/09\/human-powered-flight.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/2014\/09\/the-collective.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/09\/the-collective.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/2014\/0929-the-collective\/collective-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4670,6 +4701,28 @@
 		"initialSize": 694875,
 		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0929-the-collective\/collective-2up.jpg",
 		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0929-the-collective\/collective-2up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2014\/0930-human-powered-flight\/hpa-close.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 645181,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0930-human-powered-flight\/hpa-close.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0930-human-powered-flight\/hpa-close.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/2014\/0930-human-powered-flight\/hpa-wide.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 486726,
+		"inputAbbreviatedPath": "\/_site\/projects\/2014\/0930-human-powered-flight\/hpa-wide.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/2014\/0930-human-powered-flight\/hpa-wide.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
