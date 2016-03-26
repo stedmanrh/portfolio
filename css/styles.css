@@ -278,7 +278,7 @@ i img {
   display: inline-block;
   margin: 0 .5em;
   padding: .25em .5em 0;
-  border-radius: 1em;
+  border-radius: 3px;
   transition: all 0.25s ease-in;
 }
 #projects .filter a.filter-link {

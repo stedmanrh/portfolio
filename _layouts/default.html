@@ -14,7 +14,7 @@
                         <h1>Projects</h1>
                         <ul class="filter">
                             <li><strong>Filter:</strong></li>
-                            <a href="javascript: void(0)" class="filter-link all"><li>all</li></a>
+                            <a href="javascript: void(0)" class="filter-link all current"><li>all</li></a>
                             {% assign ptags = "" | split:"|"  %}
                             {% for project in site.projects %}
                                 {% for tag in project.tags %}
@@ -24,7 +24,7 @@
                                 {% endfor %}
                             {% endfor %}
                             {% for ptag in ptags %}
-                                <a href="javascript: void(0)" class="filter-link {{ptag}}"><li>{{ptag}}</li></a>
+                                <a href="javascript: void(0)" class="filter-link" data-tag="{{ptag}}"><li>{{ptag}}</li></a>
                             {% endfor %}
                         </ul>
                         {% for project in site.projects reversed %}
