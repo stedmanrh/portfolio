@@ -7,7 +7,7 @@ permalink: /:collection/:year/:month/:title.html
 #title: custom_title
 #subtitle: optional_subtitle
 date: 2014-11-17
-categories: interactive web
+tags: interactive web
 description: This web experience attempts to realize ideas presented in the "Realistic Manifesto" (Gabo & Pevsner, 1920) as an interactive kinetic sculpture. The five tenets of the manifesto may be read as display type set to utilize linear direction and depth to create an awareness of space. Various meshes that represent ideas in these tenets dynamically drift and rotate within three dimensions to aesthetically instantiate the notions of space and time. The user may navigate the environment (within limits) for a more visceral experience or allow the view to rest and observe the sculptural bodies drifting through space.<br><br>The scene (rendered with [three.js](http://threejs.org)) is the S. Mark Taper courtyard at [California Institute of the Arts](http://calarts.edu) in Valencia, California.
 
 links:

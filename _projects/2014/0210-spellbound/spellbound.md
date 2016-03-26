@@ -6,7 +6,7 @@ permalink: /:collection/:year/:month/:title.html
 #title: custom_title
 subtitle: Book Jackets
 date: 2014-02-10
-categories: print packaging
+tags: print packaging
 description: Two book jacket options for a novelistic adaptation of Alfred Hitchcock's "Spellbound" designed as a student exercise in symbolic narrative.
 
 #links:

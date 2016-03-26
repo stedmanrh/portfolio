@@ -7,7 +7,7 @@ permalink: /:collection/:year/:month/:title.html
 #title: custom_title
 #subtitle: optional_subtitle
 date: 2014-04-13
-categories: print
+tags: print
 description: Promotional poster for a CalArts theatrical performance of Lyle Kessler's "Orphans." The story is one of childhood bereavement and abandonment and the resulting loss of innocence.
 
 #links:

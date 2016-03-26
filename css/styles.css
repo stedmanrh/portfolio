@@ -267,6 +267,33 @@ i img {
   text-decoration: none;
   color: #333333;
 }
+#projects .filter {
+  margin-left: 0;
+  margin-bottom: 40px;
+  border: 1px solid #333;
+  border-width: 1px 0;
+  padding: .5em 0 .5em;
+}
+#projects .filter li {
+  display: inline-block;
+  margin: 0 .5em;
+  padding: .25em .5em 0;
+  border-radius: 3px;
+  transition: all 0.25s ease-in;
+}
+#projects .filter a.filter-link {
+  text-transform: uppercase;
+  color: #ff3700;
+  font-size: 12px;
+}
+#projects .filter a.filter-link:hover,
+#projects .filter a.filter-link.current {
+  color: #fff5d9;
+}
+#projects .filter a.filter-link:hover li,
+#projects .filter a.filter-link.current li {
+  background: #ff3700;
+}
 #project {
   background: #333333;
   color: #fff5d9;
