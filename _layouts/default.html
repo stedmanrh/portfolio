@@ -11,6 +11,11 @@
             <div class="row drop">
                 <div class="span4">
                     <section id="projects">
+                        <ul>
+                            {% for category in site.categories %}
+                                {{site.projects.category[0]}}
+                            {% endfor %}
+                        </ul>
                         <h1>Projects</h1>
                         {% for project in site.projects reversed %}
                         <a href="{{ project.url }}"><div class="link cascade">

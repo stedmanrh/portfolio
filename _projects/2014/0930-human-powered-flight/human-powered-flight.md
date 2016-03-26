@@ -7,7 +7,7 @@ permalink: /:collection/:year/:month/:title.html
 #title:
 #subtitle: optional_subtitle
 date: 2014-09-30
-categories: print
+tags: print
 description: 30x40in foldout poster presenting compelling research and information about the phenomenon that is human-powered flight.
 
 #links:

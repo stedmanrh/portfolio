@@ -155,15 +155,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_layouts\/default.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/default.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_layouts\/page.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -214,18 +205,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2014\/0101-greg-victoroff-associates\/greg-victoroff-associates.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0101-greg-victoroff-associates\/greg-victoroff-associates.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0101-greg-victoroff-associates\/greg-victoroff-associates.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2014\/0101-greg-victoroff-associates\/marks.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -270,18 +249,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2014\/0106-lni-signs\/lni-signs.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0106-lni-signs\/lni-signs.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0106-lni-signs\/lni-signs.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2014\/0210-spellbound\/books.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -314,30 +281,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/_projects\/2014\/0210-spellbound\/spellbound.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0210-spellbound\/spellbound.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0210-spellbound\/spellbound.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-t-shirt-show.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-t-shirt-show.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-t-shirt-show.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-tee-show.png": {
 		"fileType": 32768,
@@ -383,30 +326,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2014\/0413-orphans\/orphans.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0413-orphans\/orphans.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0413-orphans\/orphans.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_projects\/2014\/0421-kadenze\/kadenze.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0421-kadenze\/kadenze.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0421-kadenze\/kadenze.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2014\/0813-trevanna-post\/trevanna-la.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -428,18 +347,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/_projects\/2014\/0813-trevanna-post\/trevanna-post.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-post.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-post.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_projects\/2014\/0929-the-collective\/collective-1.jpg": {
 		"fileType": 16384,
@@ -463,18 +370,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2014\/0929-the-collective\/the-collective.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2014\/0930-human-powered-flight\/hpa-close.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -497,18 +392,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2014\/1006-wwwindows\/windows.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -520,18 +403,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2014\/1006-wwwindows\/wwwindows.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/1006-wwwindows\/wwwindows.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/1006-wwwindows\/wwwindows.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2014\/1117-realistic-manifesto\/real-man-screen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -542,30 +413,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/_projects\/2014\/1117-realistic-manifesto\/realistic-manifesto.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2014\/1117-realistic-manifesto\/realistic-manifesto.md",
-		"outputAbbreviatedPath": "\/_projects\/2014\/1117-realistic-manifesto\/realistic-manifesto.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md",
-		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/day-after-reading.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_projects\/2015\/0122-day-after-reading\/interview-2.jpg": {
 		"fileType": 16384,
@@ -743,30 +590,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_projects\/2015\/0604-technology-poster\/technology-poster.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/technology-poster.md",
-		"outputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/technology-poster.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -821,18 +644,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/_projects\/2016\/0305-plenum-series\/plenum-series.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/plenum-series.md",
-		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/plenum-series.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_sass\/_base.scss": {
 		"createSourceMap": 0,

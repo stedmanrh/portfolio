@@ -7,7 +7,7 @@ permalink: /:collection/:year/:month/:title.html
 #title: custom_title
 subtitle: "\"Offset Printing\""
 date: 2015-06-04
-categories: print
+tags: print
 description: Three large format posters interpreting the topic of offset printing. Each poster in the set presents research on this media technology and its relevance to graphic design using either a denotative or connotative visual strategy.
 
 #links:

@@ -7,7 +7,7 @@ permalink: /:collection/:year/:month/:title.html
 #title: custom_title
 #subtitle: optional_subtitle
 date: 2014-08-13
-categories: interactive web
+tags: interactive web
 description: Proposed homepage variants for Trevanna Post (film industry post production accounting). The client wanted extend its previous identity assets in to a new web presence and make bicoastal locations a core part of its identity to emphasize ties to the film industry by way of Los Angeles and New York.
 
 #links:
