@@ -12,7 +12,7 @@
                 <div class="span4">
                     <section id="projects">
                         <h1>Projects</h1>
-                        {% for project in site.projects %}
+                        {% for project in site.projects reversed %}
                         <a href="{{ project.url }}"><div class="link cascade">
                             <h3>{{ project.title }}</h3>
                             <p>{{ project.categories | sort | join: ', ' | capitalize }}</p>
