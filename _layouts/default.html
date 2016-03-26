@@ -14,6 +14,7 @@
                         <h1>Projects</h1>
                         <ul class="filter">
                             <li><strong>Filter:</strong></li>
+                            <a href="javascript: void(0)" class="filter-link all"><li>all</li></a>
                             {% assign ptags = "" | split:"|"  %}
                             {% for project in site.projects %}
                                 {% for tag in project.tags %}
@@ -27,7 +28,7 @@
                             {% endfor %}
                         </ul>
                         {% for project in site.projects reversed %}
-                        <a href="{{ project.url }}"><div class="link cascade">
+                        <a href="{{ project.url }}"><div class="link cascade {{project.tags | join: " "}}">
                             <h3>{{ project.title }}</h3>
                             <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>
                         </div></a>

@@ -306,17 +306,27 @@ i img {
         margin-bottom: 40px;
         border: 1px solid #333;
         border-width: 1px 0;
-        padding: .75em 0 .5em;
+        padding: .5em 0 .5em;
 
         & li {
             display: inline-block;
             margin: 0 .5em;
+            padding: .25em .5em 0;
+            border-radius: 1em;
+            transition: all .25s ease-in;
         }
 
-        & .filter-link {
+        & a.filter-link {
             text-transform: uppercase;
             color: @orange;
             font-size: 12px;
+
+            &:hover, &.current {
+                color: @cream;
+                & li {
+                    background: @orange;
+                }
+            }
         }
     }
 }
