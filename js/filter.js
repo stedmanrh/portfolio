@@ -4,13 +4,16 @@ $(document).ready(function(){
         if($(this).hasClass("all")){
             if(!($(this).hasClass("current"))){
                 $('.filter-link').removeClass("current");
-                $('.filter-link all').addClass("current");
+                $(this).addClass("current");
                 // load projects
             }
         }
         else {
-            var tag = $(this).data("tag");
-            console.log(tag);
+            $(".filter-link.all").removeClass('current');
+            $(this).toggleClass("current");
+            if(!($('.filter-link').hasClass('current'))){
+                $('.filter-link.all').addClass('current');
+            }
         }
     });
 
