@@ -9,25 +9,31 @@
         {% include header.html %}
         <div class="container scene_element scene_element--fadeInUp">
             <div class="row drop">
-                <div class="span4">
+                <div class="span12">
                     <section id="projects">
-                        <ul>
-                            {% for category in site.categories %}
-                                {{site.projects.category[0]}}
+                        <h1>Projects</h1>
+                        <ul class="filter">
+                            <li><strong>Filter:</strong></li>
+                            {% assign ptags = "" | split:"|"  %}
+                            {% for project in site.projects %}
+                                {% for tag in project.tags %}
+                                    {% unless ptags contains tag %}
+                                        {% assign ptags = ptags | push: tag | sort %}
+                                    {% endunless %}
+                                {% endfor %}
+                            {% endfor %}
+                            {% for ptag in ptags %}
+                                <a href="javascript: void(0)" class="filter-link {{ptag}}"><li>{{ptag}}</li></a>
                             {% endfor %}
                         </ul>
-                        <h1>Projects</h1>
                         {% for project in site.projects reversed %}
                         <a href="{{ project.url }}"><div class="link cascade">
                             <h3>{{ project.title }}</h3>
-                            <p>{{ project.categories | sort | join: ', ' | capitalize }}</p>
+                            <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>
                         </div></a>
                         {% endfor %}
                     </section>
                 </div>
-                <section class="span8 images">
-                    <img src="/images/prism.png" class="hidden-phone" alt="">
-                </section>
             </div>
             <div class="push"></div>
         </div><!-- /container -->

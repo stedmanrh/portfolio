@@ -155,6 +155,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_layouts\/default.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/page.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -205,6 +214,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2014\/0101-greg-victoroff-associates\/greg-victoroff-associates.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0101-greg-victoroff-associates\/greg-victoroff-associates.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0101-greg-victoroff-associates\/greg-victoroff-associates.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2014\/0101-greg-victoroff-associates\/marks.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -249,6 +270,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2014\/0106-lni-signs\/lni-signs.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0106-lni-signs\/lni-signs.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0106-lni-signs\/lni-signs.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2014\/0210-spellbound\/books.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -281,6 +314,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/_projects\/2014\/0210-spellbound\/spellbound.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0210-spellbound\/spellbound.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0210-spellbound\/spellbound.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-t-shirt-show.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-t-shirt-show.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-t-shirt-show.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_projects\/2014\/0213-calarts-t-shirt-show\/calarts-tee-show.png": {
 		"fileType": 32768,
@@ -326,6 +383,30 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2014\/0413-orphans\/orphans.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0413-orphans\/orphans.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0413-orphans\/orphans.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2014\/0421-kadenze\/kadenze.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0421-kadenze\/kadenze.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0421-kadenze\/kadenze.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2014\/0813-trevanna-post\/trevanna-la.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -347,6 +428,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/_projects\/2014\/0813-trevanna-post\/trevanna-post.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-post.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0813-trevanna-post\/trevanna-post.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_projects\/2014\/0929-the-collective\/collective-1.jpg": {
 		"fileType": 16384,
@@ -370,6 +463,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2014\/0929-the-collective\/the-collective.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0929-the-collective\/the-collective.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2014\/0930-human-powered-flight\/hpa-close.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -392,6 +497,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/0930-human-powered-flight\/human-powered-flight.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2014\/1006-wwwindows\/windows.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -403,6 +520,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2014\/1006-wwwindows\/wwwindows.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/1006-wwwindows\/wwwindows.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/1006-wwwindows\/wwwindows.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2014\/1117-realistic-manifesto\/real-man-screen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -413,6 +542,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/_projects\/2014\/1117-realistic-manifesto\/realistic-manifesto.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2014\/1117-realistic-manifesto\/realistic-manifesto.md",
+		"outputAbbreviatedPath": "\/_projects\/2014\/1117-realistic-manifesto\/realistic-manifesto.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/day-after-reading.md",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0122-day-after-reading\/day-after-reading.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_projects\/2015\/0122-day-after-reading\/interview-2.jpg": {
 		"fileType": 16384,
@@ -590,6 +743,30 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_projects\/2015\/0604-technology-poster\/technology-poster.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/technology-poster.md",
+		"outputAbbreviatedPath": "\/_projects\/2015\/0604-technology-poster\/technology-poster.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.md",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0222-ed-fella-future-flier\/ed-fella-future-flier.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_projects\/2016\/0222-ed-fella-future-flier\/flier-bottom.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -644,6 +821,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/_projects\/2016\/0305-plenum-series\/plenum-series.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/plenum-series.md",
+		"outputAbbreviatedPath": "\/_projects\/2016\/0305-plenum-series\/plenum-series.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_sass\/_base.scss": {
 		"createSourceMap": 0,
@@ -875,7 +1064,7 @@
 		},
 	"\/_site\/bower_components\/bootstrap2.3.2\/bootstrap\/js\/bootstrap.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/bootstrap\/js\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/bootstrap\/js\/min\/bootstrap.min-min.js",
@@ -889,7 +1078,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/CHANGELOG.md",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/CHANGELOG.html",
@@ -901,7 +1090,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/CONTRIBUTING.md",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/CONTRIBUTING.html",
@@ -2186,7 +2375,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/README.md",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/bootstrap2.3.2\/README.html",
@@ -2206,7 +2395,7 @@
 		},
 	"\/_site\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/jquery\/dist\/jquery.min.js",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
@@ -2228,7 +2417,7 @@
 		},
 	"\/_site\/bower_components\/jquery\/dist\/jquery.slim.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/jquery\/dist\/jquery.slim.min.js",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/jquery\/dist\/min\/jquery.slim.min-min.js",
@@ -2253,7 +2442,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/jquery\/README.md",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/jquery\/README.html",
@@ -2273,7 +2462,7 @@
 		},
 	"\/_site\/bower_components\/jquery\/sizzle\/dist\/sizzle.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/jquery\/sizzle\/dist\/sizzle.min.js",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/jquery\/sizzle\/dist\/min\/sizzle.min-min.js",
@@ -3578,7 +3767,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/smoothstate\/LICENSE.md",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/smoothstate\/LICENSE.html",
@@ -3590,7 +3779,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/smoothstate\/README.md",
 		"outputAbbreviatedPath": "\/_site\/bower_components\/smoothstate\/README.html",
@@ -3616,35 +3805,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/styles.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/styles.less",
-		"outputAbbreviatedPath": "\/_site\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
 		},
 	"\/_site\/css\/transitions.css": {
 		"fileType": 16,
@@ -4269,7 +4429,7 @@
 		},
 	"\/_site\/js\/nav.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/nav.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/nav.min-min.js",
@@ -4302,7 +4462,7 @@
 		},
 	"\/_site\/js\/transitions.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/transitions.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/transitions.min-min.js",
