@@ -28,7 +28,7 @@
                             {% endfor %}
                         </ul>
                         {% for project in site.projects reversed %}
-                        <a href="{{ project.url }}"><div class="link cascade {{project.tags | join: " "}}">
+                        <a href="{{ project.url }}" class="plink"><div class="link cascade {{project.tags | join: " "}}">
                             <h3>{{ project.title }}</h3>
                             <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>
                         </div></a>
