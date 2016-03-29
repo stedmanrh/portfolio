@@ -26,3 +26,6 @@ links:
 <div class="span8 video-wrapper">
     <iframe class="span8" src="https://player.vimeo.com/video/112505592?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+<img class="span8" src="{{media|strip}}partners.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}portfolio.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}interface.jpg" alt="{{ page.title }}">
