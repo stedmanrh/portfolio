@@ -21,6 +21,7 @@
                             {% if page.subtitle %}
                                 <p class="subtitle">{{ page.subtitle }}</p>
                             {% endif %}
+                            <p class="tags">{{ page.tags | sort | join: ', ' | capitalize }}</p>
                             <div class="ext-links">
                             {% for link in page.links %}
                                 <a href="{{ link.url }}" target="_blank"><div class="link">
