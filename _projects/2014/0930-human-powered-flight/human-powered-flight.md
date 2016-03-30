@@ -5,6 +5,8 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title:
+thumbnail: thumbnail.png
+#colspan: 2
 #subtitle: optional_subtitle
 date: 2014-09-30
 tags: print

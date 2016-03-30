@@ -5,6 +5,8 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: custom_title
+thumbnail: thumbnail.png
+#colspan: 2
 subtitle: "\"Offset Printing\""
 date: 2015-06-04
 tags: print

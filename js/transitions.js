@@ -4,7 +4,8 @@ function cascade(){
       itemSelector: '.grid-item',
       // use element for option
       columnWidth: '.grid-sizer',
-      percentPosition: true
+      percentPosition: true,
+      gutter: '.gutter-sizer'
     });
 }
 

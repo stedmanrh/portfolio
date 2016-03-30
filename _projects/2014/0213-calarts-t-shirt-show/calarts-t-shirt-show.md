@@ -4,6 +4,8 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 title: CalArts T-Shirt Show
+thumbnail: thumbnail.png
+#colspan: 2
 subtitle: Promo Website
 date: 2014-02-13
 tags: interactive web

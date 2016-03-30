@@ -29,6 +29,7 @@
                         </ul>
                         <div class="grid">
                             <div class="grid-sizer"></div>
+                            <div class="gutter-sizer"></div>
                             {% for project in site.projects reversed %}
                             <!-- set project media path -->
                             {% capture media %}
@@ -40,8 +41,8 @@
                                 <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>
                             </div></a> -->
                             <a href="{{project.url}}">
-                                <div class="grid-item">
-                                    <img src="{{media|strip}}thumbnail.png" alt="{{ project.title }}">
+                                <div class="grid-item col{{project.colspan}}">
+                                    <img src="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}">
                                 </div>
                             </a>
                             {% endfor %}

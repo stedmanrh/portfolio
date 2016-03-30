@@ -275,8 +275,21 @@ i img {
 
 #projects {
 
-    & .grid-sizer,
-    & .grid-item { width: 25%; }
+    & .grid-sizer, & .grid-item {
+        width: 24%;
+    }
+
+    & .grid-item {
+        margin-bottom: 15px;
+
+        &.col2 {
+            width: 49.3333%;
+        }
+    }
+
+    & .gutter-sizer {
+        width: 1.3333%;
+    }
 
     & .link {
     	// padding-left: 6px;

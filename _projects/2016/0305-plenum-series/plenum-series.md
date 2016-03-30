@@ -4,6 +4,8 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
+thumbnail: thumbnail.png
+#colspan: 2
 subtitle: Collective Nature
 date: 2016-03-05
 tags: print

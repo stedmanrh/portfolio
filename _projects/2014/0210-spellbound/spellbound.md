@@ -4,6 +4,8 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
+thumbnail: thumbnail.png
+#colspan: 2
 subtitle: Book Jackets
 date: 2014-02-10
 tags: print packaging

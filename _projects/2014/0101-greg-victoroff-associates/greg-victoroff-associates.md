@@ -4,6 +4,8 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 title: Greg Victoroff & Associates
+thumbnail: cards.png
+colspan: 2
 #subtitle: & Associates
 date: 2014-01-01
 tags: identity print

@@ -5,6 +5,8 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: custom_title
+thumbnail: thumbnail.png
+#colspan: 2
 subtitle: Issue No. 2
 date: 2015-01-22
 tags: print editorial

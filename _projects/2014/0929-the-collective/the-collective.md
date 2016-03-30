@@ -4,6 +4,8 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
+thumbnail: thumbnail.png
+#colspan: 2
 subtitle: Bijou Film & Video Series
 date: 2014-09-29
 tags: print

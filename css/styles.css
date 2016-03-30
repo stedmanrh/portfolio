@@ -244,7 +244,16 @@ i img {
 }
 #projects .grid-sizer,
 #projects .grid-item {
-  width: 25%;
+  width: 24%;
+}
+#projects .grid-item {
+  margin-bottom: 15px;
+}
+#projects .grid-item.col2 {
+  width: 49.3333%;
+}
+#projects .gutter-sizer {
+  width: 1.3333%;
 }
 #projects .link {
   display: inline-block;
