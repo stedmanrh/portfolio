@@ -7,7 +7,7 @@ title: Greg Victoroff & Associates
 #subtitle: & Associates
 date: 2014-01-01
 tags: identity print
-description: Two logo and business card options from an identity proposal for [Greg Victoroff & Associates](http://www.victoroff-law.com/), a law firm specializing in IP and copyright law.
+description: Two logo and business card options from an identity proposal for [Greg Victoroff & Associates,](http://www.victoroff-law.com/) a law firm specializing in IP and copyright law.
 
 #links:
 #    -   title: Link_Header
