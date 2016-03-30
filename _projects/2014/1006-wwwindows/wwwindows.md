@@ -5,8 +5,8 @@ permalink: /:collection/:year/:month/:title.html
 
 
 title: wwwindows
-thumbnail: thumbnail.png
-#colspan: 2
+thumbnail: windows.png
+colspan: 2
 subtitle: An Interactive History
 date: 2014-10-06
 tags: interactive web
