@@ -256,11 +256,27 @@ i img {
   width: 1.3333%;
 }
 #projects .link {
+  padding-left: 6px;
+  border-left: 3px solid #333333;
   display: inline-block;
   margin-bottom: 30px;
+  transition: border-color 0.25s ease-in;
+}
+#projects .link:hover {
+  transition: border-color 0.25s ease-in;
 }
 #projects .link.cascade {
   position: relative;
+}
+#projects .link p {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+#projects .link h3,
+#projects .link p {
+  position: relative;
+  top: 2px;
 }
 #projects .link.current,
 #projects .link:hover,

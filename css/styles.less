@@ -292,14 +292,14 @@ i img {
     }
 
     & .link {
-    	// padding-left: 6px;
-    	// border-left: 3px solid @charcoal;
+    	padding-left: 6px;
+    	border-left: 3px solid @charcoal;
         display: inline-block;
     	margin-bottom: 30px;
-    	// transition: border-color .25s ease-in;
+    	transition: border-color .25s ease-in;
 
         &:hover {
-        	// transition: border-color .25s ease-in;
+        	transition: border-color .25s ease-in;
         }
 
         &.cascade {
@@ -307,8 +307,13 @@ i img {
         }
 
         & p {
-        //   .sans;
-        //   margin-bottom: 4px;
+          .sans;
+          margin-bottom: 0px;
+        }
+
+        & h3, & p {
+            position: relative;
+            top: 2px;
         }
     }
 
