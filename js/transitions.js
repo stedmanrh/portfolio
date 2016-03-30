@@ -99,8 +99,6 @@ $(function(){
                 $container.removeClass('is-exiting');
                 // Inject the new content
                 $container.html($newContent);
-                // setPageColor();
-                // cascade();
             }
         },
         onAfter: function(){
