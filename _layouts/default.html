@@ -27,12 +27,25 @@
                                 <a href="javascript: void(0)" class="filter-link" data-tag="{{ptag}}"><li>{{ptag}}</li></a>
                             {% endfor %}
                         </ul>
-                        {% for project in site.projects reversed %}
-                        <a href="{{ project.url }}" class="plink"><div class="link cascade {{project.tags | join: " "}}">
-                            <h3>{{ project.title }}</h3>
-                            <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>
-                        </div></a>
-                        {% endfor %}
+                        <div class="grid">
+                            <div class="grid-sizer"></div>
+                            {% for project in site.projects reversed %}
+                            <!-- set project media path -->
+                            {% capture media %}
+                                /projects/{{ project.date | date: "%Y/%m%d" }}-{{ project.title | slugify }}/
+                            {% endcapture %}
+                            <!-- end -->
+                            <!-- <a href="{{ project.url }}" class="plink"><div class="link cascade {{project.tags | join: " "}}">
+                                <h3>{{ project.title }}</h3>
+                                <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>
+                            </div></a> -->
+                            <a href="{{project.url}}">
+                                <div class="grid-item">
+                                    <img src="{{media|strip}}thumbnail.png" alt="{{ project.title }}">
+                                </div>
+                            </a>
+                            {% endfor %}
+                        </div>
                     </section>
                 </div>
             </div>

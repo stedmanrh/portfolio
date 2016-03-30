@@ -275,14 +275,18 @@ i img {
 
 #projects {
 
+    & .grid-sizer,
+    & .grid-item { width: 25%; }
+
     & .link {
-    	padding-left: 6px;
-    	border-left: 3px solid @charcoal;
-    	margin-bottom: 6px;
-    	transition: border-color .25s ease-in;
+    	// padding-left: 6px;
+    	// border-left: 3px solid @charcoal;
+        display: inline-block;
+    	margin-bottom: 30px;
+    	// transition: border-color .25s ease-in;
 
         &:hover {
-        	transition: border-color .25s ease-in;
+        	// transition: border-color .25s ease-in;
         }
 
         &.cascade {
@@ -290,8 +294,8 @@ i img {
         }
 
         & p {
-          .sans;
-          margin-bottom: 4px;
+        //   .sans;
+        //   margin-bottom: 4px;
         }
     }
 
