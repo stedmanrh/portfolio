@@ -4,7 +4,7 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
-thumbnail: thumbnail.png
+thumbnail: thumbnail.gif
 #colspan: 2
 #subtitle: optional_subtitle
 date: 2016-02-22

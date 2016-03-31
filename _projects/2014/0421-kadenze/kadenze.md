@@ -5,7 +5,7 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: The Future of Creative Education
-thumbnail: portfolio.jpg
+thumbnail: thumbnail.gif
 colspan: 2
 subtitle: The Future of Creative Education
 date: 2014-04-21

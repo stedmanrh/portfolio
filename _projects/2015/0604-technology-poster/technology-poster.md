@@ -5,7 +5,7 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: custom_title
-thumbnail: thumbnail.png
+thumbnail: thumbnail.gif
 #colspan: 2
 subtitle: "\"Offset Printing\""
 date: 2015-06-04
@@ -34,3 +34,5 @@ description: Three large format posters interpreting the topic of offset printin
 <img class="span8" src="{{media|strip}}tech_07.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}tech_08.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}tech_09.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}tech_10.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}tech_11.jpg" alt="{{ page.title }}">
