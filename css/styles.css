@@ -243,74 +243,96 @@ i img {
   padding-left: 17px;
 }
 #projects .grid-sizer,
-#projects .grid-item {
+#process .grid-sizer,
+#projects .grid-item,
+#process .grid-item {
   width: 24%;
 }
-#projects .grid-item {
+#projects .grid-item,
+#process .grid-item {
   margin-bottom: 15px;
 }
-#projects .grid-item.col2 {
+#projects .grid-item.col2,
+#process .grid-item.col2 {
   width: 49.3333%;
 }
-#projects .gutter-sizer {
+#projects .gutter-sizer,
+#process .gutter-sizer {
   width: 1.3333%;
 }
-#projects .link {
+#projects .link,
+#process .link {
   padding-left: 6px;
   border-left: 3px solid #333333;
   display: inline-block;
   margin-bottom: 30px;
   transition: border-color 0.25s ease-in;
 }
-#projects .link:hover {
+#projects .link:hover,
+#process .link:hover {
   transition: border-color 0.25s ease-in;
 }
-#projects .link.cascade {
+#projects .link.cascade,
+#process .link.cascade {
   position: relative;
 }
-#projects .link p {
+#projects .link p,
+#process .link p {
   font-family: "Officina Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 0px;
 }
 #projects .link h3,
-#projects .link p {
+#process .link h3,
+#projects .link p,
+#process .link p {
   position: relative;
   top: 2px;
 }
 #projects .link.current,
+#process .link.current,
 #projects .link:hover,
+#process .link:hover,
 #projects a,
-#projects a:hover {
+#process a,
+#projects a:hover,
+#process a:hover {
   border-color: #ff3700;
   text-decoration: none;
   color: #333333;
 }
-#projects .filter {
+#projects .filter,
+#process .filter {
   margin-left: 0;
   margin-bottom: 40px;
   border: 1px solid #333;
   border-width: 1px 0;
   padding: .5em 0 .5em;
 }
-#projects .filter li {
+#projects .filter li,
+#process .filter li {
   display: inline-block;
   margin: 0 .5em;
   padding: .25em .5em 0;
   border-radius: 3px;
   transition: all 0.25s ease-in;
 }
-#projects .filter a.filter-link {
+#projects .filter a.filter-link,
+#process .filter a.filter-link {
   text-transform: uppercase;
   color: #ff3700;
   font-size: 12px;
 }
 #projects .filter a.filter-link:hover,
-#projects .filter a.filter-link.current {
+#process .filter a.filter-link:hover,
+#projects .filter a.filter-link.current,
+#process .filter a.filter-link.current {
   color: #fff5d9;
 }
 #projects .filter a.filter-link:hover li,
-#projects .filter a.filter-link.current li {
+#process .filter a.filter-link:hover li,
+#projects .filter a.filter-link.current li,
+#process .filter a.filter-link.current li {
   background: #ff3700;
 }
 #project {

@@ -21,7 +21,5 @@ markdown: kramdown
 collections:
     projects:
         output: true
-        #permalink: /:collection/:year/:month/:title
-
-#for getting collection tags
-array: "hello world"
+    archives:
+        output: true

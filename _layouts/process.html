@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <div id="main" class="m-scene">
+        {% include header.html %}
+        <div class="container scene_element scene_element--fadeInLeft">
+            <div class="row drop">
+                <div class="span12">
+                    <section id="process">
+                        <!-- right bottom left text -->
+                        <div class="grid">
+                            <div class="grid-sizer"></div>
+                            <div class="gutter-sizer"></div>
+                            {{ content }}
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="push"></div>
+        </div><!-- /container -->
+
+        {% include footer.html %}
+    </div>
+
+    {% include scripts.html %}
+
+</body>
+</html>
