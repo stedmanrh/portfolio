@@ -12,6 +12,8 @@ function cascade(){
     $grid.imagesLoaded().progress( function() {
       $grid.masonry('layout');
     });
+
+    console.log('cascade');
 }
 
 function setPageColor(){
@@ -47,7 +49,7 @@ function setPageColor(){
 
 	/** create mod exec controller */
 	$.readyFn = {
-		list: [setPageColor(), cascade()],
+		list: [setPageColor(), initNav(), initFilter(), cascade()],
 		register: function(fn) {
 			$.readyFn.list.push(fn);
 		},

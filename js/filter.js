@@ -24,7 +24,7 @@ function filter(){
 
 }
 
-$(document).ready(function(){
+function initFilter(){
 
     $('.filter-link').click(function(){
         if($(this).hasClass("all")){
@@ -47,4 +47,4 @@ $(document).ready(function(){
         }
     });
 
-});
+}

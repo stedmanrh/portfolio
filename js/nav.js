@@ -1,4 +1,4 @@
-$(document).ready(function(){
+function initNav(){
 
     $(window).scroll(function(){
         var scroll = $(this).scrollTop();
@@ -13,4 +13,4 @@ $(document).ready(function(){
             $('.container.scene_element').removeClass('sticky');
         }
     });
-});
+}
