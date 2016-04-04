@@ -1,5 +1,4 @@
 function filter(){
-    // $('.plink .link').fadeOut('slow');
     var currentTags = [];
     $('.filter-link.current').each(function(){
         var tag = $(this).data("tag");
@@ -10,16 +9,16 @@ function filter(){
         var plink = $(this);
         var show = false;
         for(var i=0; i<currentTags.length; i++){
-            if (plink.find('.link').hasClass(currentTags[i])){
+            if (plink.find('.project').hasClass(currentTags[i])){
                 show = true;
                 break;
             }
         }
         if(show){
-            plink.find('.link').fadeIn();
+            plink.find('.project').fadeIn();
         }
         else {
-            plink.find('.link').fadeOut();
+            plink.find('.project').fadeOut();
         }
     });
 
@@ -32,7 +31,7 @@ $(document).ready(function(){
             if(!($(this).hasClass("current"))){
                 $('.filter-link').removeClass("current");
                 $(this).addClass("current");
-                $('.plink .link').fadeIn();
+                $('.plink .project').fadeIn();
             }
         }
         else {
@@ -40,7 +39,7 @@ $(document).ready(function(){
             $(this).toggleClass("current");
             if(!($('.filter-link').hasClass('current'))){
                 $('.filter-link.all').addClass('current');
-                $('.plink .link').fadeIn();
+                $('.plink .project').fadeIn();
             }
             else {
                 filter();
