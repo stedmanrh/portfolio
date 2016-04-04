@@ -5,7 +5,7 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: custom_title
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 #colspan: 2
 subtitle: Issue No. 2
 date: 2015-01-22

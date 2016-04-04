@@ -5,7 +5,6 @@ permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
 #thumbnail: thumbnail.png
-#colspan: 2
 #subtitle: optional_subtitle
 #date: yyyy-mm-dd
 #tags: interactive print

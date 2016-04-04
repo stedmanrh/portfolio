@@ -4,8 +4,7 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 title: LNI Custom Manufacturing
-thumbnail: lni-1.png
-colspan: 2
+thumbnail: thumbnail.png
 #subtitle: optional_subtitle
 date: 2014-01-06
 tags: interactive web

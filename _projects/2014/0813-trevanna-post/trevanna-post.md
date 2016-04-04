@@ -6,7 +6,6 @@ permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
 thumbnail: thumbnail.gif
-colspan: 2
 #subtitle: optional_subtitle
 date: 2014-08-13
 tags: interactive web

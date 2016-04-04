@@ -5,8 +5,7 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: The Future of Creative Education
-thumbnail: thumbnail.gif
-colspan: 2
+thumbnail: thumbnail.png
 subtitle: The Future of Creative Education
 date: 2014-04-21
 tags: web interactive identity

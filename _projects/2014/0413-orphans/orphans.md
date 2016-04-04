@@ -5,8 +5,7 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: custom_title
-thumbnail: thumbnail.png
-#colspan: 2
+thumbnail: orphans-2.jpg
 #subtitle: optional_subtitle
 date: 2014-04-13
 tags: print

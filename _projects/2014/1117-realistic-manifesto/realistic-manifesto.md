@@ -5,8 +5,7 @@ permalink: /:collection/:year/:month/:title.html
 
 
 #title: custom_title
-thumbnail: real-man-screen.png
-colspan: 2
+thumbnail: thumbnail.png
 #subtitle: optional_subtitle
 date: 2014-11-17
 tags: interactive web
