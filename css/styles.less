@@ -273,7 +273,7 @@ i img {
 	padding-left: 17px;
 }
 
-#projects, #process {
+#projects, #blog {
 
     & .blog-description {
         border: 1px solid #333;
@@ -323,6 +323,16 @@ i img {
 
     & .gutter-sizer {
         width: 1.3333%;
+    }
+
+    @media(max-width: 767px){
+        & .grid-sizer, & .grid-item {
+            width: 49%;
+        }
+
+        & .gutter-sizer {
+            width: 2%;
+        }
     }
 
     & .link {
