@@ -15,6 +15,13 @@
             {% endif %}
                 Projects</li></a>
 
+            {% if page.url == "/blog/" %}
+                <a href="#"><li class="current">
+            {% else %}
+                <a href="/blog/"><li>
+            {% endif %}
+                Blog</li></a>
+
             {% if page.url == "/about/" %}
                 <a href="#"><li class="current">
             {% else %}

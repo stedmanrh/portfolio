@@ -242,6 +242,42 @@ i img {
   display: inline-block;
   padding-left: 17px;
 }
+#projects .blog-description,
+#process .blog-description {
+  border: 1px solid #333;
+  border-width: 1px 0;
+  padding: 1em 0;
+  padding: .5em 0;
+  margin-bottom: 40px;
+}
+#projects .project,
+#process .project {
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+#projects .project img,
+#process .project img {
+  border: 3px solid #333333;
+  box-sizing: border-box;
+  width: 100%;
+  background: #333333;
+}
+#projects .project .project-info,
+#process .project .project-info {
+  background: #333333;
+  padding: 1em;
+}
+#projects .project .project-info h3,
+#process .project .project-info h3,
+#projects .project .project-info p,
+#process .project .project-info p {
+  color: #fff5d9;
+  margin-bottom: 0;
+}
+#projects .project .project-info p,
+#process .project .project-info p {
+  color: #ff3700;
+}
 #projects .grid-sizer,
 #process .grid-sizer,
 #projects .grid-item,
@@ -307,7 +343,7 @@ i img {
   margin-bottom: 40px;
   border: 1px solid #333;
   border-width: 1px 0;
-  padding: .5em 0 .5em;
+  padding: .5em 0;
 }
 #projects .filter li,
 #process .filter li {
@@ -424,13 +460,16 @@ i {
 .push {
   height: 40px;
 }
+footer {
+  font-size: small;
+}
 footer .row {
   position: absolute;
   bottom: 0;
 }
 footer .span12 {
+  margin-bottom: 1em;
   text-align: right;
-  border-bottom: 3px solid #333333;
 }
 @media (max-width: 767px) {
   header div {

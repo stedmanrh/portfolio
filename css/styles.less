@@ -275,6 +275,40 @@ i img {
 
 #projects, #process {
 
+    & .blog-description {
+        border: 1px solid #333;
+        border-width: 1px 0;
+        padding: 1em 0;
+        padding: .5em 0;
+        margin-bottom: 40px;
+    }
+
+    & .project {
+        margin-bottom: 1em;
+        box-sizing: border-box;
+
+        & img {
+            border: 3px solid @charcoal;
+            box-sizing: border-box;
+            width: 100%;
+            background: @charcoal;
+        }
+
+        & .project-info {
+            background: @charcoal;
+            padding: 1em;
+
+            & h3, & p {
+                color: @cream;
+                margin-bottom: 0;
+            }
+
+            & p {
+                color: @orange;
+            }
+        }
+    }
+
     & .grid-sizer, & .grid-item {
         width: 24%;
     }
@@ -328,7 +362,7 @@ i img {
         margin-bottom: 40px;
         border: 1px solid #333;
         border-width: 1px 0;
-        padding: .5em 0 .5em;
+        padding: .5em 0;
 
         & li {
             display: inline-block;
@@ -462,14 +496,16 @@ i {
 
 footer {
 
+    font-size: small;
+
     & .row {
       position: absolute;
       bottom: 0;
     }
 
     & .span12 {
-      text-align: right;
-      border-bottom: 3px solid @charcoal;
+        margin-bottom: 1em;
+        text-align: right;
     }
 }
 

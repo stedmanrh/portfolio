@@ -1,8 +1,8 @@
 ---
-layout: process
+layout: blog
 #title: "Process"
 description: Work in progress and process documentation by Southern California based graphic and multimedia designer Stedman Halliday
-permalink: /process/
+permalink: /blog/
 right-text: process documentation
 left-text: work in progress
 ---
