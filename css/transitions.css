@@ -7,6 +7,9 @@
 .m-scene .scene_element--fadeInRight {
   animation-name: fadeInRight;
 }
+.m-scene .scene_element--fadeInLeft {
+  animation-name: fadeInLeft;
+}
 .m-scene .scene_element--slideInDown {
   animation-name: slideInDown;
 }
