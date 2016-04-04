@@ -7,13 +7,15 @@
 
     <div id="main" class="m-scene">
         {% include header.html %}
+        <div id="left-text" class="blogtext">{{page.left-text}}</div>
+        <div id="right-text" class="blogtext">{{page.right-text}}</div>
+        <div id="bottom-text" class="blogtext">{{page.bottom-text}}</div>
         <div class="container scene_element scene_element--fadeInLeft">
             <div class="row drop">
                 <div class="span12">
                     <section id="blog">
                         <h1>Blog</h1>
                         <p class="blog-description">{{page.tagline}}</p>
-                        <!-- right bottom left text -->
                         <div class="grid">
                             <div class="grid-sizer"></div>
                             <div class="gutter-sizer"></div>

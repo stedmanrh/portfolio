@@ -242,6 +242,32 @@ i img {
   display: inline-block;
   padding-left: 17px;
 }
+.blogtext {
+  font-size: 5em;
+  color: #fff5d9;
+  text-shadow: 0 0 10px #ff3700;
+  position: fixed;
+}
+@media (max-width: 767px) {
+  .blogtext {
+    font-size: 3em;
+  }
+}
+.blogtext#left-text {
+  top: 60%;
+  left: -0.75em;
+  transform: rotateZ(-90deg) translateY(-50%);
+}
+.blogtext#right-text {
+  top: 60%;
+  right: -1.25em;
+  transform: rotateZ(90deg) translateY(-50%);
+}
+.blogtext#bottom-text {
+  left: 50%;
+  bottom: .5em;
+  transform: translateX(-50%);
+}
 #projects .blog-description,
 #blog .blog-description {
   border: 1px solid #333;
