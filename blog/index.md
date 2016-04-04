@@ -2,6 +2,7 @@
 layout: blog
 #title: "Process"
 description: Work in progress and process documentation by Southern California based graphic and multimedia designer Stedman Halliday
+tagline: Process, context, and inspiration
 permalink: /blog/
 right-text: process documentation
 left-text: work in progress
