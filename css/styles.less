@@ -307,12 +307,18 @@ i img {
     & .project {
         margin-bottom: 1em;
         box-sizing: border-box;
+        transition: all .25s ease;
 
-        & img {
+        & .imgwrap {
+            overflow: hidden;
             border: 3px solid @charcoal;
             box-sizing: border-box;
+        }
+
+        & img {
             width: 100%;
             background: @charcoal;
+            transition: all .25s ease;
         }
 
         & .project-info {

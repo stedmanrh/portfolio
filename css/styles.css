@@ -272,13 +272,19 @@ i img {
 #blog .project {
   margin-bottom: 1em;
   box-sizing: border-box;
+  transition: all .25s ease;
+}
+#projects .project .imgwrap,
+#blog .project .imgwrap {
+  overflow: hidden;
+  border: 3px solid #333333;
+  box-sizing: border-box;
 }
 #projects .project img,
 #blog .project img {
-  border: 3px solid #333333;
-  box-sizing: border-box;
   width: 100%;
   background: #333333;
+  transition: all .25s ease;
 }
 #projects .project .project-info,
 #blog .project .project-info {
