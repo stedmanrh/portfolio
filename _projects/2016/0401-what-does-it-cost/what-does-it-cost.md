@@ -4,7 +4,7 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 title: What Does It Cost?
-#thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 subtitle: Political Poster
 date: 2016-04-01
 tags: print
@@ -23,6 +23,7 @@ description: Large format political poster resulting from a workshop with [Anett
 <!-- end -->
 
 <!-- media -->
+<img class="span8" src="{{media|strip}}mockup.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}lenz-poster_01.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}lenz-poster_02.jpg" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}lenz-poster_03.jpg" alt="{{ page.title }}">
