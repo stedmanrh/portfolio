@@ -8,7 +8,7 @@
     <div id="main">
         {% include header.html %}
         <div id="project">
-        <div class="container animsition" data-animsition-in-class="fade-in-down" data-animsition-out-class="fade-out-down">
+        <div class="container animsition" data-animsition-in-class="fade-in-down" data-animsition-out-class="fade-out-up">
             <div class="row drop">
                     <section class="span8 images">
                         <div class="row">
@@ -35,7 +35,7 @@
                                     {{ page.date | date: "%B" | slice: 0, 3 }}
                                     {{ page.date | date: "%Y" }}
                                 </em></p>
-                            <br><p><a href="/"><small>BACK TO PROJECTS</small></a></p>
+                            <br><p><a class="animsition-link" href="/"><small>BACK TO PROJECTS</small></a></p>
                             </article>
                         </div>
                 </div>

@@ -36,7 +36,7 @@
                                     /projects/{{ project.date | date: "%Y/%m%d" }}-{{ project.title | slugify }}/
                                 {% endcapture %}
                             <!-- end -->
-                            <a class="plink" href="{{project.url}}">
+                            <a class="plink animsition-link" href="{{project.url}}">
                                 <div class="grid-item project {{project.tags | join: ' '}}">
                                     <div class="imgwrap"><img src="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}"></div>
                                     <div class="project-info">
