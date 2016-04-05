@@ -5,27 +5,29 @@
 
 <body>
 
-    <div id="main" class="m-scene">
+    <div id="main">
         {% include header.html %}
-        <div id="left-text" class="blogtext">{{page.left-text}}</div>
-        <div id="right-text" class="blogtext">{{page.right-text}}</div>
-        <div id="bottom-text" class="blogtext">{{page.bottom-text}}</div>
-        <div class="container scene_element scene_element--fadeInLeft">
-            <div class="row drop">
-                <div class="span12">
-                    <section id="blog">
-                        <h1>Blog</h1>
-                        <p class="blog-description">{{page.tagline}}</p>
-                        <div class="grid">
-                            <div class="grid-sizer"></div>
-                            <div class="gutter-sizer"></div>
-                            {{ content }}
-                        </div>
-                    </section>
+        <div class="animsition" data-animsition-in-class="fade-in-up" data-animsition-out-class="fade-out-up">
+            <div id="left-text" class="blogtext">{{page.left-text}}</div>
+            <div id="right-text" class="blogtext">{{page.right-text}}</div>
+            <div id="bottom-text" class="blogtext">{{page.bottom-text}}</div>
+            <div class="container scene_element scene_element--fadeInLeft">
+                <div class="row drop">
+                    <div class="span12">
+                        <section id="blog">
+                            <h1>Blog</h1>
+                            <p class="blog-description">{{page.tagline}}</p>
+                            <div class="grid">
+                                <div class="grid-sizer"></div>
+                                <div class="gutter-sizer"></div>
+                                {{ content }}
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
-            <div class="push"></div>
-        </div><!-- /container -->
+                <div class="push"></div>
+            </div><!-- /container -->
+        </div>
 
         {% include footer.html %}
     </div>
