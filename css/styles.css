@@ -244,7 +244,7 @@ i img {
 }
 .blogtext {
   font-size: 5em;
-  color: #fff5d9;
+  color: #333333;
   text-shadow: 0 0 10px #ff3700;
   position: fixed;
 }
@@ -267,14 +267,6 @@ i img {
   left: 50%;
   bottom: .5em;
   transform: translateX(-50%);
-}
-#projects .blog-description,
-#blog .blog-description {
-  border: 1px solid #333;
-  border-width: 1px 0;
-  padding: 1em 0;
-  padding: .5em 0;
-  margin-bottom: 40px;
 }
 #projects .project,
 #blog .project {

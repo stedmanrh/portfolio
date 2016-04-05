@@ -15,7 +15,7 @@ function cascade(){
 }
 
 function setPageColor(){
-    if($("#project").length){
+    if(($("#project").length) || ($("#blog").length)){
       $('body').css('background', '#333333');
     }
     else {
