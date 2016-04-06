@@ -308,10 +308,6 @@ i img {
 #blog .grid-item {
   width: 24%;
 }
-#projects .grid-item,
-#blog .grid-item {
-  margin-bottom: 15px;
-}
 #projects .grid-item.col2,
 #blog .grid-item.col2 {
   width: 49.3333%;

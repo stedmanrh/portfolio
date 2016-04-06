@@ -8,7 +8,7 @@ permalink: /:collection/:year/:month/:title.html
 #subtitle: optional_subtitle
 thumbnail: thumbnail.png
 date: 2014-09-18
-categories: interactive web
+tags: interactive web
 description: Website for Challenger Cable Sales developed in collaboration with [Chris Babcock.](http://babcockdesign.net) CCS manufactures power and cabling equipment for the telecommunications industry.
 
 links:
