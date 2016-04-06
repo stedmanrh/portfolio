@@ -1,3 +1,19 @@
+function cascade(){
+    var $grid = $('.grid').masonry({
+      // set itemSelector so .grid-sizer is not used in layout
+      itemSelector: '.grid-item',
+      // use element for option
+      columnWidth: '.grid-sizer',
+      percentPosition: true,
+      gutter: '.gutter-sizer'
+    });
+
+    // layout Masonry after each image loads
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
+    });
+}
+
 function filter(){
     var currentTags = [];
     $('.filter-link.current').each(function(){
@@ -15,13 +31,12 @@ function filter(){
             }
         }
         if(show){
-            plink.find('.project').fadeIn();
+            plink.show();
         }
         else {
-            plink.find('.project').fadeOut();
+            plink.hide();
         }
     });
-
 }
 
 function initFilter(){
@@ -31,7 +46,7 @@ function initFilter(){
             if(!($(this).hasClass("current"))){
                 $('.filter-link').removeClass("current");
                 $(this).addClass("current");
-                $('.plink .project').fadeIn();
+                $('.plink').show();
             }
         }
         else {
@@ -39,12 +54,15 @@ function initFilter(){
             $(this).toggleClass("current");
             if(!($('.filter-link').hasClass('current'))){
                 $('.filter-link.all').addClass('current');
-                $('.plink .project').fadeIn();
+                $('.plink').show();
             }
             else {
                 filter();
             }
         }
-    });
 
+
+        cascade();
+    });
+    cascade();
 }
