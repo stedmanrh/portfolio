@@ -24,4 +24,5 @@ description: Poster for a work by <a href="http://www.camilleabrown.org/" target
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}file.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}cab-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{media|strip}}cab-2.jpg" alt="{{ page.title }}">
