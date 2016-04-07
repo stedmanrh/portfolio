@@ -24,7 +24,7 @@ description: Conceptual identity applications (webpage and endtag) for Snitch, t
 <!-- end -->
 
 <!-- media -->
-<video class="span8" src="{{media|strip}}endtag.mov" autoplay loop>
+<video class="span8" src="{{media|strip}}endtag.mov" autoplay loop></video>
 <img class="span8" src="{{media|strip}}web-1.png" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}web-2.png" alt="{{ page.title }}">
 <img class="span8" src="{{media|strip}}web-3.png" alt="{{ page.title }}">
