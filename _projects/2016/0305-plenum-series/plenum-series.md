@@ -24,5 +24,5 @@ description: Poster for an immersive audiovisual installation by Brent Javier. "
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}collective-nature-poster.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}collective-nature-detail.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}collective-nature-poster.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}collective-nature-detail.jpg" alt="{{ page.title }}">

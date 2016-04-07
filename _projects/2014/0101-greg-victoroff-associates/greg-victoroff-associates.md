@@ -24,5 +24,5 @@ description: Two logo and business card options from an identity proposal for [G
 <!-- end -->
 
 <!-- media -->
-<img class="span5" src="{{media|strip}}marks.png" alt="{{ page.title }} logos">
-<img class="span8" src="{{media|strip}}cards.png" alt="{{ page.title }} business cards">
+<img class="span5" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}marks.png" alt="{{ page.title }} logos">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}cards.png" alt="{{ page.title }} business cards">

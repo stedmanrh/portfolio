@@ -23,6 +23,6 @@ description: Identity and printed collateral for the 2015 CalArts Art Festival. 
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}flier-cards.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}overview.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}lineup.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}flier-cards.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}overview.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}lineup.jpg" alt="{{ page.title }}">

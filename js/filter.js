@@ -9,8 +9,22 @@ function cascade(){
     });
 
     // layout Masonry after each image loads
-    $grid.imagesLoaded().progress( function() {
+    $grid.imagesLoaded( function() {
       $grid.masonry('layout');
+      $('.grid-item img').addClass('not-loaded');
+      $('img.grid-item').addClass('not-loaded');
+      $('#project .images img').addClass('not-loaded');
+      $('img.not-loaded').lazyload({
+          event: 'scrollstop',
+          threshold: 200,
+          load: function() {
+              $(this).removeClass("not-loaded");
+              $grid.imagesLoaded(function(){
+                  $grid.masonry('layout');
+              });
+          }
+      });
+      $('img.not-loaded').trigger('scroll');
     });
 }
 
@@ -61,8 +75,8 @@ function initFilter(){
             }
         }
 
-
         cascade();
+
     });
     cascade();
 }

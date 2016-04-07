@@ -24,6 +24,6 @@ description: Poster for a work by Charles Gaines presented at REDCAT alongside h
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}gaines-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}gaines-2.png" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}gaines-3.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}gaines-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}gaines-2.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}gaines-3.png" alt="{{ page.title }}">

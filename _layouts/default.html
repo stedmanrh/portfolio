@@ -38,7 +38,7 @@
                             <!-- end -->
                             <a class="plink animsition-link grid-item" href="{{project.url}}">
                                 <div class="project {{project.tags | join: ' '}}">
-                                    <div class="imgwrap"><img src="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}"></div>
+                                    <div class="imgwrap"><img src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}"></div>
                                     <div class="project-info">
                                         <h3>{{ project.title }}</h3>
                                         <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>

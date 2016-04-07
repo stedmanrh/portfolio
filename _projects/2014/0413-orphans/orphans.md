@@ -24,6 +24,6 @@ description: Promotional poster for a CalArts theatrical performance of Lyle Kes
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}orphans-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}orphans-2.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}orphans-3.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}orphans-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}orphans-2.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}orphans-3.jpg" alt="{{ page.title }}">

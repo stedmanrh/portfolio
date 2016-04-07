@@ -22,6 +22,6 @@ links:
 {% endcapture %}
 <!-- end -->
 
-<!-- media --><img class="span8" src="{{media|strip}}lni-1.png" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}lni-2.png" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}lni-3.png" alt="{{ page.title }}">
+<!-- media --><img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}lni-1.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}lni-2.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}lni-3.png" alt="{{ page.title }}">

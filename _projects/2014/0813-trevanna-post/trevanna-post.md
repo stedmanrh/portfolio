@@ -24,5 +24,5 @@ description: Proposed homepage variants for Trevanna Post (film industry post pr
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}trevanna-ny.png" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}trevanna-la.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}trevanna-ny.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}trevanna-la.png" alt="{{ page.title }}">

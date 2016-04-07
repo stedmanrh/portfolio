@@ -24,6 +24,6 @@ description: Two book jacket options for a novelistic adaptation of Alfred Hitch
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{media|strip}}books.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}maze-02.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{media|strip}}catscan-02.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}books.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}maze-02.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}catscan-02.jpg" alt="{{ page.title }}">
