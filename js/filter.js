@@ -15,7 +15,6 @@ function cascade(){
       $('img.grid-item').addClass('not-loaded');
       $('#project .images img').addClass('not-loaded');
       $('img.not-loaded').lazyload({
-          event: 'scrollstop',
           threshold: 200,
           load: function() {
               $(this).removeClass("not-loaded");
