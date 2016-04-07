@@ -8,7 +8,7 @@ thumbnail: collective-2up.jpg
 #colspan: 2
 subtitle: Bijou Film & Video Series
 date: 2014-09-29
-tags: print identity
+tags: print identity event
 description: Identity and three fliers for a series of film lectures organized by The Collective, a CalArts black arts organization. The events featured a talented and diverse set of filmmakers in Kahlil Joseph, Abderrahmane Sissako, and Kwesi Wade Johnson.
 
 #links:
