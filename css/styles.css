@@ -268,6 +268,19 @@ i img {
   bottom: .5em;
   transform: translateX(-50%);
 }
+#blog .grid-item {
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+  #blog .grid-item {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  #blog .grid-item {
+    margin-bottom: 10px;
+  }
+}
 #projects .project,
 #blog .project {
   margin-bottom: 1em;
