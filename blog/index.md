@@ -28,3 +28,4 @@ right-text: inspiration
 <img class="grid-item" src="images/0111-rmn-1.jpg" alt="zine">
 <img class="grid-item col2" src="images/cab-dancers.jpg" alt="screen print">
 <img class="grid-item" src="images/gaines.jpg" alt="screen print">
+<img class="grid-item" src="images/gaines-2.jpg" alt="screen print">
