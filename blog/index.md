@@ -29,3 +29,4 @@ right-text: inspiration
 <img class="grid-item col2" src="images/cab-dancers.jpg" alt="screen print">
 <img class="grid-item" src="images/gaines.jpg" alt="screen print">
 <img class="grid-item" src="images/gaines-2.jpg" alt="screen print">
+<img class="grid-item" src="images/cab-rack.jpg" alt="screen print">
