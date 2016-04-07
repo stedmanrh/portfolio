@@ -4,7 +4,7 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 
-title: Charles Gaines:
+title: Charles Gaines
 subtitle: Manifestos 2
 thumbnail: thumbnail.png
 date: 2015-11-25
