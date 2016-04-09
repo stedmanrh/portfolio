@@ -7,7 +7,7 @@ permalink: /:collection/:year/:month/:title.html
 title: CalArts Halloween 2015
 subtitle: Freakshow
 thumbnail: thumbnail.jpg
-date: 2013-10-13
+date: 2015-10-13
 tags: event print
 description: Art direction and team lead for the CalArts Halloween 2015 poster campaign. Design for "Strongman" poster in collaboration with <a href="http://katiebarger.com" target="_blank">Katie Barger.</a> Design for 13 typographic posters complementing scenic prosthetics by the CalArts Themed Entertainment Association. Strongman flexin' by the legendary <a href="http://dongeratcalarts.tumblr.com/" target="_blank">Donger</a> (né <a href="http://davidchathas.com" target="_blank">David Chathas</a>).
 
