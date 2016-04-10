@@ -9,7 +9,9 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/_" alt="_"> -->
+<img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/jada.png" alt="she wants to be Menswear dog so bad">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/jobfair.jpg" alt="CalArts career fair 2016">
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/cutpaste.jpg" alt="newspaper clippings from Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_01.png" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_02.png" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_03.gif" alt="Anette Lenz workshop">
@@ -25,7 +27,8 @@ right-text: inspiration
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/gs-3.png" alt="rhythm planet">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/0111-rmn-2.jpg" alt="zine">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/0111-rmn-1.jpg" alt="zine">
-<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/passed-lives.png" alt="passed lives marks">
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/passed-lives.png" alt="Passed Lives marks">
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/passed-lives-ds.png" alt="Passed Lives design strategy">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/rasta.jpg" alt="rasta">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/cab-rack.jpg" alt="screen print">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/cab-dancers.jpg" alt="screen print">
@@ -39,6 +42,7 @@ right-text: inspiration
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/offset-3.png" alt="tech poster process">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/offset-4.png" alt="tech poster process">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/offset-sketches.png" alt="tech poster process">
+<img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/kad-wf.gif" alt="wireframing/strategy">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/fear.jpg" alt="Moises Hernandez exhibition promo">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/content-scan.png" alt="collage sketch of a spread">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/giampetro.gif" alt="analog comps based on Rob Giampetro writings">
