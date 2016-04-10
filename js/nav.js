@@ -5,12 +5,12 @@ function initNav(){
         if (scroll >= 40){
             $('header').addClass('sticky');
             $('#project').addClass('sticky');
-            $('.container.scene_element').addClass('sticky');
+            $('#blog').addClass('sticky');
         }
         else {
             $('header').removeClass('sticky');
             $('#project').removeClass('sticky');
-            $('.container.scene_element').removeClass('sticky');
+            $('#blog').removeClass('sticky');
         }
     });
 }
