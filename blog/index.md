@@ -13,7 +13,6 @@ right-text: inspiration
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_01.png" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_02.png" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_03.gif" alt="Anette Lenz workshop">
-<img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/2016-04-04-lenz_04.png" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/anette-lenz-posters.jpg" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/lenz-wall.jpg" alt="Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/nyc-doubleday.jpg" alt="Doubleday & Cartwright NY">
