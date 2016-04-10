@@ -282,6 +282,10 @@ i img {
     margin-bottom: 10px;
   }
 }
+#projects .plink,
+#blog .plink {
+  text-decoration: none;
+}
 #projects .project,
 #blog .project {
   margin-bottom: 1em;
@@ -342,46 +346,45 @@ i img {
     width: 2%;
   }
 }
-#projects .link,
-#blog .link {
+#projects .ext-links a,
+#blog .ext-links a {
+  text-decoration: none;
+}
+#projects .ext-links .link,
+#blog .ext-links .link {
   padding-left: 6px;
-  border-left: 3px solid #333333;
-  display: inline-block;
-  margin-bottom: 30px;
+  border-left: 3px solid #fff5d9;
+  margin-bottom: 20px;
+  transition: border-color 0.25s ease-in;
+  float: left;
+  clear: left;
+}
+#projects .ext-links .link:hover,
+#blog .ext-links .link:hover {
+  border-color: #ff3700;
+  text-decoration: none;
   transition: border-color 0.25s ease-in;
 }
-#projects .link:hover,
-#blog .link:hover {
-  transition: border-color 0.25s ease-in;
-}
-#projects .link.cascade,
-#blog .link.cascade {
+#projects .ext-links .link.cascade,
+#blog .ext-links .link.cascade {
   position: relative;
 }
-#projects .link p,
-#blog .link p {
+#projects .ext-links .link p,
+#blog .ext-links .link p {
   font-family: "Officina Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 0px;
 }
-#projects .link h3,
-#blog .link h3,
-#projects .link p,
-#blog .link p {
+#projects .ext-links .link h3,
+#blog .ext-links .link h3,
+#projects .ext-links .link p,
+#blog .ext-links .link p {
   position: relative;
   top: 2px;
 }
-#projects .link.current,
-#blog .link.current,
-#projects .link:hover,
-#blog .link:hover,
-#projects a,
-#blog a,
-#projects a:hover,
-#blog a:hover {
-  border-color: #ff3700;
-  text-decoration: none;
-  color: #333333;
+#projects p,
+#blog p {
+  clear: both;
 }
 #projects .filter,
 #blog .filter {

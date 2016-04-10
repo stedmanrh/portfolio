@@ -27,4 +27,4 @@ links:
 
 <!-- media -->
 <img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}blue-sky-energy-0.png" alt="{{ page.title }} New Mexico">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}blue-sky-energy-1.png" alt="{{ page.title }} California">
+<img class="span4 offset4" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}blue-sky-energy-1.png" alt="{{ page.title }} California">

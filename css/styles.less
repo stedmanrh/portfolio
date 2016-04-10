@@ -317,6 +317,10 @@ i img {
 
 #projects, #blog {
 
+    .plink {
+        text-decoration: none;
+    }
+
     & .project {
         margin-bottom: 1em;
         box-sizing: border-box;
@@ -374,36 +378,44 @@ i img {
         }
     }
 
-    & .link {
-    	padding-left: 6px;
-    	border-left: 3px solid @charcoal;
-        display: inline-block;
-    	margin-bottom: 30px;
-    	transition: border-color .25s ease-in;
+    & .ext-links {
 
-        &:hover {
+        a {
+            text-decoration: none;
+        }
+
+        & .link {
+        	padding-left: 6px;
+        	border-left: 3px solid @cream;
+        	margin-bottom: 20px;
         	transition: border-color .25s ease-in;
-        }
+            float: left;
+            clear: left;
 
-        &.cascade {
-            position: relative;
-        }
+            &:hover {
+                border-color: @orange;
+                text-decoration: none;
+            	transition: border-color .25s ease-in;
+            }
 
-        & p {
-          .sans;
-          margin-bottom: 0px;
-        }
+            &.cascade {
+                position: relative;
+            }
 
-        & h3, & p {
-            position: relative;
-            top: 2px;
+            & p {
+              .sans;
+              margin-bottom: 0px;
+            }
+
+            & h3, & p {
+                position: relative;
+                top: 2px;
+            }
         }
     }
 
-    & .link.current, & .link:hover, & a, & a:hover {
-      border-color: @orange;
-      text-decoration: none;
-      color: @charcoal;
+    & p {
+        clear: both;
     }
 
     & .filter {

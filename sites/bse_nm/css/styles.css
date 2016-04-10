@@ -7,7 +7,7 @@ Christian Babcock: http://babcockdesign.net
 @font-face{
 	font-family:"Myriad Pro";
 	src:url(type/MyriadPro-Regular.otf);
-	font-weight:normal;	
+	font-weight:normal;
 }
 
 @font-face{
@@ -314,7 +314,6 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 footer{
 	width:100%;
 	margin:40px 0 0 0;
-	/*background:url(/images/tiny_grid.png);*/
 	background:#333;
 	padding:0px;
 	line-height:150%;
@@ -403,7 +402,7 @@ footer{
 	.thumb{
 		height:70px;
 	}
-	
+
 	.thumb.offset3{
 		margin-left:280px;
 	}
@@ -422,7 +421,7 @@ footer{
 	}
 
 	form, #contact{
-		margin-top:3px;	
+		margin-top:3px;
 	}
 
 	label, input, textarea{
@@ -611,7 +610,7 @@ footer{
 	.icon{
 		height:12px;
 	}
-	
+
 	footer .icon{
 		margin-top:-2px;
 	}
