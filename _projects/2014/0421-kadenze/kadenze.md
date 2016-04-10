@@ -9,7 +9,7 @@ thumbnail: thumbnail.png
 subtitle: The Future of Creative Education
 date: 2014-04-21
 tags: web interactive identity
-description: Kadenze brings together educators, artists, and engineers from leading universities across the globe to provide world-class education in the fields of art and creative technology. Halliday joined Kadenze in 2014 to transform a prototypical MVP into a suite of fully-fledged web products for virtual learning. His continued work with the team focuses on directing brands behind Kadenze's products, securing [amazing institutional partners,](http://kadenze.com/partners) and interface/experience design and web development for products.
+description: Kadenze brings together educators, artists, and engineers from leading universities across the globe to provide world-class education in the fields of art and creative technology. Halliday joined Kadenze in 2014 to transform a prototypical MVP into a suite of fully-fledged web products for virtual learning. His continued work with the team focuses on directing brands behind Kadenze's products, securing <a href="http://kadenze.com/partners" target="_blank">amazing institutional partners,</a> and interface/experience design and web development for products.
 
 links:
     -   title: Web

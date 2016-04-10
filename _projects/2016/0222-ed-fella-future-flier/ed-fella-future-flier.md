@@ -9,7 +9,7 @@ thumbnail: thumbnail.gif
 #subtitle: optional_subtitle
 date: 2016-02-22
 tags: print
-description: Two-sided tabloid flier resulting from a workshop with [Ed Fella.](http://edfella.com) The workshop began with a lecture about Fella's [lengthy and esteemed career](http://www.aiga.org/medalist-edfella/) as a graphic designer, artist, and educator. The following project prompt asked a group of graduating CalArts students to imagine themselves returning to the institute to give the same lecture after having achieved similar levels of career success and to design a promotional flier.
+description: Two-sided tabloid flier resulting from a workshop with <a href="http://edfella.com" target="_blank">Ed Fella.</a> The workshop began with a lecture about Fella's [lengthy and esteemed career](http://www.aiga.org/medalist-edfella/) as a graphic designer, artist, and educator. The following project prompt asked a group of graduating CalArts students to imagine themselves returning to the institute to give the same lecture after having achieved similar levels of career success and to design a promotional flier.
 
 #links:
 #    -   title: Link_Header
