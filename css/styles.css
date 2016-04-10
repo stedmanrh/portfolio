@@ -189,8 +189,7 @@ h2 {
 }
 a,
 a:hover,
-#projects p a,
-#projects p a:hover {
+a:visited {
   color: #ff3700;
 }
 #projects p a:hover {
