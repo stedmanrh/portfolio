@@ -4,7 +4,7 @@ layout: project
 permalink: /:collection/:year/:month/:title.html
 
 #title: custom_title
-#thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 #subtitle: optional_subtitle
 date: 2013-07-11
 tags: interactive web
