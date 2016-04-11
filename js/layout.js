@@ -15,7 +15,7 @@ function layout(){
       $('#project .images img').addClass('not-loaded'); //project images
        $('img.grid-item').addClass('not-loaded');    //blog images
       $('.not-loaded').lazyload({
-          threshold: 200,
+          threshold: 500,
           load: function() {
               $(this).removeClass("not-loaded");
               $grid.imagesLoaded(function(){
