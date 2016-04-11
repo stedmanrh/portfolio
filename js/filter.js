@@ -11,10 +11,10 @@ function cascade(){
     // layout Masonry after each image loads
     $grid.imagesLoaded( function() {
       $grid.masonry('layout');
-      $('.grid-item img').addClass('not-loaded');
-      $('img.grid-item').addClass('not-loaded');
-      $('#project .images img').addClass('not-loaded');
-      $('img.not-loaded').lazyload({
+      $('.grid-item img').addClass('not-loaded');   //project thumbnails
+      $('#project .images img').addClass('not-loaded'); //project images
+       $('img.grid-item').addClass('not-loaded');    //blog images
+      $('.not-loaded').lazyload({
           threshold: 200,
           load: function() {
               $(this).removeClass("not-loaded");

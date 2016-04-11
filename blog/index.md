@@ -34,6 +34,9 @@ right-text: inspiration
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/cab-dancers.jpg" alt="screen print">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/gaines.jpg" alt="screen print">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-original="images/gaines-2.jpg" alt="screen print">
+<img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/rtw-1.png" alt="exhibition design">
+<img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/rtw-2.png" alt="exhibition design">
+<video class="grid-item col2" src="images/rtw.mov" autoplay loop></video>
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-original="images/snitch-sketches.jpg" alt="logo sketches for Snitch">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/snitch-process.png" alt="Snitch process collage">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-original="images/neuromancer.png" alt="Snitch process: typesetting">
