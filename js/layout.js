@@ -27,32 +27,32 @@ function layout(){
     });
 }
 
-function filter(){
-    var currentTags = [];
-    $('.filter-link.current').each(function(){
-        var tag = $(this).data("tag");
-        currentTags.push(tag);
-    });
-
-    $('.plink').each(function(){
-        var plink = $(this);
-        var show = false;
-        for(var i=0; i<currentTags.length; i++){
-            if (plink.find('.project').hasClass(currentTags[i])){
-                show = true;
-                break;
-            }
-        }
-        if(show){
-            plink.show();
-        }
-        else {
-            plink.hide();
-        }
-    });
-}
-
 function initFilter(){
+
+    function filter(){
+        var currentTags = [];
+        $('.filter-link.current').each(function(){
+            var tag = $(this).data("tag");
+            currentTags.push(tag);
+        });
+
+        $('.plink').each(function(){
+            var plink = $(this);
+            var show = false;
+            for(var i=0; i<currentTags.length; i++){
+                if (plink.find('.project').hasClass(currentTags[i])){
+                    show = true;
+                    break;
+                }
+            }
+            if(show){
+                plink.show();
+            }
+            else {
+                plink.hide();
+            }
+        });
+    }
 
     $('.filter-link').click(function(){
         if($(this).hasClass("all")){
