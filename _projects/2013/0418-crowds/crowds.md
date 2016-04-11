@@ -8,7 +8,7 @@ thumbnail: thumbnail.jpg
 #subtitle: optional_subtitle
 date: 2013-04-18
 tags: print
-description: Crowds is a project that arose from a study of urban walking as an aesthetic practice, borrowing inspiration, text, and its title from a Baudelaire poem found in <em>Le Spleen de Paris</em>. It functions as a foldable map (of Santa Monica, CA), a typographic composition, and a series of abstract images that coalesce to connotatively address social and sensory awareness of constructed environments and movement within them.
+description: Crowds is a project that arose from a study of urban walking as an aesthetic practice, borrowing inspiration, text, and its title from a Baudelaire poem found in <em>Le Spleen de Paris</em>. It functions as a foldable map (of Santa Monica, CA), a typographic composition, and a series of abstract images that coalesce to subliminally address social and sensory awareness of constructed environments and movement within them.
 
 #links:
 #    -   title: Link_Header
