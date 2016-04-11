@@ -9,7 +9,7 @@ thumbnail: hpa-wide.jpg
 #colspan: 2
 #subtitle: optional_subtitle
 date: 2014-09-30
-tags: print
+tags: print infographics
 description: 30x40in foldout poster presenting compelling research and information about the phenomenon that is human-powered flight.
 
 #links:
