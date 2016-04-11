@@ -30,7 +30,30 @@ function initLayout(){
     }
 
     else if ($('#blog').length){
+        $grid.imagesLoaded(function(){
+            $('img.grid-item').addClass('not-loaded');
+            $('.not-loaded').lazyload({
+                threshold: 500,
+                effect: 'fadeIn',
+                load: function(){
+                    $(this).removeClass('not-loaded');
+                    $grid.imagesLoaded(function(){
+                        $grid.masonry('layout');
+                    });
+                }
+            });
+        });
+    }
 
+    else if ($('#project').length){
+        $('.images img').addClass('not-loaded');
+        $('.not-loaded').lazyload({
+            threshold: 500,
+            effect: 'fadeIn',
+            load: function(){
+                $(this).removeClass('not-loaded');
+            }
+        });
     }
 
     // $grid.imagesLoaded().progress( function() {
