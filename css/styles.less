@@ -231,10 +231,6 @@ a, a:hover, a:visited{
 	color: @orange;
 }
 
-#projects p a:hover{
-	text-decoration: underline;
-}
-
 h3, nav ul li {
 	.sans-bold;
 	font-size: 18px;
@@ -378,46 +374,6 @@ i img {
         }
     }
 
-    & .ext-links {
-
-        a {
-            text-decoration: none;
-        }
-
-        & .link {
-        	padding-left: 6px;
-        	border-left: 3px solid @cream;
-        	margin-bottom: 20px;
-        	transition: border-color .25s ease-in;
-            float: left;
-            clear: left;
-
-            &:hover {
-                border-color: @orange;
-                text-decoration: none;
-            	transition: border-color .25s ease-in;
-            }
-
-            &.cascade {
-                position: relative;
-            }
-
-            & p {
-              .sans;
-              margin-bottom: 0px;
-            }
-
-            & h3, & p {
-                position: relative;
-                top: 2px;
-            }
-        }
-    }
-
-    & p {
-        clear: both;
-    }
-
     & .filter {
         margin-left: 0;
         margin-bottom: 40px;
@@ -452,6 +408,50 @@ i img {
     background: @charcoal;
     color: @cream;
 
+    & .subtitle {
+        font-size: 18px;
+    }
+
+    & .ext-links {
+        margin: 20px 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        & .link {
+        	padding-left: 6px;
+        	border-left: 3px solid @cream;
+        	margin-bottom: 20px;
+        	transition: border-color .25s ease-in;
+            float: left;
+            clear: left;
+
+            &:hover {
+                border-color: @orange;
+                text-decoration: none;
+            	transition: border-color .25s ease-in;
+            }
+
+            & p {
+              .sans;
+              margin-bottom: 0px;
+              position: relative;
+              top: 2px;
+            }
+
+            & h3, {
+                color: @cream;
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+
+    & p {
+        clear: both;
+    }
+
     &:before {
         content: '';
         position: absolute;
@@ -465,38 +465,6 @@ i img {
     &.sticky {
         &:before{
             display: none;
-        }
-    }
-
-    & #projects {
-        float: left;
-
-        & .link {
-            border-color: @cream;
-
-            &.current, &:hover {
-              border-color: @orange;
-            }
-
-            & h3 {
-                color: @cream;
-            }
-
-            & p {
-                color: @orange;
-            }
-        }
-
-        & .subtitle {
-            font-size: 18px;
-        }
-
-        & .ext-links {
-            margin: 20px 0;
-        }
-
-        @media(max-width: 767px){
-            float: none;
         }
     }
 
@@ -529,12 +497,6 @@ i img {
             float: none;
         }
     }
-}
-
-.ipad {
-	position: relative;
-	margin-top: -150px;
-	z-index: 1;
 }
 
 i {

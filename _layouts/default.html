@@ -13,7 +13,7 @@
                     <section id="projects">
                         <h1>Projects</h1>
                         <ul class="filter">
-                            <li><strong>Filter:</strong></li>
+                            <li><strong>Tags:</strong></li>
                             <a href="javascript: void(0)" class="filter-link all current"><li>all</li></a>
                             {% assign ptags = "" | split:"|"  %}
                             {% for project in site.projects %}
@@ -31,11 +31,9 @@
                             <div class="grid-sizer"></div>
                             <div class="gutter-sizer"></div>
                             {% for project in site.projects reversed %}
-                            <!-- set project media path -->
                                 {% capture media %}
                                     /projects/{{ project.date | date: "%Y/%m%d" }}-{{ project.title | slugify }}/
                                 {% endcapture %}
-                            <!-- end -->
                             <a class="plink animsition-link grid-item" href="{{project.url}}">
                                 <div class="project {{project.tags | join: ' '}}">
                                     <div class="imgwrap"><img src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}"></div>

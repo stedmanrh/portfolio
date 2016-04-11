@@ -1,30 +1,53 @@
-function layout(){
-    var $grid = $('.grid').masonry({
-      // set itemSelector so .grid-sizer is not used in layout
-      itemSelector: '.grid-item',
-      // use element for option
-      columnWidth: '.grid-sizer',
-      percentPosition: true,
-      gutter: '.gutter-sizer'
-    });
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  percentPosition: true,
+  gutter: '.gutter-sizer'
+});
 
-    // layout Masonry after each image loads
-    $grid.imagesLoaded( function() {
-      $grid.masonry('layout');
-      $('.grid-item img').addClass('not-loaded');   //project thumbnails
-      $('#project .images img').addClass('not-loaded'); //project images
-       $('img.grid-item').addClass('not-loaded');    //blog images
-      $('.not-loaded').lazyload({
-          threshold: 500,
-          load: function() {
-              $(this).removeClass("not-loaded");
-              $grid.imagesLoaded(function(){
-                  $grid.masonry('layout');
-              });
-          }
-      });
-      $('img.not-loaded').trigger('scroll');
-    });
+function initLayout(){
+
+    $('.filter a').hide();
+
+    //PROJECT INDEX
+    if ($('#projects').length){
+        $grid.imagesLoaded(function(){
+            $('.grid-item img').addClass('not-loaded');   //project thumbnails
+            $('.not-loaded').lazyload({
+                event: 'lazyload',
+                load: function(){
+                    $(this).removeClass('not-loaded');
+                    $grid.imagesLoaded().progress(function(){
+                        $grid.masonry('layout');
+                        if(!($('.not-loaded').length)){
+                            $('.filter a').fadeIn();
+                        }
+                    });
+                }
+            });
+            $('.not-loaded').trigger('lazyload');
+        });
+    }
+
+    else if ($('#blog').length){
+
+    }
+
+    // $grid.imagesLoaded().progress( function() {
+    //   $grid.masonry('layout');
+    //   $('.grid-item img').addClass('not-loaded');   //project thumbnails
+    //   $('#project .images img').addClass('not-loaded'); //project images
+    //    $('img.grid-item').addClass('not-loaded');    //blog images
+    //   $('.not-loaded').lazyload({
+    //       threshold: 500,
+    //       load: function() {
+    //           $(this).removeClass("not-loaded");
+    //           $grid.imagesLoaded(function(){
+    //               $grid.masonry('layout');
+    //           });
+    //       }
+    //   });
+    // });
 }
 
 function initFilter(){
@@ -74,8 +97,7 @@ function initFilter(){
             }
         }
 
-        layout();
+        $grid.masonry('layout');
 
     });
-    layout();
 }

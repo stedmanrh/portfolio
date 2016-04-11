@@ -192,9 +192,6 @@ a:hover,
 a:visited {
   color: #ff3700;
 }
-#projects p a:hover {
-  text-decoration: underline;
-}
 h3,
 nav ul li {
   font-family: "Officina Sans", Helvetica, Arial, sans-serif;
@@ -345,46 +342,6 @@ i img {
     width: 2%;
   }
 }
-#projects .ext-links a,
-#blog .ext-links a {
-  text-decoration: none;
-}
-#projects .ext-links .link,
-#blog .ext-links .link {
-  padding-left: 6px;
-  border-left: 3px solid #fff5d9;
-  margin-bottom: 20px;
-  transition: border-color 0.25s ease-in;
-  float: left;
-  clear: left;
-}
-#projects .ext-links .link:hover,
-#blog .ext-links .link:hover {
-  border-color: #ff3700;
-  text-decoration: none;
-  transition: border-color 0.25s ease-in;
-}
-#projects .ext-links .link.cascade,
-#blog .ext-links .link.cascade {
-  position: relative;
-}
-#projects .ext-links .link p,
-#blog .ext-links .link p {
-  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  margin-bottom: 0px;
-}
-#projects .ext-links .link h3,
-#blog .ext-links .link h3,
-#projects .ext-links .link p,
-#blog .ext-links .link p {
-  position: relative;
-  top: 2px;
-}
-#projects p,
-#blog p {
-  clear: both;
-}
 #projects .filter,
 #blog .filter {
   margin-left: 0;
@@ -424,6 +381,51 @@ i img {
   background: #333333;
   color: #fff5d9;
 }
+#project .subtitle,
+#blog .subtitle {
+  font-size: 18px;
+}
+#project .ext-links,
+#blog .ext-links {
+  margin: 20px 0;
+}
+#project .ext-links a,
+#blog .ext-links a {
+  text-decoration: none;
+}
+#project .ext-links .link,
+#blog .ext-links .link {
+  padding-left: 6px;
+  border-left: 3px solid #fff5d9;
+  margin-bottom: 20px;
+  transition: border-color 0.25s ease-in;
+  float: left;
+  clear: left;
+}
+#project .ext-links .link:hover,
+#blog .ext-links .link:hover {
+  border-color: #ff3700;
+  text-decoration: none;
+  transition: border-color 0.25s ease-in;
+}
+#project .ext-links .link p,
+#blog .ext-links .link p {
+  font-family: "Officina Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 0px;
+  position: relative;
+  top: 2px;
+}
+#project .ext-links .link h3,
+#blog .ext-links .link h3 {
+  color: #fff5d9;
+  position: relative;
+  top: 2px;
+}
+#project p,
+#blog p {
+  clear: both;
+}
 #project:before,
 #blog:before {
   content: '';
@@ -437,42 +439,6 @@ i img {
 #project.sticky:before,
 #blog.sticky:before {
   display: none;
-}
-#project #projects,
-#blog #projects {
-  float: left;
-}
-#project #projects .link,
-#blog #projects .link {
-  border-color: #fff5d9;
-}
-#project #projects .link.current,
-#blog #projects .link.current,
-#project #projects .link:hover,
-#blog #projects .link:hover {
-  border-color: #ff3700;
-}
-#project #projects .link h3,
-#blog #projects .link h3 {
-  color: #fff5d9;
-}
-#project #projects .link p,
-#blog #projects .link p {
-  color: #ff3700;
-}
-#project #projects .subtitle,
-#blog #projects .subtitle {
-  font-size: 18px;
-}
-#project #projects .ext-links,
-#blog #projects .ext-links {
-  margin: 20px 0;
-}
-@media (max-width: 767px) {
-  #project #projects,
-  #blog #projects {
-    float: none;
-  }
 }
 #project .images,
 #blog .images {
@@ -505,11 +471,6 @@ i img {
   #blog .images {
     float: none;
   }
-}
-.ipad {
-  position: relative;
-  margin-top: -150px;
-  z-index: 1;
 }
 i {
   position: relative;
