@@ -20,7 +20,7 @@ function initLayout(){
                     $grid.imagesLoaded().progress(function(){
                         $grid.masonry('layout');
                         if(!($('.not-loaded').length)){
-                            $('.filter a').fadeIn();
+                            $('.filter a').show();
                         }
                     });
                 }
