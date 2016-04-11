@@ -23,6 +23,6 @@ description: Crowds is a project that arose from a study of urban walking as an 
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}crowds-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}crowds-2.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}crowds-3.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}crowds-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}crowds-2.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}crowds-3.jpg" alt="{{ page.title }}">

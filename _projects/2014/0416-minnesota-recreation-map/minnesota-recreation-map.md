@@ -23,5 +23,5 @@ description: Foldable map of Minnesota containing detailed information about var
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}mnmap-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}mnmap-2.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}mnmap-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}mnmap-2.jpg" alt="{{ page.title }}">

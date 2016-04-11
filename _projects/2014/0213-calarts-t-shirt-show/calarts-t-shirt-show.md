@@ -23,4 +23,4 @@ links:
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}calarts-tee-show.png" alt="{{ page.title }} website">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}calarts-tee-show.png" alt="{{ page.title }} website">

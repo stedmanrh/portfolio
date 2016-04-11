@@ -25,13 +25,13 @@ links:
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}paper.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}posters-2up.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}posters-3up.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}sheets.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}paper.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}posters-2up.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}posters-3up.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}sheets.jpg" alt="{{ page.title }}">
 
 <p class="span8 divider">Workshop Images</p>
 
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}interview.jpg" alt="SCV Signal interviews Nick Humbel">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}teaching.jpg" alt="Ludovic Balland teaches">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}interview-2.jpg" alt="SCV Signal interviews Ludovic Balland">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}interview.jpg" alt="SCV Signal interviews Nick Humbel">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}teaching.jpg" alt="Ludovic Balland teaches">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}interview-2.jpg" alt="SCV Signal interviews Ludovic Balland">

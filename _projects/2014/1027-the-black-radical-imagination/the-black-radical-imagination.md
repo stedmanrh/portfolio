@@ -24,7 +24,7 @@ description: Poster for a collection of short films and videos presented at REDC
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}bri-redcat-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}bri-redcat-2.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}bri-redcat-3.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}bri-redcat-4.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}bri-redcat-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}bri-redcat-2.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}bri-redcat-3.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}bri-redcat-4.jpg" alt="{{ page.title }}">

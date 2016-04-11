@@ -24,5 +24,5 @@ description: Identity and three fliers for a series of film lectures organized b
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}collective-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}collective-2up.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}collective-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}collective-2up.jpg" alt="{{ page.title }}">

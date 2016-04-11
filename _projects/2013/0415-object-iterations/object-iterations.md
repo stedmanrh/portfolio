@@ -23,10 +23,10 @@ description: Platypuses rendered in a variety of different styles. Some selectio
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-0.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-2.jpg" alt="{{ page.title }}">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-3.jpg" alt="{{ page.title }}">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-4.jpg" alt="{{ page.title }}">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-5.jpg" alt="{{ page.title }}">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}object-iterations-6.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-0.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-2.jpg" alt="{{ page.title }}">
+<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-3.jpg" alt="{{ page.title }}">
+<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-4.jpg" alt="{{ page.title }}">
+<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-5.jpg" alt="{{ page.title }}">
+<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}object-iterations-6.jpg" alt="{{ page.title }}">
