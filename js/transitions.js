@@ -10,9 +10,6 @@ function setPageColor(){
 
 $(document).ready(function() {
     setPageColor();
-    initNav();
-    initLayout();
-    initFilter();
 
     $(".animsition").animsition({
         inClass: 'fade-in',
@@ -37,14 +34,13 @@ $(document).ready(function() {
         transition: function(url){ window.location.href = url; }
     });
 
-});
+    $('a.plink').mouseover(function(){
+        $(this).find('img').css('transform', 'scale(1.1)');
+        $(this).find('.project').css('-webkit-box-shadow', '5px 5px 0 #ff3700');
+    });
 
-$('a.plink').mouseover(function(){
-    $(this).find('img').css('transform', 'scale(1.1)');
-    $(this).find('.project').css('-webkit-box-shadow', '0 0 20px #ff3700');
-});
-
-$('a.plink').mouseout(function(){
-    $(this).find('img').css('transform', 'scale(1)');
-    $(this).find('.project').css('-webkit-box-shadow', 'none');
+    $('a.plink').mouseout(function(){
+        $(this).find('img').css('transform', 'scale(1)');
+        $(this).find('.project').css('-webkit-box-shadow', 'none');
+    });
 });

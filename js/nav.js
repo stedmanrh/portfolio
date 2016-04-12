@@ -14,3 +14,7 @@ function initNav(){
         }
     });
 }
+
+$(document).ready(function(){
+    initNav();
+});
