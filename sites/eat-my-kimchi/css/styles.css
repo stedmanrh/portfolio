@@ -1,0 +1,572 @@
+@import "../bower_components/normalize-css/normalize.css";
+* {
+  box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('type/Akkurat.eot');
+  src: url('type/Akkurat.eot?#iefix') format('embedded-opentype'), url('type/Akkurat.woff') format('woff'), url('type/Akkurat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('type/Akkurat-Light.eot');
+  src: url('type/Akkurat-Light.eot?#iefix') format('embedded-opentype'), url('type/Akkurat-Light.woff') format('woff'), url('type/Akkurat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akkurat';
+  src: url('type/Akkurat-Bold.eot');
+  src: url('type/Akkurat-Bold.eot?#iefix') format('embedded-opentype'), url('type/Akkurat-Bold.woff') format('woff'), url('type/Akkurat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic';
+  src: url('type/FranklinGothic-Hvy.eot');
+  src: url('type/FranklinGothic-Hvy.eot?#iefix') format('embedded-opentype'), url('type/FranklinGothic-Hvy.woff') format('woff'), url('type/FranklinGothic-Hvy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+.akkurat {
+  font-family: 'Akkurat', 'Helvetica', 'Arial', sans-serif;
+}
+.franklinGothic {
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+}
+body {
+  font-family: 'Akkurat', 'Helvetica', 'Arial', sans-serif;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+}
+h1 {
+  font-size: 138px;
+  letter-spacing: -0.025em;
+}
+h2 {
+  font-family: 'Akkurat', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: .2em;
+  border-bottom: 1px solid #e90026;
+  text-transform: uppercase;
+  padding-bottom: .5em;
+  margin-bottom: 1.5em;
+}
+h3 {
+  font-family: 'Akkurat', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  display: inline-block;
+  float: right;
+  margin: 0;
+  width: 80%;
+  padding-right: 24px;
+}
+.numeral {
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 24px;
+  padding-top: 3px;
+  content: '1';
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  color: white;
+  background: #e90026;
+  float: left;
+}
+h4 {
+  font-size: 14px;
+}
+html,
+body {
+  color: #e90026;
+  -webkit-text-size-adjust: none;
+}
+a,
+a:visited {
+  color: #e90026;
+  text-decoration: none;
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 60px;
+}
+header .desc {
+  padding-top: 12px;
+  width: 9%;
+  display: inline-block;
+  float: left;
+}
+header .desc h4 {
+  margin-bottom: .5em;
+}
+header .desc p {
+  margin-top: 0;
+}
+header .title {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 84%;
+  padding-right: 1%;
+}
+header .title h1 {
+  margin: 0;
+}
+header .options {
+  float: right;
+  display: inline-block;
+  width: 7%;
+  padding-top: 2.5em;
+  margin-right: -10px;
+}
+header .options .social img {
+  height: 14px;
+  margin-right: 10px;
+}
+header .options .lang {
+  font-size: 14px;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0;
+  margin-top: .5em;
+}
+header .options .lang li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+header .options .lang li a.active {
+  text-decoration: underline;
+}
+header .options .help {
+  margin-top: 20px;
+}
+header .options .help img {
+  height: 22px;
+}
+.posts .post {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  height: 300px;
+  border-width: 40px;
+  border-image: url('../img/border.svg') 48% repeat;
+  position: relative;
+}
+.posts .post .message {
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  line-height: 1em;
+  font-size: 16px;
+  margin-top: -10px;
+}
+.posts .post .likes {
+  position: absolute;
+  bottom: -0.25em;
+  left: 0;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 11px;
+}
+.posts .post .likes a.like {
+  text-decoration: none;
+  opacity: .4;
+  transition: all .5s;
+  display: block;
+}
+.posts .post .likes a.like:hover {
+  opacity: 1;
+  transition: all .5s;
+}
+.posts .post .likes a.like.liked {
+  opacity: 1;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+}
+.posts .post .likes .like-icon {
+  height: 9px;
+  position: relative;
+  top: 1px;
+  margin-right: .25em;
+}
+.posts .post .permalink {
+  opacity: .4;
+  transition: all .5s;
+}
+.posts .post .permalink:hover {
+  opacity: 1;
+  transition: all .5s;
+}
+.posts .post .permalink .timestamp {
+  position: absolute;
+  bottom: -1em;
+  right: 0;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+.posts .post .permalink .timestamp li {
+  list-style: none;
+}
+.posts .post:nth-child(3n+1) {
+  margin-top: 60px;
+}
+.posts .post:nth-child(3n+2) {
+  margin-top: 0px;
+}
+.posts .post:nth-child(3n) {
+  margin-top: 30px;
+}
+footer.container {
+  height: 150px;
+  background: url('../img/footer.svg') 50% no-repeat;
+  position: relative;
+  margin-bottom: 60px;
+}
+footer.container a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background: #e90026;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  padding: 1em;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+footer.container a.postArchive {
+  left: 0;
+  width: 8.5em;
+}
+footer.container a.newPost {
+  right: 0px;
+  width: 8em;
+}
+.about .container {
+  width: 800px;
+  padding-bottom: 60px;
+}
+.about .container p {
+  margin-left: 3em;
+}
+.about .container .flowchart {
+  margin-bottom: 60px;
+}
+.about .container .flowchart .step {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 200px;
+}
+.about .container .flowchart .step:nth-child(1) {
+  background: url('../img/step-1.svg') -24px 0 no-repeat;
+}
+.about .container .flowchart .step:nth-child(2) {
+  background: url('../img/step-2.svg') -24px -24px no-repeat;
+}
+.about .container .flowchart .step:nth-child(3) {
+  background: url('../img/step-3.svg') 0 -24px no-repeat;
+}
+.page-title {
+  margin-bottom: 60px;
+  position: relative;
+}
+.page-title .sort {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  font-size: 12px;
+}
+.page-title .sort select {
+  margin-left: .5em;
+  box-shadow: none;
+  border: 1px solid #e90026 !important;
+  background: white;
+  outline: none;
+}
+.pagination.container {
+  background: url('../img/pagination.svg') 50% 100% no-repeat;
+  margin: 60px auto;
+  text-align: center;
+  padding-bottom: 160px;
+}
+.pagination.container a.arrow {
+  margin: 0 1em;
+  display: inline-block;
+}
+.pagination.container a.arrow.disabled {
+  opacity: .4;
+}
+.pagination.container a.arrow img {
+  height: 40px;
+}
+.single .row {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.single .row .comments {
+  float: right;
+  width: 25%;
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  vertical-align: top;
+  margin-top: 60px;
+}
+.single .row .comments h2 {
+  margin-bottom: 2px !important;
+}
+.single .row .comments .comment-time {
+  font-weight: bold;
+  width: 30%;
+  vertical-align: top;
+}
+.single .row .comments td {
+  padding: 12px 0;
+}
+.single .row .comments tr {
+  border-bottom: 1px solid #e90026;
+}
+.single .row .comments .author {
+  width: 100%;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+  border: 1px solid #e90026;
+  margin-top: -1px;
+  height: 4.5em;
+}
+.single .row .comments .author::-webkit-input-placeholder {
+  color: #e90026;
+  opacity: 0.4;
+}
+.single .row .comments a {
+  float: right;
+  display: inline-block;
+  padding: .25em .5em;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 24px;
+  border: 3px solid #e90026;
+  transition: all .5s;
+}
+.single .row .comments a:hover {
+  color: white;
+  background: #e90026;
+  transition: all .5s;
+}
+.single .row .edit {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
+  width: 10%;
+}
+.single .row .edit a.font {
+  display: block;
+  margin-bottom: 1em;
+}
+.single .row .edit a.font img {
+  height: 24px;
+}
+.single .row .label {
+  font-size: 14px;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
+  text-align: left;
+}
+.single .row .label table {
+  width: 100%;
+}
+.single .row .label .label-title {
+  font-size: 30px;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+}
+.single .row .label th {
+  font-size: 16px;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+}
+.single .row .label tr:not(.norule) {
+  border-bottom: 1px solid #e90026;
+}
+.single .row .label td.thick,
+.single .row .label td.mid {
+  background: #e90026;
+  height: 6px;
+}
+.single .row .label td.mid {
+  height: 3px;
+}
+.single .row .label select {
+  box-shadow: none;
+  border: none !important;
+  background: white;
+  outline: none;
+}
+.single .row .label textarea {
+  width: 100%;
+  outline: none;
+  resize: none;
+  transition: all .5s;
+  border-color: transparent;
+  padding-left: 0;
+}
+.single .row .label textarea::-webkit-input-placeholder {
+  color: #e90026;
+  opacity: 0.4;
+}
+.single .row .label textarea:focus {
+  border-color: #e90026;
+  transition: all .5s;
+  padding-left: 2px;
+}
+.single .row .label .spicy-gradient {
+  height: 2em;
+  margin: .5em auto 1em;
+  background: -moz-linear-gradient(left, #3ab549 0%, #fff200 25%, #e90026 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #3ab549 0%, #fff200 25%, #e90026 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #3ab549 0%, #fff200 25%, #e90026 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.single .row .label .spicy-slider.ui-slider {
+  height: 1px !important;
+  border: none !important;
+  background: #e90026;
+}
+.single .row .label .spicy-slider .ui-slider-handle {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0;
+  border-bottom: 10px solid #e90026;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-top: none;
+  width: 0;
+  height: 0;
+}
+.single .row .label .submit {
+  text-align: right;
+  margin-top: 3em;
+}
+.single .row .label .submit a {
+  display: inline-block;
+  padding: .25em .5em;
+  font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 24px;
+  border: 3px solid #e90026;
+  transition: all .5s;
+}
+.single .row .label .submit a:first-child {
+  margin-right: 1em;
+}
+.single .row .label .submit a:hover {
+  color: white;
+  background: #e90026;
+  transition: all .5s;
+}
+.single .row .post {
+  float: none;
+  margin: 0 5% 0 2.5% !important;
+  width: 40%;
+  height: 600px;
+  border-width: 80px;
+}
+.single .row .post textarea.message {
+  height: 360px;
+  padding: 0;
+}
+.single .row .post .message,
+.single .row .post .like,
+.single .row .post .date,
+.single .row .post .time {
+  font-size: 2em;
+  text-align: left;
+}
+.single .row .post .message {
+  font-size: 64px;
+  width: 100%;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+  border: none;
+  margin-top: -20px;
+}
+.single .row .post .message::-webkit-input-placeholder {
+  color: #e90026;
+  opacity: 0.4;
+}
+.single .row .post .like-icon {
+  height: 16px !important;
+}

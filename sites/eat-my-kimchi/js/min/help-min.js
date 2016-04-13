@@ -1,0 +1,1 @@
+$(".help").click(function(){$(".about").slideUp()}),$(".close-help").click(function(){$(".about").slideDown()});

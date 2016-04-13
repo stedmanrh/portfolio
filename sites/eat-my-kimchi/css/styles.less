@@ -1,0 +1,570 @@
+@import "../bower_components/normalize-css/normalize.css";
+
+// LAYOUT
+
+* {
+    box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+// COLOR
+
+@red: #E90026;
+
+// TYPE
+
+@import "type";
+
+html, body {
+    color: @red;
+    -webkit-text-size-adjust: none
+}
+
+a, a:visited {
+    color: @red;
+    text-decoration: none;
+}
+
+// ANIMATIONS
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+      -webkit-transform: scale(1.25);
+      transform: scale(1.25);
+  }
+
+  to {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+// START STYLES
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 60px;
+
+    .desc {
+        padding-top: 12px;
+        width: 9%;
+        display: inline-block;
+        float: left;
+
+        h4 {
+            margin-bottom: .5em;
+        }
+
+        p {
+            margin-top: 0;
+        }
+    }
+
+    .title {
+        display: inline-block;
+        float: left;
+        text-align: center;
+        width: 84%;
+        padding-right: 1%;
+
+        h1 {
+            margin: 0;
+        }
+    }
+
+    .options {
+        float: right;
+        display: inline-block;
+        width: 7%;
+        padding-top: 2.5em;
+        margin-right: -10px;
+
+        .social {
+
+            img {
+                height: 14px;
+                margin-right: 10px;
+            }
+        }
+
+        .lang {
+            font-size: 14px;
+            .franklinGothic;
+            text-transform: uppercase;
+            padding: 0;
+            margin-top: .5em;
+
+            li {
+                list-style: none;
+                margin-right: 10px;
+                display: inline-block;
+
+                a.active {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .help {
+            margin-top: 20px;
+
+            img {
+                height: 22px;
+            }
+        }
+    }
+}
+
+.posts {
+
+    .post {
+        display: inline-block;
+        float: left;
+        width: 20%;
+        height: 300px;
+        border-width: 40px;
+        border-image: url('../img/border.svg') 48% repeat;
+        position: relative;
+
+        .message {
+            .franklinGothic;
+            line-height: 1em;
+            font-size: 16px;
+            margin-top: -10px;
+        }
+
+        .likes {
+            position: absolute;
+            bottom: -.25em;
+            left: 0;
+            .franklinGothic;
+            font-size: 11px;
+
+            a.like {
+                text-decoration: none;
+                opacity: .4;
+                transition: all .5s;
+                display: block;
+
+                &:hover {
+                    opacity: 1;
+                    transition: all .5s;
+                }
+
+                &.liked {
+                    opacity: 1;
+                    .pulse;
+
+                    -webkit-animation-duration: .5s;
+                    animation-duration: .5s;
+                }
+
+            }
+
+            .like-icon {
+                height: 9px;
+                position: relative;
+                top: 1px;
+                margin-right: .25em;
+            }
+        }
+
+        .permalink {
+            opacity: .4;
+            transition: all .5s;
+
+            &:hover {
+                opacity: 1;
+                transition: all .5s;
+            }
+
+            .timestamp {
+                position: absolute;
+                bottom: -1em;
+                right: 0;
+                text-align: right;
+                padding: 0;
+                margin: 0;
+                font-size: 10px;
+
+                li {
+                    list-style: none;
+                }
+            }
+        }
+    }
+
+    .post:nth-child(3n+1) {
+        margin-top: 60px;
+    }
+
+    .post:nth-child(3n+2) {
+        margin-top: 0px;
+    }
+
+    .post:nth-child(3n) {
+        margin-top: 30px;
+    }
+}
+
+footer.container {
+
+    height: 150px;
+    background: url('../img/footer.svg') 50% no-repeat;
+    position: relative;
+    margin-bottom: 60px;
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        background: @red;
+        text-transform: uppercase;
+        line-height: 1.1em;
+        padding: 1em;
+        .franklinGothic;
+        position: absolute;
+        bottom: 0;
+        display: block;
+    }
+
+    a.postArchive {
+        left: 0;
+        width: 8.5em;
+    }
+
+    a.newPost {
+        right: 0px;
+        width: 8em;
+    }
+}
+
+.about .container {
+    width: 800px;
+    padding-bottom: 60px;
+
+    p {
+        margin-left: 3em;
+    }
+
+    .flowchart{
+        margin-bottom: 60px;
+
+        .step {
+            display: inline-block;
+            float: left;
+            width: 33.3333%;
+            height: 200px;
+
+            &:nth-child(1){
+                background: url('../img/step-1.svg') -24px 0 no-repeat;
+            }
+
+            &:nth-child(2){
+                background: url('../img/step-2.svg') -24px -24px no-repeat;
+            }
+
+            &:nth-child(3){
+                background: url('../img/step-3.svg') 0 -24px no-repeat;
+            }
+        }
+    }
+}
+
+.page-title {
+    margin-bottom: 60px;
+    position: relative;
+
+    .sort {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        font-size: 12px;
+
+        select {
+            margin-left: .5em;
+            box-shadow: none;
+            border: 1px solid @red !important;
+            background: white;
+            outline: none;
+        }
+    }
+}
+
+.pagination.container {
+    background: url('../img/pagination.svg') 50% 100% no-repeat;
+    margin: 60px auto;
+    text-align: center;
+    padding-bottom: 160px;
+
+    a.arrow {
+        margin: 0 1em;
+        display: inline-block;
+
+        &.disabled {
+            opacity: .4;
+        }
+
+        img {
+            height: 40px;
+        }
+    }
+}
+
+.single {
+    .row {
+        text-align: center;
+        margin-bottom: 60px;
+
+        .comments {
+            float: right;
+            width: 25%;
+            display: inline-block;
+            text-align: left;
+            font-size: 12px;
+            vertical-align: top;
+            margin-top: 60px;
+
+            h2 {
+                margin-bottom: 2px !important;
+            }
+
+            .comment-time {
+                font-weight: bold;
+                width: 30%;
+                vertical-align: top;
+            }
+
+            td {
+                padding: 12px 0;
+            }
+
+            tr {
+                border-bottom: 1px solid @red;
+            }
+
+            .author {
+                // font-size: 12px;
+                width: 100%;
+                overflow: hidden;
+                outline: none;
+                resize: none;
+                border: 1px solid @red;
+                margin-top: -1px;
+                height: 4.5em;
+
+                &::-webkit-input-placeholder {
+                    color: @red;
+                    opacity: 0.4;
+                }
+            }
+
+            a {
+                float: right;
+                display: inline-block;
+                padding: .25em .5em;
+                .franklinGothic;
+                font-size: 24px;
+                border: 3px solid @red;
+                transition: all .5s;
+
+                &:hover {
+                    color: white;
+                    background: @red;
+                    transition: all .5s;
+                }
+            }
+        }
+
+        .edit {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 60px;
+            width: 10%;
+            a.font {
+                display: block;
+                margin-bottom: 1em;
+
+                img {
+                    height: 24px;
+                }
+            }
+        }
+
+        .label {
+            font-size: 14px;
+            width: 25%;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 60px;
+            text-align: left;
+
+            table {
+                width: 100%;
+            }
+
+            .label-title {
+                font-size: 30px;
+                .franklinGothic;
+            }
+
+            th {
+                font-size: 16px;
+                .franklinGothic;
+            }
+
+            tr:not(.norule) {
+                border-bottom: 1px solid @red;
+            }
+
+            td.thick, td.mid {
+                background: @red;
+                height: 6px;
+            }
+
+            td.mid {
+                height: 3px;
+            }
+
+            select {
+                box-shadow: none;
+                border: none !important;
+                background: white;
+                outline: none;
+            }
+
+            textarea {
+                width: 100%;
+                outline: none;
+                resize: none;
+                transition: all .5s;
+                border-color: transparent;
+                padding-left: 0;
+
+                &::-webkit-input-placeholder {
+                    color: @red;
+                    opacity: 0.4;
+                }
+
+                &:focus {
+                    border-color: @red;
+                    transition: all .5s;
+                    padding-left: 2px;
+                }
+            }
+
+            .spicy-gradient {
+                height: 2em;
+                margin: .5em auto 1em;
+                background: -moz-linear-gradient(left,  #3ab549 0%, #fff200 25%, #e90026 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left,  #3ab549 0%,#fff200 25%,#e90026 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right,  #3ab549 0%,#fff200 25%,#e90026 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            }
+
+            .spicy-slider {
+                &.ui-slider {
+                    height: 1px !important;
+                    border: none !important;
+                    background: @red;
+                }
+                .ui-slider-handle {
+                    background: none;
+                    box-shadow: none;
+                    outline: none;
+                    border-radius: 0;
+                    border-bottom: 10px solid @red;
+                    border-right: 7px solid transparent;
+                    border-left: 7px solid transparent;
+                    border-top: none;
+                    width: 0;
+                    height: 0;
+
+                }
+            }
+
+            .submit {
+                text-align: right;
+                margin-top: 3em;
+
+                a {
+                    display: inline-block;
+                    padding: .25em .5em;
+                    .franklinGothic;
+                    font-size: 24px;
+                    border: 3px solid @red;
+                    transition: all .5s;
+
+                    &:first-child {
+                        margin-right: 1em;
+                    }
+
+                    &:hover {
+                        color: white;
+                        background: @red;
+                        transition: all .5s;
+                    }
+                }
+            }
+        }
+
+        .post {
+            float: none;
+            margin: 0 5% 0 2.5% !important;
+            width: 40%;
+            height: 600px;
+            border-width: 80px;
+
+            textarea.message {
+                height: 360px;
+                padding: 0;
+            }
+
+            .message, .like, .date, .time {
+                font-size: 2em;
+                text-align: left;
+            }
+
+            .message {
+                font-size: 64px;
+                width: 100%;
+                overflow: hidden;
+                outline: none;
+                resize: none;
+                border: none;
+                margin-top: -20px;
+
+                &::-webkit-input-placeholder {
+                    color: @red;
+                    opacity: 0.4;
+                }
+            }
+
+            .like-icon {
+                height: 16px !important;
+            }
+        }
+    }
+}

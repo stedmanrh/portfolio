@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'Akkurat';
+	src: url('type/Akkurat.eot');
+	src: url('type/Akkurat.eot?#iefix') format('embedded-opentype'),
+		url('type/Akkurat.woff') format('woff'),
+		url('type/Akkurat.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akkurat';
+	src: url('type/Akkurat-Light.eot');
+	src: url('type/Akkurat-Light.eot?#iefix') format('embedded-opentype'),
+		url('type/Akkurat-Light.woff') format('woff'),
+		url('type/Akkurat-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akkurat';
+	src: url('type/Akkurat-Bold.eot');
+	src: url('type/Akkurat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('type/Akkurat-Bold.woff') format('woff'),
+		url('type/Akkurat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Franklin Gothic';
+	src: url('type/FranklinGothic-Hvy.eot');
+	src: url('type/FranklinGothic-Hvy.eot?#iefix') format('embedded-opentype'),
+		url('type/FranklinGothic-Hvy.woff') format('woff'),
+		url('type/FranklinGothic-Hvy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+.akkurat {
+	font-family: 'Akkurat', 'Helvetica', 'Arial', sans-serif;
+}
+
+.franklinGothic {
+	font-family: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+	font-weight: bold;
+	font-weight: 900;
+}
+
+body {
+	.akkurat;
+}
+
+h1, h3, h4, h5, h6 {
+	.franklinGothic;
+}
+
+h1 {
+	font-size: 138px;
+	letter-spacing: -.025em;
+}
+
+h2 {
+	.akkurat;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: .2em;
+	border-bottom: 1px solid @red;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+	margin-bottom: 1.5em;
+}
+
+h3 {
+	.akkurat;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	display: inline-block;
+	float: right;
+	margin: 0;
+	width: 80%;
+	padding-right: 24px;
+}
+
+.numeral {
+	.franklinGothic;
+	font-size: 24px;
+	padding-top: 3px;
+	content: '1';
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	color: white;
+	background: @red;
+	float: left;
+}
+
+h4 {
+	font-size: 14px;
+}
