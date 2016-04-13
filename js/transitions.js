@@ -45,10 +45,6 @@ $(document).ready(function() {
         $(this).find('.project').css('-webkit-box-shadow', 'none');
     });
 
-    // $(window).scroll(function(){
-    //     $('.blogtext').fadeIn();
-    // });
-
     $(window).on("scrollstart", function() {
         $('.blogtext').fadeIn();
     }).on("scrollstop", function() {
