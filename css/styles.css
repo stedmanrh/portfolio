@@ -220,9 +220,23 @@ nav ul li {
 .images video,
 article,
 #awards,
+#links,
 #press,
 #contact {
   margin-bottom: 40px;
+}
+#awards ul,
+#links ul,
+#press ul,
+#contact ul {
+  list-style: none;
+  margin-left: 0;
+}
+#awards ul li,
+#links ul li,
+#press ul li,
+#contact ul li {
+  line-height: 2em;
 }
 #awards,
 #press,
@@ -235,9 +249,19 @@ article,
   text-indent: -17px;
   padding-left: 17px;
 }
-i img {
-  display: inline-block;
-  padding-left: 17px;
+#portrait {
+  float: right;
+}
+@media (max-width: 767px) {
+  #portrait {
+    float: none;
+    text-align: center;
+  }
+  #portrait img {
+    display: inline-block;
+    height: 200px;
+    border-radius: 50%;
+  }
 }
 .blogtext {
   font-size: 5em;

@@ -10,36 +10,50 @@
         {% include header.html %}
         <div class="container animsition" data-animsition-in-class="fade-in-right" data-animsition-out-class="fade-out-right">
             <div class="row drop">
-                <article class="span4">
-                    <h1>About</h1>
-                    <p>{{ page.about | markdownify }}</p>
-                    <i class="icon-file"></i><a href="{{ page.resume }}" target="_blank">Résumé</a>
-                </article>
+                <section class="span4 images" id="portrait">
+                    <img src="{{ page.portrait }}" alt="portrait">
+                </section>
+                <div class="span4">
+                    <article>
+                        <h1>About</h1>
+                        <p>{{ page.about | markdownify }}</p>
+                    </article>
+                    <section id="links">
+                        <h1>Links</h1>
+                        <ul>
+                            <li><i class="icon-file"></i><a href="{{ page.resume }}" target="_blank">Résumé</a></li>
+                            <li><i class="icon-github"><img src="{{ site.data.global_assets.icon-github }}" alt=""></i><a href="{{ page.github }}" target="_blank">Github</a></li>
+                        </ul>
+                    </section>
+                </div>
                 <div class="span4">
                     <section id="awards">
                         <h1>Accolades</h1>
-                        {% for accolade in page.accolades %}
-                        <p><i class="icon-certificate"></i>{{ accolade.name }} ({{ accolade.year }})</p>
-                        {% endfor %}
+                        <ul>
+                            {% for accolade in page.accolades %}
+                            <li><i class="icon-certificate"></i>{{ accolade.name }} ({{ accolade.year }})</li>
+                            {% endfor %}
+                        </ul>
                     </section>
                     <section id="press">
                         <h1>Press</h1>
-                        {% for article in page.articles %}
-                        <p><i class="icon-link"><img src="{{ site.data.global_assets.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></p>
-                        {% endfor %}
+                        <ul>
+                            {% for article in page.articles %}
+                            <li><i class="icon-link"><img src="{{ site.data.global_assets.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></li>
+                            {% endfor %}
+                        </ul>
                     </section>
                     <section id="contact">
                         <h1>Contact</h1>
                         {% for contact in page.contacts %}
-                        <p><i class="icon-user"></i>{{ contact.name }}</p>
-                        <p><i class="icon-envelope"></i><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></p>
-                        <p><i class="icon-phone"><img src="{{ site.data.global_assets.icon-phone }}" alt=""></i>{{ contact.phone }}</p>
+                        <ul>
+                            <li><i class="icon-user"></i>{{ contact.name }}</li>
+                            <li><i class="icon-envelope"></i><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></li>
+                            <li><i class="icon-phone"><img src="{{ site.data.global_assets.icon-phone }}" alt=""></i>{{ contact.phone }}</li>
+                        </ul>
                         {% endfor %}
                     </section>
                 </div>
-                <section class="span4 images">
-                    <img src="{{ page.portrait }}" class="hidden-phone" alt="portrait">
-                </section>
             </div>
         </div>
         <div class="push"></div>
