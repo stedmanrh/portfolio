@@ -232,6 +232,12 @@ article,
   list-style: none;
   margin-left: 0;
 }
+#awards ul li,
+#links ul li,
+#press ul li,
+#contact ul li {
+  line-height: 2em;
+}
 #awards,
 #press,
 #contact {
