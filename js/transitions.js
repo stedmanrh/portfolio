@@ -10,6 +10,7 @@ function setPageColor(){
 
 $(document).ready(function() {
     setPageColor();
+    $('.blogtext').hide();
 
     $(".animsition").animsition({
         inClass: 'fade-in',
@@ -42,5 +43,15 @@ $(document).ready(function() {
     $('a.plink').mouseout(function(){
         $(this).find('img').css('transform', 'scale(1)');
         $(this).find('.project').css('-webkit-box-shadow', 'none');
+    });
+
+    // $(window).scroll(function(){
+    //     $('.blogtext').fadeIn();
+    // });
+
+    $(window).on("scrollstart", function() {
+        $('.blogtext').fadeIn();
+    }).on("scrollstop", function() {
+        $('.blogtext').fadeOut();
     });
 });

@@ -294,26 +294,27 @@ h3, nav ul li {
     color: @charcoal;
     text-shadow: 0 0 10px @orange;
     position: fixed;
+    z-index: 1;
 
     @media(max-width: 767px){
         font-size: 3em;
     }
 
     &#left-text {
-        top: 60%;
-        left: -.75em;
+        top: 50%;
+        left: -1.15em;
         transform: rotateZ(-90deg) translateY(-50%);
     }
 
     &#right-text {
-        top: 60%;
-        right: -1.25em;
+        top: 50%;
+        right: -1.85em;
         transform: rotateZ(90deg) translateY(-50%);
     }
 
     &#bottom-text {
         left: 50%;
-        bottom: .5em;
+        bottom: 0em;
         transform: translateX(-50%);
     }
 }
@@ -470,22 +471,6 @@ h3, nav ul li {
 
     & p {
         clear: both;
-    }
-
-    &:before {
-        content: '';
-        position: absolute;
-        top: 87px;
-        height: 3px;
-        width: 100%;
-        background: @charcoal;
-        z-index: 1000;
-    }
-
-    &.sticky {
-        &:before{
-            display: none;
-        }
     }
 
     & .images {
