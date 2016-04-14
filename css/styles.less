@@ -88,6 +88,19 @@ Stedman Halliday: http://stedmanhalliday.com
   font-weight: bold;
 }
 
+// Micro Clearfix
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
 /* Styles */
 html {
   min-height: 100%;
@@ -107,47 +120,9 @@ body {
 header {
     background: @cream;
     position: relative;
-    z-index: 1000;
-
-    &.sticky {
-        border-bottom: 3px solid @charcoal;
-        position: fixed;
-        margin: 0 auto;
-        width: 100%;
-        padding-top: 10px;
-
-        & nav {
-            padding: 0;
-        }
-
-        & .container {
-            border: none;
-            padding: 0px;
-        }
-
-        & a {
-            width: auto;
-            height: auto;
-        }
-
-        & svg {
-            height: 24px;
-            width: auto;
-            top: -1px;
-        }
-
-        & .logotype {
-            position: fixed;
-            transform: scale(0) translateX(-100px) skewY(-22.5deg);;
-            transform-origin: top left;
-        }
-    }
-
-    & .container {
-        position: relative;
-        padding: 20px 0 10px;
-        border-bottom: 3px solid @charcoal;
-    }
+    z-index: 2;
+    border-bottom: 3px solid @charcoal;
+    padding: 20px 40px 10px;
 
     & svg {
     	position: relative;
@@ -164,12 +139,15 @@ header {
     }
 
     & a {
+        display: inline-block;
         color: inherit;
+        float: left;
 
-        &:hover {
+        &:hover, &:visited {
             color: inherit;
             text-decoration: none;
         }
+
     }
 
     & h1, & h2 {
@@ -177,14 +155,10 @@ header {
     }
 
     & nav {
-    	padding-top: 10px;
-        position: absolute;
-        bottom: -3px;
-        right: 0;
-
-        @media(max-width: 767px){
-            right: 20px;
-        }
+        line-height: 1;
+        float: right;
+        position: relative;
+        top: 40px;
 
         & ul {
         	margin: 0;
@@ -202,6 +176,36 @@ header {
                 	transition: border-color .25s ease-in;
                 }
             }
+        }
+    }
+
+    &.sticky {
+        position: fixed;
+        padding: 10px 40px 0;
+        width: 100%;
+
+        & nav {
+            position: fixed;
+            right: 0;
+            top: 13px;
+            right: 40px;
+        }
+
+        & a {
+            width: auto;
+            height: auto;
+        }
+
+        & svg {
+            height: 24px;
+            width: auto;
+            top: -1px;
+        }
+
+        & .logotype {
+            position: fixed;
+            transform: scale(0) translateX(-100px) skewY(-22.5deg);;
+            transform-origin: top left;
         }
     }
 }
