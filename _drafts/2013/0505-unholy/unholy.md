@@ -23,4 +23,4 @@ permalink: /:collection/:year/:month/:title.html
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-original="{{media|strip}}file.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}file.jpg" alt="{{ page.title }}">
