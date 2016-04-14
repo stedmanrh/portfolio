@@ -306,16 +306,11 @@ article,
   transform: translateX(-50%);
 }
 #blog .grid-item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 @media (min-width: 1200px) {
   #blog .grid-item {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 480px) {
-  #blog .grid-item {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 #projects .plink,
