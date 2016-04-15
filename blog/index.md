@@ -9,6 +9,7 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"> -->
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/akai-mpk-mini.jpg" alt="akai mpk mini">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/jada.png" alt="she wants to be Menswear dog so bad">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/jobfair.jpg" alt="CalArts career fair 2016">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/cutpaste.jpg" alt="newspaper clippings from Anette Lenz workshop">
@@ -45,6 +46,7 @@ right-text: inspiration
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/offset-3.png" alt="tech poster process">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/offset-4.png" alt="tech poster process">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-src="images/offset-sketches.png" alt="tech poster process">
+<img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-src="images/ableton-variations.png" alt="ableton variations">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-src="images/kad-wf.gif" alt="wireframing/strategy">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/fear.jpg" alt="Moises Hernandez exhibition promo">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/content-scan.png" alt="collage sketch of a spread">
