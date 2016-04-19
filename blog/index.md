@@ -9,8 +9,9 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"> -->
-<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/akai-mpk-mini.jpg" alt="akai mpk mini">
-<img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/jada.png" alt="she wants to be Menswear dog so bad">
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/print-fair.jpg" alt="CalArts Print Fair 2014">
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/akai-mpk-mini.jpg" alt="Akai MPK Mini Mk2">
+<img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/jada.png" alt="sup dawg?">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/jobfair.jpg" alt="CalArts career fair 2016">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/cutpaste.jpg" alt="newspaper clippings from Anette Lenz workshop">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/2016-04-04-lenz_01.png" alt="Anette Lenz workshop">
