@@ -9,6 +9,7 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"> -->
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/frn-seal.jpg" alt="FRN Seal">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/print-fair.jpg" alt="CalArts Print Fair 2014">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/akai-mpk-mini.jpg" alt="Akai MPK Mini Mk2">
 <img class="grid-item" src="{{ site.data.global_assets.placeholder }}" data-src="images/jada.png" alt="sup dawg?">
