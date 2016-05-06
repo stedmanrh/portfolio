@@ -9,6 +9,7 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"> -->
+<img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/wet.jpg" alt="#wet">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/hydra-model.gif" alt="HYDRA Model">
 <img class="grid-item col2" src="{{ site.data.global_assets.placeholder }}" data-src="images/final-reviews.jpg" alt="BFA4 Review @ CalArts">
 <img class="grid-item col" src="{{ site.data.global_assets.placeholder }}" data-src="images/frn-seal.jpg" alt="FRN Seal">
