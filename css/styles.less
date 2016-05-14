@@ -360,7 +360,7 @@ h3, nav ul li {
         transform: translateY(-50%) translateX(-50%);
         text-align: center;
         line-height: 1.2;
-        font-size: 24px;
+        font-size: 18px;
         color: @orange;
         font-weight: bold;
         text-transform: capitalize;
@@ -368,6 +368,10 @@ h3, nav ul li {
         padding: 1em;
         width: 100%;
         box-sizing: border-box;
+
+        @media(max-width: 767px) {
+            font-size: 14px;
+        }
     }
 }
 

@@ -329,7 +329,7 @@ article,
   transform: translateY(-50%) translateX(-50%);
   text-align: center;
   line-height: 1.2;
-  font-size: 24px;
+  font-size: 18px;
   color: #ff3700;
   font-weight: bold;
   text-transform: capitalize;
@@ -337,6 +337,11 @@ article,
   padding: 1em;
   width: 100%;
   box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  #blog .grid-item .caption {
+    font-size: 14px;
+  }
 }
 #projects .plink,
 #blog .plink {
