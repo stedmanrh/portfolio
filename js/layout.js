@@ -67,6 +67,14 @@ function initFilter(){
     });
 }
 
+function initCaptions(){
+    $('#blog .grid-item > *').each(function(){
+        var desc = $(this).attr('alt');
+        $(this).parent().append('<div class="caption">'+desc+'</div>');
+    });
+}
+
 $(document).ready(function(){
     initFilter();
+    initCaptions();
 });

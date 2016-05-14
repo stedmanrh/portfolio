@@ -313,6 +313,31 @@ article,
     margin-bottom: 15px;
   }
 }
+#blog .grid-item * {
+  transition: all .25s;
+}
+#blog .grid-item:hover * {
+  opacity: .35;
+}
+#blog .grid-item:hover .caption {
+  opacity: 1;
+}
+#blog .grid-item .caption {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  line-height: 1.2;
+  font-size: 24px;
+  color: #ff3700;
+  font-weight: bold;
+  text-transform: capitalize;
+  opacity: 0;
+  padding: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
 #projects .plink,
 #blog .plink {
   text-decoration: none;
