@@ -8,7 +8,10 @@ left-text: process
 bottom-text: context
 right-text: inspiration
 ---
-<!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"> -->
+<!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"></div> -->
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/in-transit.jpg" alt="In Transit..."></div>
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/never-stop.jpg" alt="Never Stop _"></div>
+<div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/stanford-grad.jpg" alt="Stanford Graduation Ceremony"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/projection-collage.jpg" alt="Projection Collage"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/cultural-dress.jpg" alt="Heritage Portrait"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/wet.jpg" alt="#wet"></div>
