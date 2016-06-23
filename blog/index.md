@@ -9,16 +9,11 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"></div> -->
-<<<<<<< Updated upstream
+<div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/ifb2016.jpg" alt="IFB2016 in Liverpool"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/london-ug.jpg" alt="self/other"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/london-og.jpg" alt="London Overground"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/fysh.jpg" alt="fysh"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/dengue-fever.jpg" alt="Dengue Fever"></div>
-=======
-<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/fysh.jpg" alt="fysh"></div>
-<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/dengue-fever.jpg" alt="Dengue Fever"></div>
-<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/ny-squad.jpg" alt="New York"></div>
->>>>>>> Stashed changes
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/taco-truck.jpg" alt="<3 Tacos"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/in-transit.jpg" alt="In Transit..."></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/never-stop.jpg" alt="Never Stop _"></div>
