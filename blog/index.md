@@ -9,6 +9,9 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"></div> -->
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/liverpool-waterfront.jpg" alt="Liverpool waterfront"></div>
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/ddn-tote.jpg" alt="Designing Digital Now @ FACT Liverpool"></div>
+<div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/zaha-hadid.jpg" alt="Zaha Hadid Architects"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/ifb2016.jpg" alt="IFB2016 in Liverpool"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/london-ug.jpg" alt="self/other"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/london-og.jpg" alt="London Overground"></div>
