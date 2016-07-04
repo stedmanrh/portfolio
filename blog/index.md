@@ -9,6 +9,11 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"></div> -->
+<div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/yaam-berlin.jpg" alt="YAAM Berlin"></div>
+<div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/berlin-night.jpg" alt="Berlin"></div>
+<div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/chelsea-harbour.jpg" alt="Chelsea Harbour"></div>
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/FACT-exhibition.jpg" alt="exhibition @ FACT Liverpool"></div>
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/FACT-info.jpg" alt="infographic @ FACT Liverpool"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/liverpool-waterfront.jpg" alt="Liverpool waterfront"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/ddn-tote.jpg" alt="Designing Digital Now @ FACT Liverpool"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/zaha-hadid.jpg" alt="Zaha Hadid Architects"></div>
