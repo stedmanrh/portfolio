@@ -9,7 +9,7 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"></div> -->
-<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/vj-set.jpg" alt="VJ preruns"></div>
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/VJ-set.jpg" alt="VJ preruns"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/calivibes.jpg" alt="California Vibes"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/yaam-berlin.jpg" alt="YAAM Berlin"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/berlin-night.jpg" alt="Berlin"></div>
