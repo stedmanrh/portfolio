@@ -9,6 +9,8 @@ bottom-text: context
 right-text: inspiration
 ---
 <!-- <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/_" alt="_"></div> -->
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/female-founders.jpg" alt="Female Founders Pitch Female Funders @ Lyft HQ"></div>
+<div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/ed-fella.jpg" alt="Ed Fella: Free Work in Due Time @ LACMA"></div>
 <div class="grid-item col"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/VJ-set.jpg" alt="VJ preruns"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/calivibes.jpg" alt="California Vibes"></div>
 <div class="grid-item col2"><img src="{{ site.data.global_assets.placeholder }}" data-src="images/yaam-berlin.jpg" alt="YAAM Berlin"></div>
