@@ -3,10 +3,10 @@
   <channel>
     <title>TensorFlow Resources</title>
     <description>A free curated collection of the best resources for learning and working with Google's TensorFlow library for machine intelligence</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Jul 2017 17:46:38 -0700</pubDate>
-    <lastBuildDate>Thu, 06 Jul 2017 17:46:38 -0700</lastBuildDate>
+    <link>http://tensorflowresources.info/</link>
+    <atom:link href="http://tensorflowresources.info/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 08 Jul 2017 13:31:28 -0700</pubDate>
+    <lastBuildDate>Sat, 08 Jul 2017 13:31:28 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -15,8 +15,8 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/yolo-tensorflow</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/yolo-tensorflow</guid>
+        <link>http://tensorflowresources.info/resources/yolo-tensorflow.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/yolo-tensorflow.html</guid>
         
         <category>Get Started</category>
         
@@ -32,8 +32,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/why-tensorflow-will-change-the-game-for-ai</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/why-tensorflow-will-change-the-game-for-ai</guid>
+        <link>http://tensorflowresources.info/resources/why-tensorflow-will-change-the-game-for-ai.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/why-tensorflow-will-change-the-game-for-ai.html</guid>
         
         
         <category>Blog posts</category>
@@ -45,8 +45,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/why-google-wants-everyone-to-have-access-to-tensorflow</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/why-google-wants-everyone-to-have-access-to-tensorflow</guid>
+        <link>http://tensorflowresources.info/resources/why-google-wants-everyone-to-have-access-to-tensorflow.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/why-google-wants-everyone-to-have-access-to-tensorflow.html</guid>
         
         
         <category>Videos</category>
@@ -58,8 +58,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/weakly-detector</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/weakly-detector</guid>
+        <link>http://tensorflowresources.info/resources/weakly-detector.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/weakly-detector.html</guid>
         
         
         <category>Models/Projects</category>
@@ -71,8 +71,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/wavenet</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/wavenet</guid>
+        <link>http://tensorflowresources.info/resources/wavenet.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/wavenet.html</guid>
         
         
         <category>Models/Projects</category>
@@ -84,8 +84,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016</guid>
+        <link>http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016.html</guid>
         
         
         <category>Videos</category>
@@ -97,8 +97,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016</guid>
+        <link>http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016.html</guid>
         
         
         <category>Videos</category>
@@ -110,8 +110,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow</guid>
+        <link>http://tensorflowresources.info/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow.html</guid>
         
         
         <category>Blog posts</category>
@@ -123,8 +123,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/the-indico-machine-learning-team-s-take-on-tensorflow</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/the-indico-machine-learning-team-s-take-on-tensorflow</guid>
+        <link>http://tensorflowresources.info/resources/the-indico-machine-learning-team-s-take-on-tensorflow.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/the-indico-machine-learning-team-s-take-on-tensorflow.html</guid>
         
         
         <category>Blog posts</category>
@@ -136,8 +136,8 @@
         <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/resources/the-good-bad-ugly-of-tensorflow</link>
-        <guid isPermaLink="true">http://localhost:4000/resources/the-good-bad-ugly-of-tensorflow</guid>
+        <link>http://tensorflowresources.info/resources/the-good-bad-ugly-of-tensorflow.html</link>
+        <guid isPermaLink="true">http://tensorflowresources.info/resources/the-good-bad-ugly-of-tensorflow.html</guid>
         
         
         <category>Blog posts</category>
