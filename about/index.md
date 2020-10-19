@@ -5,7 +5,7 @@ description: Background and contact information for Southern California based gr
 #permalink: /about/
 about: Stedman Halliday is a technology enthusiast based in Los Angeles, California. His [projects](/) and work to-date have involved creative direction, design, and development across multiple media, with a focus on identity systems, web media, and digital products. He enjoys working in both team and freelance settings to create thoughtful work that charts a diverse set of interests and social missions (from culture, to education, to clean energy). After earning a Bachelor of Fine Arts in Graphic Design and a minor in Digital Arts at [California Institute of the Arts](http://calarts.edu){:target="_blank"} and working with an amazingly talented team at [Kadenze](http://kadenze.com){:target="_blank"} to launch a revolutionary arts education platform, Stedman set his sights on world travel and further immersion into the world of technology entrepreneurship to learn and build new things.
 resume: /about/halliday-resume.pdf
-twitter-url: https://twitter.com/sodisays
+twitter-url: https://twitter.com/stedmanhalliday
 accolades:
     -   name: AIGA Tomoko-Miho Award
         year: 2014
