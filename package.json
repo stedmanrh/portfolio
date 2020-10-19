@@ -1,6 +1,6 @@
 {
   "name": "web-portfolio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Portfolio and contact information for Southern California based graphic and multimedia designer Stedman Halliday",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/stedmanrh/portfolio/issues"
   },
-  "homepage": "https://github.com/stedmanrh/portfolio#readme",
+  "homepage": "https://stedmanhalliday.com/archive",
   "scripts": {
       "deploy": "./scripts/deploy.sh",
       "newproj": "./scripts/newproj.sh"
