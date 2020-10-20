@@ -22,7 +22,7 @@
                         <h1>Links</h1>
                         <ul>
                             <li><i class="icon-file"></i><a href="{{ page.resume }}" target="_blank">Résumé</a></li>
-                            <li><i class="icon-twitter"><img class="" src="{{ site.data.global_assets.icon-twitter }}" alt=""></i><a href="{{ page.twitter-url }}" target="_blank">Twitter</a></li>
+                            <li><i class="icon-twitter"><img class="" src="{{ site.data.global_assets.icon-twitter | relative_url}}" alt=""></i><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a></li>
                         </ul>
                     </section>
                 </div>
@@ -39,7 +39,7 @@
                         <h1>Press</h1>
                         <ul>
                             {% for article in page.articles %}
-                            <li><i class="icon-link"><img src="{{ site.data.global_assets.icon-link }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></li>
+                            <li><i class="icon-link"><img src="{{ site.data.global_assets.icon-link | relative_url }}" alt=""></i><a href="{{ article.url }}" target="_blank">{{ article.source }} ({{ article.month }} {{ article.year }})</a></li>
                             {% endfor %}
                         </ul>
                     </section>
@@ -49,7 +49,7 @@
                         <ul>
                             <li><i class="icon-user"></i>{{ contact.name }}</li>
                             <li><i class="icon-envelope"></i><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></li>
-                            <li><i class="icon-phone"><img src="{{ site.data.global_assets.icon-phone }}" alt=""></i>{{ contact.phone }}</li>
+                            <li><i class="icon-phone"><img src="{{ site.data.global_assets.icon-phone | relative_url }}" alt=""></i>{{ contact.phone }}</li>
                         </ul>
                         {% endfor %}
                     </section>
