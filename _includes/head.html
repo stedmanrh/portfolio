@@ -3,22 +3,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/favicon.ico" | relative_url }}">
   <meta name="author" content="{{ site.author }}">
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:url" content="{{ site.url }}"/>
-  <meta property="og:image" content="{{ "/assets/thumbnail.png" | prepend: site.basurl }}">
+  <meta property="og:image" content="{{ "/assets/thumbnail.png" | relative_url }}">
   <meta property="og:title" content="{{ page.title }}">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/bootstrap/css/bootstrap-responsive.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/bootstrap/css/bootstrap.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/bootstrap/css/bootstrap-responsive.min.css" | relative_url }}">
 
-  <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/animsition.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/styles.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/animsition.min.css" | relative_url }}">
 
   <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"> -->

@@ -1,5 +1,5 @@
 <header class="cf">
-    <a href="{{/ | relative_url}}">{% include logo.svg %}
+    <a href="{{ "/" | relative_url}}">{% include logo.svg %}
         <div class="logotype">
             <h1 class="orange">Stedman Halliday</h1>
             <h2>Multimedia Design</h2>
@@ -10,21 +10,21 @@
             {% if page.url == "/" %}
                 <a href="#"><li class="current">
             {% else %}
-                <a class="animsition-link" href="/"><li>
+                <a class="animsition-link" href="{{ "/" | relative_url }}"><li>
             {% endif %}
                 Projects</li></a>
 
             {% if page.url == "/blog/" %}
                 <a href="#"><li class="current">
             {% else %}
-                <a class="animsition-link" href="/blog/"><li>
+                <a class="animsition-link" href="{{ "/blog/" | relative_url }}"><li>
             {% endif %}
                 Blog</li></a>
 
             {% if page.url == "/about/" %}
                 <a href="#"><li class="current">
             {% else %}
-                <a class="animsition-link" href="/about/"><li>
+                <a class="animsition-link" href="{{ "/about/" | relative_url }}"><li>
             {% endif %}
                 About</li></a>
         </ul>
