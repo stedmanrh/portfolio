@@ -12,7 +12,7 @@ description: Web design and development for the 2014 CalArts T-Shirt Show (colla
 
 links:
     -   title: Web
-        url: http://stedmanhalliday.com/sites/calarts-t-shirt-show/
+        url: /sites/calarts-t-shirt-show/
         text: 2014 CalArts T-Shirt Show
 ---
 
