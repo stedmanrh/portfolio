@@ -18,13 +18,13 @@ description: Two large format political posters resulting from a workshop with <
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}mockup.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}lenz-poster_01.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}lenz-poster_02.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}lenz-poster_03.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}lenz-poster_04.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}mockup.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}lenz-poster_01.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}lenz-poster_02.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}lenz-poster_03.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}lenz-poster_04.jpg" alt="{{ page.title }}">

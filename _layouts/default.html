@@ -32,11 +32,11 @@
                             <div class="gutter-sizer"></div>
                             {% for project in site.projects reversed %}
                                 {% capture media %}
-                                    /projects/{{ project.date | date: "%Y/%m%d" }}-{{ project.title | slugify }}/
+                                    {{ site.baseurl }}/projects/{{ project.date | date: "%Y/%m%d" }}-{{ project.title | slugify }}/
                                 {% endcapture %}
-                            <a class="plink animsition-link grid-item" href="{{project.url}}">
+                            <a class="plink animsition-link grid-item" href="{{project.url | relative_url}}">
                                 <div class="project {{project.tags | join: ' '}}">
-                                    <div class="imgwrap"><img src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}"></div>
+                                    <div class="imgwrap"><img src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}{{project.thumbnail}}" alt="{{ project.title }}"></div>
                                     <div class="project-info">
                                         <h3>{{ project.title }}</h3>
                                         <p>{{ project.tags | sort | join: ', ' | capitalize }}</p>

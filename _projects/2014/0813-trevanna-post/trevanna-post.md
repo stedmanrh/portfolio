@@ -19,10 +19,10 @@ description: Proposed homepage variants for Trevanna Post (film industry post pr
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}trevanna-ny.png" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}trevanna-la.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}trevanna-ny.png" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}trevanna-la.png" alt="{{ page.title }}">

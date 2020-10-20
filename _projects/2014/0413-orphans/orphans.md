@@ -19,11 +19,11 @@ description: Promotional poster for a CalArts theatrical performance of Lyle Kes
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}orphans-1.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}orphans-2.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}orphans-3.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}orphans-1.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}orphans-2.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}orphans-3.jpg" alt="{{ page.title }}">

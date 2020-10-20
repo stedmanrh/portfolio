@@ -18,23 +18,23 @@ description: Visual Contrasts documents an extensive investigation of six princi
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-00.jpg"  alt="cover">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-01.jpg"  alt="cover detail">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-02.jpg" alt="pocket">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-03.jpg" alt="booklet">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-04.jpg" alt="booklet spread">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-06.jpg" alt="composition">
-<!-- <img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-07.jpg" alt="section page"> -->
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-08.jpg" alt="section page fold">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-09.jpg" alt="book spread">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-10.jpg" alt="composition">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-11.jpg" alt="composition">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-12.jpg" alt="composition">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-13.jpg" alt="color composition">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-14.jpg" alt="color composition">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}book-15.jpg" alt="color composition">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-00.jpg"  alt="cover">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-01.jpg"  alt="cover detail">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-02.jpg" alt="pocket">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-03.jpg" alt="booklet">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-04.jpg" alt="booklet spread">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-06.jpg" alt="composition">
+<!-- <img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-07.jpg" alt="section page"> -->
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-08.jpg" alt="section page fold">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-09.jpg" alt="book spread">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-10.jpg" alt="composition">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-11.jpg" alt="composition">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-12.jpg" alt="composition">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-13.jpg" alt="color composition">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-14.jpg" alt="color composition">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}book-15.jpg" alt="color composition">

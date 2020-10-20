@@ -19,14 +19,14 @@ links:
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
 <div class="span8 video-wrapper">
-    <iframe src="{{ site.data.global_assets.placeholder }}" data-src="https://player.vimeo.com/video/112505592?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="https://player.vimeo.com/video/112505592?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}partners.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}portfolio.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}interface.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}partners.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}portfolio.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}interface.jpg" alt="{{ page.title }}">

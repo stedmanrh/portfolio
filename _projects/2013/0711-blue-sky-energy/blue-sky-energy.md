@@ -21,10 +21,10 @@ links:
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}blue-sky-energy-0.png" alt="{{ page.title }} New Mexico">
-<img class="span4 offset4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}blue-sky-energy-1.png" alt="{{ page.title }} California">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}blue-sky-energy-0.png" alt="{{ page.title }} New Mexico">
+<img class="span4 offset4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}blue-sky-energy-1.png" alt="{{ page.title }} California">

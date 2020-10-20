@@ -19,23 +19,23 @@ description: Art direction and team lead for the CalArts Halloween 2015 poster c
 
 <!-- set project media path -->
 {% capture media %}
-    /projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
+    {{site.baseurl}}/projects/{{ page.date | date: "%Y/%m%d" }}-{{ page.title | slugify }}/
 {% endcapture %}
 <!-- end -->
 
 <!-- media -->
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}series.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}strongman.jpg" alt="Strongman poster">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}strongman-2.jpg" alt="Strongman poster">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}type.jpg" alt="Freakshow scenic posters">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}type-2.png" alt="Freakshow scenic posters">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}type-3.png" alt="Freakshow scenic posters">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}type-series.jpg" alt="Freakshow scenic posters">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}series.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}strongman.jpg" alt="Strongman poster">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}strongman-2.jpg" alt="Strongman poster">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}type.jpg" alt="Freakshow scenic posters">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}type-2.png" alt="Freakshow scenic posters">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}type-3.png" alt="Freakshow scenic posters">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}type-series.jpg" alt="Freakshow scenic posters">
 
 <p class="span8 divider">Event Photos by <a href="https://www.flickr.com/photos/2071/" target="_blank">Rafael Hernandez</a></p>
 
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}event-1.jpg" alt="{{ page.title }}">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}event-2.jpg" alt="{{ page.title }}">
-<img class="span4" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}event-3.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}event-4.jpg" alt="{{ page.title }}">
-<img class="span8" src="{{ site.data.global_assets.placeholder }}" data-src="{{media|strip}}event-5.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}event-1.jpg" alt="{{ page.title }}">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}event-2.jpg" alt="{{ page.title }}">
+<img class="span4" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}event-3.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}event-4.jpg" alt="{{ page.title }}">
+<img class="span8" src="{{ site.data.global_assets.placeholder | relative_url }}" data-src="{{media|strip}}event-5.jpg" alt="{{ page.title }}">
