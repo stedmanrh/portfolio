@@ -24,7 +24,7 @@
                             <p class="tags">{{ page.tags | sort | join: ', ' | capitalize }}</p>
                             <div class="ext-links">
                             {% for link in page.links %}
-                                <a href="{{ link.url }}" target="_blank"><div class="link">
+                                <a href="{{ link.url | relative_url }}" target="_blank"><div class="link">
                 					<h3>{{ link.title }}</h3>
                 					<p>{{ link.text }}</p>
                 				</div></a>

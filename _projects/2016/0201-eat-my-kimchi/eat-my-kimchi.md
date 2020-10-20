@@ -12,7 +12,7 @@ description: During my time studying graphic design at CalArts, graduate student
 
 links:
     -   title: Web
-        url: http://stedmanhalliday.com/sites/eat-my-kimchi/
+        url: /sites/eat-my-kimchi/
         text: Prototype site
 ---
 

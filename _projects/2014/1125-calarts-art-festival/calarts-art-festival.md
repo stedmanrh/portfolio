@@ -10,10 +10,10 @@ date: 2014-11-25
 tags: print event identity
 description: Identity and printed collateral for the 2015 CalArts Art Festival. The CalArts Art Festival is a two-day event that celebrates and showcases the diverse art making practices within the community. The festival empowers the interdisciplinary capabilities of the institute by housing an infrastructure for collaborative art to thrive in.
 
-#links:
-#    -   title: Link_Header
-#        url: localhost
-#        text: Lorem_ipsum
+links:
+    -   title: Video
+        url: https://www.youtube.com/watch?v=9-BD0nMLSjI
+        text: Festival recap
 ---
 
 <!-- set project media path -->
