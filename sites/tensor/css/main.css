@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 html {
@@ -220,6 +220,8 @@ body {
   text-align: center;
   margin-top: 2em;
   padding-bottom: 2em; }
+  .copyright .dev:first-of-type::after {
+    content: ' and '; }
   @media (min-width: 720px) {
     .copyright {
       font-size: 12px;
@@ -507,19 +509,44 @@ body {
     @media (min-width: 720px) {
       .sheet h4 {
         font-size: 18px; } }
-  .sheet p, .sheet ul {
+  .sheet p, .sheet ul, .sheet ol {
     line-height: calc(1em + 6px);
-    margin-top: 0.5em; }
+    margin-top: 0.5em;
+    margin-bottom: .5em; }
     @media (min-width: 720px) {
-      .sheet p, .sheet ul {
+      .sheet p, .sheet ul, .sheet ol {
         line-height: calc(1em + 8px); } }
-  .sheet ul li {
-    list-style: disc;
-    line-height: calc(1em + 8px);
+  .sheet ul, .sheet ol {
     margin-left: 2em; }
     @media (min-width: 720px) {
-      .sheet ul li {
+      .sheet ul, .sheet ol {
         line-height: calc(1em + 10px); } }
+  .sheet .post-meta {
+    margin-left: 0; }
+  .sheet ol li {
+    list-style: decimal; }
+  .sheet ul li {
+    list-style: disc; }
+  .sheet img {
+    margin-top: .5em;
+    max-width: 640px;
+    width: 100%; }
+  .sheet .video {
+    height: 0;
+    margin-top: 8px;
+    padding-bottom: 56.25%;
+    position: relative; }
+  .sheet .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  @media (min-width: 1020px) {
+    .sheet .video {
+      padding-bottom: 0;
+      width: 640px;
+      height: 360px; } }
 
 .index .content {
   padding-bottom: 40px; }

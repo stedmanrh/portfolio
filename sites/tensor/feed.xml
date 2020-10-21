@@ -3,50 +3,35 @@
   <channel>
     <title>TensorFlow Resources</title>
     <description>A free curated collection of the best resources for learning and working with Google's TensorFlow library for machine intelligence</description>
-    <link>http://tensorflowresources.info/</link>
-    <atom:link href="http://tensorflowresources.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Jul 2017 13:31:28 -0700</pubDate>
-    <lastBuildDate>Sat, 08 Jul 2017 13:31:28 -0700</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <link>https://stedmanhalliday.com/archive/sites/tensor/</link>
+    <atom:link href="https://stedmanhalliday.com/archive/sites/tensor/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 20 Oct 2020 18:14:59 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2020 18:14:59 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>YOLO TensorFlow</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/yolo-tensorflow.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/yolo-tensorflow.html</guid>
-        
-        <category>Get Started</category>
-        
-        <category>Official Resources</category>
+        <description>&lt;h3&gt;YOLO: Real Time Object Detection&lt;/h3&gt;
+&lt;p&gt;This project is a TensorFlow implementation of &lt;a href=&quot;https://pjreddie.com/darknet/yolo/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;YOLO: Real Time Object Detection&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You only look once (YOLO) is a state-of-the-art, real-time object detection system.&amp;nbsp;It works by applying a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.&lt;/p&gt;&lt;h3&gt;Video Demo&lt;/h3&gt;
+&lt;div class=&quot;video&quot;&gt;&lt;iframe width=&quot;640px&quot; height=&quot;360px&quot; src=&quot;https://www.youtube.com/embed/MPU2HistivI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; async=&quot;&quot; preload=&quot;&quot;&gt;
+  &lt;/iframe&gt;&lt;/div&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/yolo-tensorflow</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/yolo-tensorflow</guid>
         
         
-        <category>Powered by TensorFlow</category>
-        
-      </item>
-    
-      <item>
-        <title>Why TensorFlow will change the Game for AI</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/why-tensorflow-will-change-the-game-for-ai.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/why-tensorflow-will-change-the-game-for-ai.html</guid>
-        
-        
-        <category>Blog posts</category>
+        <category>Models/Projects</category>
         
       </item>
     
       <item>
         <title>Why Google wants everyone to have access to TensorFlow</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/why-google-wants-everyone-to-have-access-to-tensorflow.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/why-google-wants-everyone-to-have-access-to-tensorflow.html</guid>
+        <description>&lt;h3&gt;Tech Take&lt;/h3&gt;
+&lt;p&gt;Eric Yaverbaum on why Google believes it can accelerate the evolution of Artificial Intelligence by open sourcing their TensorFlow software code.&lt;/p&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/why-google-wants-everyone-to-have-access-to-tensorflow</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/why-google-wants-everyone-to-have-access-to-tensorflow</guid>
         
         
         <category>Videos</category>
@@ -54,12 +39,16 @@
       </item>
     
       <item>
-        <title>Weakly_detector</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/weakly-detector.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/weakly-detector.html</guid>
+        <title>Weakly Detector</title>
+        <description>&lt;h3&gt;Discriminative Localization CNN&lt;/h3&gt;
+&lt;p&gt;This project is a Tensorflow implementation of &quot;&lt;a href=&quot;http://cnnlocalization.csail.mit.edu/&quot;&gt;Learning Deep Features for Discriminative Localization&lt;/a&gt;.&quot;&lt;/p&gt;
+&lt;p&gt;This convolutional neural network is able to localize the discriminative image regions on a variety of tasks despite not being trained for them.&lt;/p&gt;
+&lt;p&gt;B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba Learning Deep Features for Discriminative Localization. Computer Vision and Pattern Recognition (CVPR), 2016. [&lt;a href=&quot;https://arxiv.org/pdf/1512.04150.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;PDF&lt;/a&gt;][&lt;a href=&quot;http://cnnlocalization.csail.mit.edu/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Project Page&lt;/a&gt;]&lt;/p&gt;&lt;h3&gt;Video Demo&lt;/h3&gt;&lt;div class=&quot;video&quot;&gt;&lt;iframe width=&quot;640px&quot; height=&quot;360px&quot; src=&quot;https://www.youtube.com/embed/fZvOy0VXWAI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; async=&quot;&quot; preload=&quot;&quot;&gt;
+      &lt;/div&gt;
+  &lt;/iframe&gt;&lt;/div&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/weakly-detector</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/weakly-detector</guid>
         
         
         <category>Models/Projects</category>
@@ -67,12 +56,12 @@
       </item>
     
       <item>
-        <title>Wavenet</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/wavenet.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/wavenet.html</guid>
+        <title>TensorFlow WaveNet</title>
+        <description>&lt;h3&gt;WaveNet GNN for Audio Generation&lt;/h3&gt;
+&lt;p&gt;This project is a TensorFlow implementation of the WaveNet generative neural network architecture for audio generation.&lt;/p&gt;&lt;p&gt;The WaveNet neural network architecture directly generates a raw audio waveform, showing excellent results in text-to-speech and general audio generation (see the &lt;a href=&quot;https://deepmind.com/blog/wavenet-generative-model-raw-audio/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;DeepMind blog post&lt;/a&gt; for details).&lt;br&gt;&lt;/p&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/wavenet</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/wavenet</guid>
         
         
         <category>Models/Projects</category>
@@ -80,12 +69,13 @@
       </item>
     
       <item>
-        <title>Videos from TensorFlow Silicon Valley Meet Up 1/21/2016</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016.html</guid>
+        <title>TensorFlow Seattle Meetup</title>
+        <description>&lt;h3&gt;An overview of TensorFlow&lt;/h3&gt;&lt;p&gt;In this session, &lt;a href=&quot;https://www.linkedin.com/in/akshay-srivatsan-20414190/&quot;&gt;Akshay Srivatsan&lt;/a&gt; of Bloomberg LP provides an overview of TensorFlow, speaking of its mechanics and taking a glimpse at &lt;a href=&quot;https://blog.altoros.com/visualizing-tensorflow-graphs-with-tensorboard.html&quot;&gt;TensorBoard&lt;/a&gt;. He also mentions the likely scenarios of TensorFlow evolution.&lt;br&gt;&lt;/p&gt;&lt;h3&gt;Dive into the TensorFlow code&lt;/h3&gt;&lt;p&gt;In the second part of the session, Akshay demonstrates the actual TensorFlow code, diving into its variables, placeholders, cost values, etc. In addition, he talks about &lt;a href=&quot;https://www.altoros.com/blog/tensorflow-in-action-tensorboard-training-a-model-and-deep-q-learning/&quot;&gt;Deep Q-Learner&lt;/a&gt; that showcases the potential of what can be built with TensorFlow.&lt;/p&gt;&lt;h3&gt;Fireside chat&lt;/h3&gt;&lt;p&gt;Watch this video to find out:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;How long does it take to become productive with &lt;a href=&quot;https://www.altoros.com/performance-deep-learning-frameworks-caffe-deeplearning4j-tensorflow-theano-torch.html&quot;&gt;TensorFlow vs. other frameworks&lt;/a&gt;?&lt;br&gt;&lt;/li&gt;&lt;li&gt;What are the alternatives?&lt;br&gt;&lt;/li&gt;&lt;li&gt;What are the uses case that TensorFlow can be applied to?&lt;br&gt;&lt;/li&gt;&lt;li&gt;What change is needed to make tools like TensorFlow accessible to anyone (in terms of organizations, toolsets, education, etc.)?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/videos-from-tensorflow-silicon-valley-meet-up-1-21-2016</guid>
+        
+        <category>Get Started</category>
         
         
         <category>Videos</category>
@@ -93,12 +83,14 @@
       </item>
     
       <item>
-        <title>Videos from TensorFlow Silicon Valley Meet Up 1/19/2016</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016.html</guid>
+        <title>TensorFlow Silicon Valley Meet Up</title>
+        <description>&lt;h3&gt;TensorFlow overview: The learning perspective&lt;/h3&gt;
+&lt;p&gt;In this video, Eric Danziger, Senior Engineer at a computer vision startup in San Jose, shared his experience of learning TensorFlow. He started with the MNIST demo and worked up to replicating parts of the “Playing Atari with Deep Reinforcement Learning” paper by Volodymyr Mnih et al.&lt;/p&gt;&lt;h3&gt;An end-to-end example of using TensorFlow&lt;/h3&gt;&lt;p&gt;In his talk, Delip Rao of Joostware focused on under-the-hood mechanisms of TensorFlow with an actual code example. His goal was to demonstrate various TensorFlow concepts in the context of a working application.&lt;br&gt;&lt;/p&gt;&lt;h3&gt;Fireside chat with the Google Brain team&lt;/h3&gt;&lt;p&gt;This session with Yaroslav Bulatov and Lukasz Kaiser of the Google Brain team overviews the formation of TensorFlow in brief, provides some examples of the tool applied within Google products, plans for the future, etc. Highlights:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The history behind the project&lt;br&gt;&lt;/li&gt;&lt;li&gt;Examples of TensorFlow behind the Google products&lt;br&gt;&lt;/li&gt;&lt;li&gt;Problems that can be solved with TensorFlow&lt;br&gt;&lt;/li&gt;&lt;li&gt;The most exciting thing about TensorFlow&lt;br&gt;&lt;/li&gt;&lt;li&gt;The feedback from the external stakeholders and actions taken&lt;br&gt;&lt;/li&gt;&lt;li&gt;How TensorFlow becoming open-source changed the roadmap&lt;br&gt;&lt;/li&gt;&lt;li&gt;The plans for the future in terms of multi-GPU cloud deployments&lt;br&gt;&lt;/li&gt;&lt;li&gt;How the “kubernetization&lt;span style=&quot;font-size: 1rem;&quot;&gt;” of TensorFlow happens&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;The DevOps aspect of TensorFlow: issues to handle&lt;br&gt;&lt;/li&gt;&lt;li&gt;The problems TensorFlow is really good at solving or will be able in the future&lt;br&gt;&lt;/li&gt;&lt;li&gt;The biggest challenges TensorFlow has right now and the resolutions to come in the next 3–6 months&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fireside chat: OpenAI and the future of deep learning&lt;/h3&gt;&lt;p&gt;Gregory Renard, Chief Visionary Officer at XBrain—the company designing assistance for automakers, talked about &lt;a href=&quot;https://openai.com/blog/introducing-openai/&quot;&gt;OpenAI&lt;/a&gt; and the future of deep learning. (OpenAI is a non-profit artificial intelligence research organization founded by recognized machine learning/AI research engineers and scientists.) He highlighted the following aspects:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The problems the automotive / insurance industries face and how XBrain helps to solve them.&lt;br&gt;&lt;/li&gt;&lt;li&gt;How and why such an organization as OpenAI can change the situation, where most of the practitioners in the deep learning are employed by a handful of companies.&lt;br&gt;&lt;/li&gt;&lt;li&gt;The big trends in deep learning and how they are changing the future.&lt;br&gt;&lt;/li&gt;&lt;li&gt;The industries that can benefit from the work of such an organization as OpenAI.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/videos-from-tensorflow-silicon-valley-meet-up-1-19-2016</guid>
+        
+        <category>Get Started</category>
         
         
         <category>Videos</category>
@@ -106,41 +98,52 @@
       </item>
     
       <item>
-        <title>Using TensorBoard to Visualize Image Classification Retraining in TensorFlow</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow.html</guid>
+        <title>Visualize Image Classification Retraining</title>
+        <description>&lt;h3&gt;Visualize Image Classification Retraining&lt;br&gt;&lt;/h3&gt;&lt;p&gt;A blog post walkthrough of network retraining visualizations with TensorBoard&lt;/p&gt;&lt;img src=&quot;/archive/sites/tensor/uploads/2018/05/09/histograms-1.png&quot; alt=&quot;TensorBoard histograms&quot;&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/using-tensorboard-to-visualize-image-classification-retraining-in-tensorflow</guid>
         
         
-        <category>Blog posts</category>
+        <category>Blog Posts</category>
         
       </item>
     
       <item>
-        <title>The indico Machine Learning Team's take on TensorFlow</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/the-indico-machine-learning-team-s-take-on-tensorflow.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/the-indico-machine-learning-team-s-take-on-tensorflow.html</guid>
+        <title>The indico ML Team on TensorFlow</title>
+        <description>&lt;h3&gt;The indico Machine Learning Team’s Take on TensorFlow&lt;br&gt;&lt;/h3&gt;&lt;p&gt;Earlier this week, Google released TensorFlow, an open source library for numerical computation. Given the general frothiness around machine learning, we thought folks might appreciate a simple, straightshootin’ take from indico’s Machine Learning team. Unlike a random person on the Internet, we deal with this stuff daily, and can hopefully shed some light on how this works in an environment where machine learning code is built and shipped constantly.&lt;/p&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/the-indico-machine-learning-team-s-take-on-tensorflow</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/the-indico-machine-learning-team-s-take-on-tensorflow</guid>
         
         
-        <category>Blog posts</category>
+        <category>Blog Posts</category>
         
       </item>
     
       <item>
         <title>The Good, Bad, &amp; Ugly of TensorFlow</title>
-        <description>&lt;h3&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Justo donec enim diam vulputate ut pharetra sit amet. Faucibus interdum posuere lorem ipsum dolor. Pharetra convallis posuere morbi leo urna. Duis at consectetur lorem donec massa sapien faucibus et molestie. Lacinia quis vel eros donec ac odio tempor orci dapibus. Quis commodo odio aenean sed adipiscing diam donec. Nullam ac tortor vitae purus. Egestas tellus rutrum tellus pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Auctor augue mauris augue neque gravida in fermentum. Laoreet sit amet cursus sit amet.&lt;/p&gt;</description>
-        <pubDate>Wed, 22 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://tensorflowresources.info/resources/the-good-bad-ugly-of-tensorflow.html</link>
-        <guid isPermaLink="true">http://tensorflowresources.info/resources/the-good-bad-ugly-of-tensorflow.html</guid>
+        <description>&lt;h3&gt;The Good, Bad, &amp;amp; Ugly of TensorFlow&lt;br&gt;&lt;/h3&gt;
+&lt;p&gt;From Dan Kuster at&amp;nbsp;indico:&lt;/p&gt;&lt;p&gt;We’ve been using TensorFlow in daily research and engineering since it was released almost six months ago. We’ve learned a lot of things along the way. Time for an update!&lt;/p&gt;&lt;p&gt;Because there are many subjective articles on TensorFlow and not enough helpful documentation, I’ve sprinkled in examples, tutorials, docs, and code snippets wherever possible.&lt;/p&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/the-good-bad-ugly-of-tensorflow</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/the-good-bad-ugly-of-tensorflow</guid>
         
         
-        <category>Blog posts</category>
+        <category>Blog Posts</category>
+        
+      </item>
+    
+      <item>
+        <title>TFRecords Guide</title>
+        <description>&lt;h3&gt;Tfrecords Guide&lt;br&gt;&lt;/h3&gt;
+&lt;p&gt;A post showing how to convert your dataset to a .tfrecords file and use it as a part of a computational graph.&lt;/p&gt;&lt;p&gt;In this post we will cover how to convert a dataset into a .tfrecord file. Binary files are sometimes easier to use, because you don’t have to specify different directories for images and groundtruth annotations. While storing your data in binary file, you have your data in one block of memory, compared to storing each image and annotation separately. Overall, by using binary files you make it easier to distribute and make the data better aligned for efficient reading.&lt;/p&gt;&lt;p&gt;The post consists of tree parts:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Getting raw data bytes in numpy&lt;br&gt;&lt;/li&gt;&lt;li&gt;Creating a .tfrecord file and reading it without defining a graph&lt;/li&gt;&lt;li&gt;Defining the graph to read and batch images from .tfrecords&lt;/li&gt;&lt;/ol&gt;</description>
+        <pubDate>Tue, 21 Mar 2017 17:00:00 -0700</pubDate>
+        <link>https://stedmanhalliday.com/archive/sites/tensor/resources/tfrecords-guide</link>
+        <guid isPermaLink="true">https://stedmanhalliday.com/archive/sites/tensor/resources/tfrecords-guide</guid>
+        
+        
+        <category>Blog Posts</category>
         
       </item>
     
