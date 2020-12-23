@@ -15,6 +15,9 @@ links:
     -   title: Web
         url: http://stedmanrh.github.io/realistic-manifesto
         text: Realistic Manifesto
+    -   title: GitHub
+        url: https://github.com/stedmanrh/realistic-manifesto
+        text: View source
 ---
 
 <!-- set project media path -->

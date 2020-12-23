@@ -15,6 +15,9 @@ links:
     -   title: Web
         url: http://stedmanrh.github.io/wwwindows
         text: wwwindows
+    -   title: GitHub
+        url: https://github.com/stedmanrh/wwwindows
+        text: View source
 ---
 
 <!-- set project media path -->
