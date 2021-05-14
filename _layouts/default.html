@@ -16,7 +16,7 @@
                             <li><strong>Tags:</strong></li>
                             <a href="javascript: void(0)" class="filter-link all current"><li>all</li></a>
                             {% assign ptags = "" | split:"|"  %}
-                            {% for project in site.projects %}
+                            {% for project in site.posts %}
                                 {% for tag in project.tags %}
                                     {% unless ptags contains tag %}
                                         {% assign ptags = ptags | push: tag | sort %}
